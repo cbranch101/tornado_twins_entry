@@ -1,0 +1,1 @@
+<behaviortree name="WayPointTest" precondition="" repeatuntil="" debug="False"><sequencer name="root" precondition="" repeatuntil="" debug="False"><action name="action 8261" precondition="" repeatuntil="" debug="False" classname="InitWaypoint" /></sequencer></behaviortree>

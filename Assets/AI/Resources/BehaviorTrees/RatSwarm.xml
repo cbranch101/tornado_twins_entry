@@ -1,0 +1,1 @@
+<behaviortree name="RatSwarm" precondition="" repeatuntil="" debug="False"><sequencer name="root" precondition="" repeatuntil="" debug="False"><move name="move 5057" precondition="" repeatuntil="" debug="False" movetarget="(5.0, 1.0, 51.0)" movespeed="-1" animation="" animationlayer="0" animationwrapmode="default" animationbasespeed="1" /></sequencer></behaviortree>

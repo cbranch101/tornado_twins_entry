@@ -1,0 +1,1584 @@
+fileFormatVersion: 2
+guid: 22e2b7db18e20496b860302d6fb9965e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: computerTerminal_01
+    100002: DECO_computerTower_01
+    100004: DECO_computerTower_02
+    100006: DECO_fuelTank
+    100008: DECO_pipes
+    100010: DECO_wallShafts
+    100012: group1
+    100014: group2
+    100016: hangar_cargoDoor_threshold
+    100018: hangar_centerDoor_threshold
+    100020: hangar_doors
+    100022: hangar_elevatedPlatforms
+    100024: hangar_leftDoor_threshold
+    100026: hangar_outerWall
+    100028: hangar_rightDoor_threshold
+    100030: hangar_supports
+    100032: iBeam_01
+    100034: iBeam_010
+    100036: iBeam_011
+    100038: iBeam_012
+    100040: iBeam_013
+    100042: iBeam_014
+    100044: iBeam_015
+    100046: iBeam_016
+    100048: iBeam_017
+    100050: iBeam_018
+    100052: iBeam_019
+    100054: iBeam_02
+    100056: iBeam_03
+    100058: iBeam_04
+    100060: iBeam_05
+    100062: iBeam_05 1
+    100064: iBeam_06
+    100066: iBeam_06 1
+    100068: iBeam_07
+    100070: iBeam_07 1
+    100072: iBeam_08
+    100074: iBeam_08 1
+    100076: iBeam_09
+    100078: leftPlatform
+    100080: lowerWalkWay_01
+    100082: lowerWalkWay_02
+    100084: main_stairs
+    100086: mainDoor
+    100088: pCube1
+    100090: pCube10
+    100092: pCube11
+    100094: pCube12
+    100096: pCube13
+    100098: pCube14
+    100100: pCube15
+    100102: pCube16
+    100104: pCube17
+    100106: pCube18
+    100108: pCube19
+    100110: pCube2
+    100112: pCube20
+    100114: pCube21
+    100116: pCube22
+    100118: pCube23
+    100120: pCube24
+    100122: pCube25
+    100124: pCube26
+    100126: pCube27
+    100128: pCube28
+    100130: pCube28 1
+    100132: pCube29
+    100134: pCube3
+    100136: pCube31
+    100138: pCube32
+    100140: pCube33
+    100142: pCube34
+    100144: pCube35
+    100146: pCube36
+    100148: pCube37
+    100150: pCube38
+    100152: pCube39
+    100154: pCube40
+    100156: pCube41
+    100158: pCube42
+    100160: pCube43
+    100162: pCube44
+    100164: pCube45
+    100166: pCube46
+    100168: pCube47
+    100170: pCube5
+    100172: pCube6
+    100174: pCylinder1
+    100176: pCylinder10
+    100178: pCylinder11
+    100180: pCylinder12
+    100182: pCylinder13
+    100184: pCylinder14
+    100186: pCylinder15
+    100188: pCylinder16
+    100190: pCylinder17
+    100192: pCylinder18
+    100194: pCylinder19
+    100196: pCylinder2
+    100198: pCylinder20
+    100200: pCylinder21
+    100202: pCylinder3
+    100204: pCylinder4
+    100206: pCylinder5
+    100208: pCylinder6
+    100210: pCylinder7
+    100212: pCylinder8
+    100214: pCylinder9
+    100216: rail_16length_010
+    100218: rail_16length_010 1
+    100220: rail_16length_0100
+    100222: rail_16length_0101
+    100224: rail_16length_0102
+    100226: rail_16length_0103
+    100228: rail_16length_0104
+    100230: rail_16length_0105
+    100232: rail_16length_0106
+    100234: rail_16length_0107
+    100236: rail_16length_0108
+    100238: rail_16length_0109
+    100240: rail_16length_011
+    100242: rail_16length_011 1
+    100244: rail_16length_0110
+    100246: rail_16length_0111
+    100248: rail_16length_0112
+    100250: rail_16length_0113
+    100252: rail_16length_0114
+    100254: rail_16length_0115
+    100256: rail_16length_0116
+    100258: rail_16length_0117
+    100260: rail_16length_0118
+    100262: rail_16length_0119
+    100264: rail_16length_012
+    100266: rail_16length_012 1
+    100268: rail_16length_0120
+    100270: rail_16length_0121
+    100272: rail_16length_0122
+    100274: rail_16length_0123
+    100276: rail_16length_0124
+    100278: rail_16length_0125
+    100280: rail_16length_0126
+    100282: rail_16length_0127
+    100284: rail_16length_0128
+    100286: rail_16length_0129
+    100288: rail_16length_013
+    100290: rail_16length_013 1
+    100292: rail_16length_0130
+    100294: rail_16length_0131
+    100296: rail_16length_0132
+    100298: rail_16length_014
+    100300: rail_16length_014 1
+    100302: rail_16length_015
+    100304: rail_16length_015 1
+    100306: rail_16length_016
+    100308: rail_16length_016 1
+    100310: rail_16length_017
+    100312: rail_16length_017 1
+    100314: rail_16length_018
+    100316: rail_16length_018 1
+    100318: rail_16length_019
+    100320: rail_16length_019 1
+    100322: rail_16length_02
+    100324: rail_16length_020
+    100326: rail_16length_020 1
+    100328: rail_16length_021
+    100330: rail_16length_021 1
+    100332: rail_16length_022
+    100334: rail_16length_022 1
+    100336: rail_16length_023
+    100338: rail_16length_023 1
+    100340: rail_16length_024
+    100342: rail_16length_024 1
+    100344: rail_16length_025
+    100346: rail_16length_025 1
+    100348: rail_16length_026
+    100350: rail_16length_026 1
+    100352: rail_16length_027
+    100354: rail_16length_027 1
+    100356: rail_16length_028
+    100358: rail_16length_028 1
+    100360: rail_16length_029
+    100362: rail_16length_03
+    100364: rail_16length_03 1
+    100366: rail_16length_030
+    100368: rail_16length_031
+    100370: rail_16length_032
+    100372: rail_16length_033
+    100374: rail_16length_034
+    100376: rail_16length_035
+    100378: rail_16length_036
+    100380: rail_16length_037
+    100382: rail_16length_038
+    100384: rail_16length_039
+    100386: rail_16length_04
+    100388: rail_16length_04 1
+    100390: rail_16length_040
+    100392: rail_16length_041
+    100394: rail_16length_042
+    100396: rail_16length_043
+    100398: rail_16length_044
+    100400: rail_16length_045
+    100402: rail_16length_046
+    100404: rail_16length_047
+    100406: rail_16length_048
+    100408: rail_16length_049
+    100410: rail_16length_05
+    100412: rail_16length_05 1
+    100414: rail_16length_050
+    100416: rail_16length_051
+    100418: rail_16length_052
+    100420: rail_16length_053
+    100422: rail_16length_054
+    100424: rail_16length_055
+    100426: rail_16length_056
+    100428: rail_16length_057
+    100430: rail_16length_058
+    100432: rail_16length_059
+    100434: rail_16length_06
+    100436: rail_16length_06 1
+    100438: rail_16length_060
+    100440: rail_16length_061
+    100442: rail_16length_062
+    100444: rail_16length_063
+    100446: rail_16length_064
+    100448: rail_16length_065
+    100450: rail_16length_066
+    100452: rail_16length_067
+    100454: rail_16length_068
+    100456: rail_16length_069
+    100458: rail_16length_07
+    100460: rail_16length_07 1
+    100462: rail_16length_070
+    100464: rail_16length_071
+    100466: rail_16length_072
+    100468: rail_16length_073
+    100470: rail_16length_074
+    100472: rail_16length_075
+    100474: rail_16length_076
+    100476: rail_16length_077
+    100478: rail_16length_078
+    100480: rail_16length_079
+    100482: rail_16length_08
+    100484: rail_16length_08 1
+    100486: rail_16length_080
+    100488: rail_16length_081
+    100490: rail_16length_082
+    100492: rail_16length_083
+    100494: rail_16length_084
+    100496: rail_16length_085
+    100498: rail_16length_086
+    100500: rail_16length_087
+    100502: rail_16length_088
+    100504: rail_16length_089
+    100506: rail_16length_09
+    100508: rail_16length_09 1
+    100510: rail_16length_090
+    100512: rail_16length_091
+    100514: rail_16length_092
+    100516: rail_16length_093
+    100518: rail_16length_094
+    100520: rail_16length_095
+    100522: rail_16length_096
+    100524: rail_16length_097
+    100526: rail_16length_098
+    100528: rail_16length_099
+    100530: rail_4length_010
+    100532: rail_4length_010 1
+    100534: rail_4length_011
+    100536: rail_4length_011 1
+    100538: rail_4length_012
+    100540: rail_4length_012 1
+    100542: rail_4length_013
+    100544: rail_4length_013 1
+    100546: rail_4length_014
+    100548: rail_4length_014 1
+    100550: rail_4length_015
+    100552: rail_4length_015 1
+    100554: rail_4length_016
+    100556: rail_4length_016 1
+    100558: rail_4length_017
+    100560: rail_4length_018
+    100562: rail_4length_07
+    100564: rail_4length_07 1
+    100566: rail_4length_08
+    100568: rail_4length_08 1
+    100570: rail_4length_09
+    100572: rail_4length_09 1
+    100574: rightPlatform
+    100576: rightStairs
+    100578: rightStairs1
+    100580: rightStairs1 1
+    100582: rightStairs2
+    100584: rightStairs2 1
+    100586: rightStairs3
+    100588: //RootNode
+    100590: room_crewQuaters_01
+    100592: ROOM_hangar
+    100594: ROOM_transport
+    100596: shaft
+    100598: shaft1
+    100600: shaft2
+    100602: shaft3
+    100604: sideBaySupport_L01
+    100606: sideBaySupport_L02
+    100608: sideBaySupport_L03
+    100610: sideBaySupport_L04
+    100612: sideBaySupport_R01
+    100614: sideBaySupport_R02
+    100616: sideBaySupport_R03
+    100618: sideBaySupport_R04
+    100620: transport_centerDoor_threshold
+    100622: transport_centerPlatform
+    100624: transport_walls
+    400000: computerTerminal_01
+    400002: DECO_computerTower_01
+    400004: DECO_computerTower_02
+    400006: DECO_fuelTank
+    400008: DECO_pipes
+    400010: DECO_wallShafts
+    400012: group1
+    400014: group2
+    400016: hangar_cargoDoor_threshold
+    400018: hangar_centerDoor_threshold
+    400020: hangar_doors
+    400022: hangar_elevatedPlatforms
+    400024: hangar_leftDoor_threshold
+    400026: hangar_outerWall
+    400028: hangar_rightDoor_threshold
+    400030: hangar_supports
+    400032: iBeam_01
+    400034: iBeam_010
+    400036: iBeam_011
+    400038: iBeam_012
+    400040: iBeam_013
+    400042: iBeam_014
+    400044: iBeam_015
+    400046: iBeam_016
+    400048: iBeam_017
+    400050: iBeam_018
+    400052: iBeam_019
+    400054: iBeam_02
+    400056: iBeam_03
+    400058: iBeam_04
+    400060: iBeam_05
+    400062: iBeam_05 1
+    400064: iBeam_06
+    400066: iBeam_06 1
+    400068: iBeam_07
+    400070: iBeam_07 1
+    400072: iBeam_08
+    400074: iBeam_08 1
+    400076: iBeam_09
+    400078: leftPlatform
+    400080: lowerWalkWay_01
+    400082: lowerWalkWay_02
+    400084: main_stairs
+    400086: mainDoor
+    400088: pCube1
+    400090: pCube10
+    400092: pCube11
+    400094: pCube12
+    400096: pCube13
+    400098: pCube14
+    400100: pCube15
+    400102: pCube16
+    400104: pCube17
+    400106: pCube18
+    400108: pCube19
+    400110: pCube2
+    400112: pCube20
+    400114: pCube21
+    400116: pCube22
+    400118: pCube23
+    400120: pCube24
+    400122: pCube25
+    400124: pCube26
+    400126: pCube27
+    400128: pCube28
+    400130: pCube28 1
+    400132: pCube29
+    400134: pCube3
+    400136: pCube31
+    400138: pCube32
+    400140: pCube33
+    400142: pCube34
+    400144: pCube35
+    400146: pCube36
+    400148: pCube37
+    400150: pCube38
+    400152: pCube39
+    400154: pCube40
+    400156: pCube41
+    400158: pCube42
+    400160: pCube43
+    400162: pCube44
+    400164: pCube45
+    400166: pCube46
+    400168: pCube47
+    400170: pCube5
+    400172: pCube6
+    400174: pCylinder1
+    400176: pCylinder10
+    400178: pCylinder11
+    400180: pCylinder12
+    400182: pCylinder13
+    400184: pCylinder14
+    400186: pCylinder15
+    400188: pCylinder16
+    400190: pCylinder17
+    400192: pCylinder18
+    400194: pCylinder19
+    400196: pCylinder2
+    400198: pCylinder20
+    400200: pCylinder21
+    400202: pCylinder3
+    400204: pCylinder4
+    400206: pCylinder5
+    400208: pCylinder6
+    400210: pCylinder7
+    400212: pCylinder8
+    400214: pCylinder9
+    400216: rail_16length_010
+    400218: rail_16length_010 1
+    400220: rail_16length_0100
+    400222: rail_16length_0101
+    400224: rail_16length_0102
+    400226: rail_16length_0103
+    400228: rail_16length_0104
+    400230: rail_16length_0105
+    400232: rail_16length_0106
+    400234: rail_16length_0107
+    400236: rail_16length_0108
+    400238: rail_16length_0109
+    400240: rail_16length_011
+    400242: rail_16length_011 1
+    400244: rail_16length_0110
+    400246: rail_16length_0111
+    400248: rail_16length_0112
+    400250: rail_16length_0113
+    400252: rail_16length_0114
+    400254: rail_16length_0115
+    400256: rail_16length_0116
+    400258: rail_16length_0117
+    400260: rail_16length_0118
+    400262: rail_16length_0119
+    400264: rail_16length_012
+    400266: rail_16length_012 1
+    400268: rail_16length_0120
+    400270: rail_16length_0121
+    400272: rail_16length_0122
+    400274: rail_16length_0123
+    400276: rail_16length_0124
+    400278: rail_16length_0125
+    400280: rail_16length_0126
+    400282: rail_16length_0127
+    400284: rail_16length_0128
+    400286: rail_16length_0129
+    400288: rail_16length_013
+    400290: rail_16length_013 1
+    400292: rail_16length_0130
+    400294: rail_16length_0131
+    400296: rail_16length_0132
+    400298: rail_16length_014
+    400300: rail_16length_014 1
+    400302: rail_16length_015
+    400304: rail_16length_015 1
+    400306: rail_16length_016
+    400308: rail_16length_016 1
+    400310: rail_16length_017
+    400312: rail_16length_017 1
+    400314: rail_16length_018
+    400316: rail_16length_018 1
+    400318: rail_16length_019
+    400320: rail_16length_019 1
+    400322: rail_16length_02
+    400324: rail_16length_020
+    400326: rail_16length_020 1
+    400328: rail_16length_021
+    400330: rail_16length_021 1
+    400332: rail_16length_022
+    400334: rail_16length_022 1
+    400336: rail_16length_023
+    400338: rail_16length_023 1
+    400340: rail_16length_024
+    400342: rail_16length_024 1
+    400344: rail_16length_025
+    400346: rail_16length_025 1
+    400348: rail_16length_026
+    400350: rail_16length_026 1
+    400352: rail_16length_027
+    400354: rail_16length_027 1
+    400356: rail_16length_028
+    400358: rail_16length_028 1
+    400360: rail_16length_029
+    400362: rail_16length_03
+    400364: rail_16length_03 1
+    400366: rail_16length_030
+    400368: rail_16length_031
+    400370: rail_16length_032
+    400372: rail_16length_033
+    400374: rail_16length_034
+    400376: rail_16length_035
+    400378: rail_16length_036
+    400380: rail_16length_037
+    400382: rail_16length_038
+    400384: rail_16length_039
+    400386: rail_16length_04
+    400388: rail_16length_04 1
+    400390: rail_16length_040
+    400392: rail_16length_041
+    400394: rail_16length_042
+    400396: rail_16length_043
+    400398: rail_16length_044
+    400400: rail_16length_045
+    400402: rail_16length_046
+    400404: rail_16length_047
+    400406: rail_16length_048
+    400408: rail_16length_049
+    400410: rail_16length_05
+    400412: rail_16length_05 1
+    400414: rail_16length_050
+    400416: rail_16length_051
+    400418: rail_16length_052
+    400420: rail_16length_053
+    400422: rail_16length_054
+    400424: rail_16length_055
+    400426: rail_16length_056
+    400428: rail_16length_057
+    400430: rail_16length_058
+    400432: rail_16length_059
+    400434: rail_16length_06
+    400436: rail_16length_06 1
+    400438: rail_16length_060
+    400440: rail_16length_061
+    400442: rail_16length_062
+    400444: rail_16length_063
+    400446: rail_16length_064
+    400448: rail_16length_065
+    400450: rail_16length_066
+    400452: rail_16length_067
+    400454: rail_16length_068
+    400456: rail_16length_069
+    400458: rail_16length_07
+    400460: rail_16length_07 1
+    400462: rail_16length_070
+    400464: rail_16length_071
+    400466: rail_16length_072
+    400468: rail_16length_073
+    400470: rail_16length_074
+    400472: rail_16length_075
+    400474: rail_16length_076
+    400476: rail_16length_077
+    400478: rail_16length_078
+    400480: rail_16length_079
+    400482: rail_16length_08
+    400484: rail_16length_08 1
+    400486: rail_16length_080
+    400488: rail_16length_081
+    400490: rail_16length_082
+    400492: rail_16length_083
+    400494: rail_16length_084
+    400496: rail_16length_085
+    400498: rail_16length_086
+    400500: rail_16length_087
+    400502: rail_16length_088
+    400504: rail_16length_089
+    400506: rail_16length_09
+    400508: rail_16length_09 1
+    400510: rail_16length_090
+    400512: rail_16length_091
+    400514: rail_16length_092
+    400516: rail_16length_093
+    400518: rail_16length_094
+    400520: rail_16length_095
+    400522: rail_16length_096
+    400524: rail_16length_097
+    400526: rail_16length_098
+    400528: rail_16length_099
+    400530: rail_4length_010
+    400532: rail_4length_010 1
+    400534: rail_4length_011
+    400536: rail_4length_011 1
+    400538: rail_4length_012
+    400540: rail_4length_012 1
+    400542: rail_4length_013
+    400544: rail_4length_013 1
+    400546: rail_4length_014
+    400548: rail_4length_014 1
+    400550: rail_4length_015
+    400552: rail_4length_015 1
+    400554: rail_4length_016
+    400556: rail_4length_016 1
+    400558: rail_4length_017
+    400560: rail_4length_018
+    400562: rail_4length_07
+    400564: rail_4length_07 1
+    400566: rail_4length_08
+    400568: rail_4length_08 1
+    400570: rail_4length_09
+    400572: rail_4length_09 1
+    400574: rightPlatform
+    400576: rightStairs
+    400578: rightStairs1
+    400580: rightStairs1 1
+    400582: rightStairs2
+    400584: rightStairs2 1
+    400586: rightStairs3
+    400588: //RootNode
+    400590: room_crewQuaters_01
+    400592: ROOM_hangar
+    400594: ROOM_transport
+    400596: shaft
+    400598: shaft1
+    400600: shaft2
+    400602: shaft3
+    400604: sideBaySupport_L01
+    400606: sideBaySupport_L02
+    400608: sideBaySupport_L03
+    400610: sideBaySupport_L04
+    400612: sideBaySupport_R01
+    400614: sideBaySupport_R02
+    400616: sideBaySupport_R03
+    400618: sideBaySupport_R04
+    400620: transport_centerDoor_threshold
+    400622: transport_centerPlatform
+    400624: transport_walls
+    2300000: computerTerminal_01
+    2300002: DECO_computerTower_01
+    2300004: DECO_computerTower_02
+    2300006: hangar_cargoDoor_threshold
+    2300008: hangar_centerDoor_threshold
+    2300010: hangar_leftDoor_threshold
+    2300012: hangar_outerWall
+    2300014: hangar_rightDoor_threshold
+    2300016: iBeam_01
+    2300018: iBeam_010
+    2300020: iBeam_011
+    2300022: iBeam_012
+    2300024: iBeam_013
+    2300026: iBeam_014
+    2300028: iBeam_015
+    2300030: iBeam_016
+    2300032: iBeam_017
+    2300034: iBeam_018
+    2300036: iBeam_019
+    2300038: iBeam_02
+    2300040: iBeam_03
+    2300042: iBeam_04
+    2300044: iBeam_05
+    2300046: iBeam_05 1
+    2300048: iBeam_06
+    2300050: iBeam_06 1
+    2300052: iBeam_07
+    2300054: iBeam_07 1
+    2300056: iBeam_08
+    2300058: iBeam_08 1
+    2300060: iBeam_09
+    2300062: leftPlatform
+    2300064: main_stairs
+    2300066: mainDoor
+    2300068: pCube1
+    2300070: pCube10
+    2300072: pCube11
+    2300074: pCube12
+    2300076: pCube13
+    2300078: pCube14
+    2300080: pCube15
+    2300082: pCube16
+    2300084: pCube17
+    2300086: pCube18
+    2300088: pCube19
+    2300090: pCube2
+    2300092: pCube20
+    2300094: pCube21
+    2300096: pCube22
+    2300098: pCube23
+    2300100: pCube24
+    2300102: pCube25
+    2300104: pCube26
+    2300106: pCube27
+    2300108: pCube28
+    2300110: pCube28 1
+    2300112: pCube29
+    2300114: pCube3
+    2300116: pCube31
+    2300118: pCube32
+    2300120: pCube33
+    2300122: pCube34
+    2300124: pCube35
+    2300126: pCube36
+    2300128: pCube37
+    2300130: pCube38
+    2300132: pCube39
+    2300134: pCube40
+    2300136: pCube41
+    2300138: pCube42
+    2300140: pCube43
+    2300142: pCube44
+    2300144: pCube45
+    2300146: pCube46
+    2300148: pCube47
+    2300150: pCube5
+    2300152: pCube6
+    2300154: pCylinder1
+    2300156: pCylinder10
+    2300158: pCylinder11
+    2300160: pCylinder12
+    2300162: pCylinder13
+    2300164: pCylinder14
+    2300166: pCylinder15
+    2300168: pCylinder16
+    2300170: pCylinder17
+    2300172: pCylinder18
+    2300174: pCylinder19
+    2300176: pCylinder2
+    2300178: pCylinder20
+    2300180: pCylinder21
+    2300182: pCylinder3
+    2300184: pCylinder4
+    2300186: pCylinder5
+    2300188: pCylinder6
+    2300190: pCylinder7
+    2300192: pCylinder8
+    2300194: pCylinder9
+    2300196: rail_16length_010
+    2300198: rail_16length_010 1
+    2300200: rail_16length_0100
+    2300202: rail_16length_0101
+    2300204: rail_16length_0102
+    2300206: rail_16length_0103
+    2300208: rail_16length_0104
+    2300210: rail_16length_0105
+    2300212: rail_16length_0106
+    2300214: rail_16length_0107
+    2300216: rail_16length_0108
+    2300218: rail_16length_0109
+    2300220: rail_16length_011
+    2300222: rail_16length_011 1
+    2300224: rail_16length_0110
+    2300226: rail_16length_0111
+    2300228: rail_16length_0112
+    2300230: rail_16length_0113
+    2300232: rail_16length_0114
+    2300234: rail_16length_0115
+    2300236: rail_16length_0116
+    2300238: rail_16length_0117
+    2300240: rail_16length_0118
+    2300242: rail_16length_0119
+    2300244: rail_16length_012
+    2300246: rail_16length_012 1
+    2300248: rail_16length_0120
+    2300250: rail_16length_0121
+    2300252: rail_16length_0122
+    2300254: rail_16length_0123
+    2300256: rail_16length_0124
+    2300258: rail_16length_0125
+    2300260: rail_16length_0126
+    2300262: rail_16length_0127
+    2300264: rail_16length_0128
+    2300266: rail_16length_0129
+    2300268: rail_16length_013
+    2300270: rail_16length_013 1
+    2300272: rail_16length_0130
+    2300274: rail_16length_0131
+    2300276: rail_16length_0132
+    2300278: rail_16length_014
+    2300280: rail_16length_014 1
+    2300282: rail_16length_015
+    2300284: rail_16length_015 1
+    2300286: rail_16length_016
+    2300288: rail_16length_016 1
+    2300290: rail_16length_017
+    2300292: rail_16length_017 1
+    2300294: rail_16length_018
+    2300296: rail_16length_018 1
+    2300298: rail_16length_019
+    2300300: rail_16length_019 1
+    2300302: rail_16length_02
+    2300304: rail_16length_020
+    2300306: rail_16length_020 1
+    2300308: rail_16length_021
+    2300310: rail_16length_021 1
+    2300312: rail_16length_022
+    2300314: rail_16length_022 1
+    2300316: rail_16length_023
+    2300318: rail_16length_023 1
+    2300320: rail_16length_024
+    2300322: rail_16length_024 1
+    2300324: rail_16length_025
+    2300326: rail_16length_025 1
+    2300328: rail_16length_026
+    2300330: rail_16length_026 1
+    2300332: rail_16length_027
+    2300334: rail_16length_027 1
+    2300336: rail_16length_028
+    2300338: rail_16length_028 1
+    2300340: rail_16length_029
+    2300342: rail_16length_03
+    2300344: rail_16length_03 1
+    2300346: rail_16length_030
+    2300348: rail_16length_031
+    2300350: rail_16length_032
+    2300352: rail_16length_033
+    2300354: rail_16length_034
+    2300356: rail_16length_035
+    2300358: rail_16length_036
+    2300360: rail_16length_037
+    2300362: rail_16length_038
+    2300364: rail_16length_039
+    2300366: rail_16length_04
+    2300368: rail_16length_04 1
+    2300370: rail_16length_040
+    2300372: rail_16length_041
+    2300374: rail_16length_042
+    2300376: rail_16length_043
+    2300378: rail_16length_044
+    2300380: rail_16length_045
+    2300382: rail_16length_046
+    2300384: rail_16length_047
+    2300386: rail_16length_048
+    2300388: rail_16length_049
+    2300390: rail_16length_05
+    2300392: rail_16length_05 1
+    2300394: rail_16length_050
+    2300396: rail_16length_051
+    2300398: rail_16length_052
+    2300400: rail_16length_053
+    2300402: rail_16length_054
+    2300404: rail_16length_055
+    2300406: rail_16length_056
+    2300408: rail_16length_057
+    2300410: rail_16length_058
+    2300412: rail_16length_059
+    2300414: rail_16length_06
+    2300416: rail_16length_06 1
+    2300418: rail_16length_060
+    2300420: rail_16length_061
+    2300422: rail_16length_062
+    2300424: rail_16length_063
+    2300426: rail_16length_064
+    2300428: rail_16length_065
+    2300430: rail_16length_066
+    2300432: rail_16length_067
+    2300434: rail_16length_068
+    2300436: rail_16length_069
+    2300438: rail_16length_07
+    2300440: rail_16length_07 1
+    2300442: rail_16length_070
+    2300444: rail_16length_071
+    2300446: rail_16length_072
+    2300448: rail_16length_073
+    2300450: rail_16length_074
+    2300452: rail_16length_075
+    2300454: rail_16length_076
+    2300456: rail_16length_077
+    2300458: rail_16length_078
+    2300460: rail_16length_079
+    2300462: rail_16length_08
+    2300464: rail_16length_08 1
+    2300466: rail_16length_080
+    2300468: rail_16length_081
+    2300470: rail_16length_082
+    2300472: rail_16length_083
+    2300474: rail_16length_084
+    2300476: rail_16length_085
+    2300478: rail_16length_086
+    2300480: rail_16length_087
+    2300482: rail_16length_088
+    2300484: rail_16length_089
+    2300486: rail_16length_09
+    2300488: rail_16length_09 1
+    2300490: rail_16length_090
+    2300492: rail_16length_091
+    2300494: rail_16length_092
+    2300496: rail_16length_093
+    2300498: rail_16length_094
+    2300500: rail_16length_095
+    2300502: rail_16length_096
+    2300504: rail_16length_097
+    2300506: rail_16length_098
+    2300508: rail_16length_099
+    2300510: rail_4length_010
+    2300512: rail_4length_010 1
+    2300514: rail_4length_011
+    2300516: rail_4length_011 1
+    2300518: rail_4length_012
+    2300520: rail_4length_012 1
+    2300522: rail_4length_013
+    2300524: rail_4length_013 1
+    2300526: rail_4length_014
+    2300528: rail_4length_014 1
+    2300530: rail_4length_015
+    2300532: rail_4length_015 1
+    2300534: rail_4length_016
+    2300536: rail_4length_016 1
+    2300538: rail_4length_017
+    2300540: rail_4length_018
+    2300542: rail_4length_07
+    2300544: rail_4length_07 1
+    2300546: rail_4length_08
+    2300548: rail_4length_08 1
+    2300550: rail_4length_09
+    2300552: rail_4length_09 1
+    2300554: rightPlatform
+    2300556: rightStairs
+    2300558: rightStairs1
+    2300560: rightStairs1 1
+    2300562: rightStairs2
+    2300564: rightStairs2 1
+    2300566: rightStairs3
+    2300568: room_crewQuaters_01
+    2300570: shaft
+    2300572: shaft1
+    2300574: shaft2
+    2300576: shaft3
+    2300578: sideBaySupport_L01
+    2300580: sideBaySupport_L02
+    2300582: sideBaySupport_L03
+    2300584: sideBaySupport_L04
+    2300586: sideBaySupport_R01
+    2300588: sideBaySupport_R02
+    2300590: sideBaySupport_R03
+    2300592: sideBaySupport_R04
+    2300594: transport_centerDoor_threshold
+    2300596: transport_centerPlatform
+    2300598: transport_walls
+    3300000: computerTerminal_01
+    3300002: DECO_computerTower_01
+    3300004: DECO_computerTower_02
+    3300006: hangar_cargoDoor_threshold
+    3300008: hangar_centerDoor_threshold
+    3300010: hangar_leftDoor_threshold
+    3300012: hangar_outerWall
+    3300014: hangar_rightDoor_threshold
+    3300016: iBeam_01
+    3300018: iBeam_010
+    3300020: iBeam_011
+    3300022: iBeam_012
+    3300024: iBeam_013
+    3300026: iBeam_014
+    3300028: iBeam_015
+    3300030: iBeam_016
+    3300032: iBeam_017
+    3300034: iBeam_018
+    3300036: iBeam_019
+    3300038: iBeam_02
+    3300040: iBeam_03
+    3300042: iBeam_04
+    3300044: iBeam_05
+    3300046: iBeam_05 1
+    3300048: iBeam_06
+    3300050: iBeam_06 1
+    3300052: iBeam_07
+    3300054: iBeam_07 1
+    3300056: iBeam_08
+    3300058: iBeam_08 1
+    3300060: iBeam_09
+    3300062: leftPlatform
+    3300064: main_stairs
+    3300066: mainDoor
+    3300068: pCube1
+    3300070: pCube10
+    3300072: pCube11
+    3300074: pCube12
+    3300076: pCube13
+    3300078: pCube14
+    3300080: pCube15
+    3300082: pCube16
+    3300084: pCube17
+    3300086: pCube18
+    3300088: pCube19
+    3300090: pCube2
+    3300092: pCube20
+    3300094: pCube21
+    3300096: pCube22
+    3300098: pCube23
+    3300100: pCube24
+    3300102: pCube25
+    3300104: pCube26
+    3300106: pCube27
+    3300108: pCube28
+    3300110: pCube28 1
+    3300112: pCube29
+    3300114: pCube3
+    3300116: pCube31
+    3300118: pCube32
+    3300120: pCube33
+    3300122: pCube34
+    3300124: pCube35
+    3300126: pCube36
+    3300128: pCube37
+    3300130: pCube38
+    3300132: pCube39
+    3300134: pCube40
+    3300136: pCube41
+    3300138: pCube42
+    3300140: pCube43
+    3300142: pCube44
+    3300144: pCube45
+    3300146: pCube46
+    3300148: pCube47
+    3300150: pCube5
+    3300152: pCube6
+    3300154: pCylinder1
+    3300156: pCylinder10
+    3300158: pCylinder11
+    3300160: pCylinder12
+    3300162: pCylinder13
+    3300164: pCylinder14
+    3300166: pCylinder15
+    3300168: pCylinder16
+    3300170: pCylinder17
+    3300172: pCylinder18
+    3300174: pCylinder19
+    3300176: pCylinder2
+    3300178: pCylinder20
+    3300180: pCylinder21
+    3300182: pCylinder3
+    3300184: pCylinder4
+    3300186: pCylinder5
+    3300188: pCylinder6
+    3300190: pCylinder7
+    3300192: pCylinder8
+    3300194: pCylinder9
+    3300196: rail_16length_010
+    3300198: rail_16length_010 1
+    3300200: rail_16length_0100
+    3300202: rail_16length_0101
+    3300204: rail_16length_0102
+    3300206: rail_16length_0103
+    3300208: rail_16length_0104
+    3300210: rail_16length_0105
+    3300212: rail_16length_0106
+    3300214: rail_16length_0107
+    3300216: rail_16length_0108
+    3300218: rail_16length_0109
+    3300220: rail_16length_011
+    3300222: rail_16length_011 1
+    3300224: rail_16length_0110
+    3300226: rail_16length_0111
+    3300228: rail_16length_0112
+    3300230: rail_16length_0113
+    3300232: rail_16length_0114
+    3300234: rail_16length_0115
+    3300236: rail_16length_0116
+    3300238: rail_16length_0117
+    3300240: rail_16length_0118
+    3300242: rail_16length_0119
+    3300244: rail_16length_012
+    3300246: rail_16length_012 1
+    3300248: rail_16length_0120
+    3300250: rail_16length_0121
+    3300252: rail_16length_0122
+    3300254: rail_16length_0123
+    3300256: rail_16length_0124
+    3300258: rail_16length_0125
+    3300260: rail_16length_0126
+    3300262: rail_16length_0127
+    3300264: rail_16length_0128
+    3300266: rail_16length_0129
+    3300268: rail_16length_013
+    3300270: rail_16length_013 1
+    3300272: rail_16length_0130
+    3300274: rail_16length_0131
+    3300276: rail_16length_0132
+    3300278: rail_16length_014
+    3300280: rail_16length_014 1
+    3300282: rail_16length_015
+    3300284: rail_16length_015 1
+    3300286: rail_16length_016
+    3300288: rail_16length_016 1
+    3300290: rail_16length_017
+    3300292: rail_16length_017 1
+    3300294: rail_16length_018
+    3300296: rail_16length_018 1
+    3300298: rail_16length_019
+    3300300: rail_16length_019 1
+    3300302: rail_16length_02
+    3300304: rail_16length_020
+    3300306: rail_16length_020 1
+    3300308: rail_16length_021
+    3300310: rail_16length_021 1
+    3300312: rail_16length_022
+    3300314: rail_16length_022 1
+    3300316: rail_16length_023
+    3300318: rail_16length_023 1
+    3300320: rail_16length_024
+    3300322: rail_16length_024 1
+    3300324: rail_16length_025
+    3300326: rail_16length_025 1
+    3300328: rail_16length_026
+    3300330: rail_16length_026 1
+    3300332: rail_16length_027
+    3300334: rail_16length_027 1
+    3300336: rail_16length_028
+    3300338: rail_16length_028 1
+    3300340: rail_16length_029
+    3300342: rail_16length_03
+    3300344: rail_16length_03 1
+    3300346: rail_16length_030
+    3300348: rail_16length_031
+    3300350: rail_16length_032
+    3300352: rail_16length_033
+    3300354: rail_16length_034
+    3300356: rail_16length_035
+    3300358: rail_16length_036
+    3300360: rail_16length_037
+    3300362: rail_16length_038
+    3300364: rail_16length_039
+    3300366: rail_16length_04
+    3300368: rail_16length_04 1
+    3300370: rail_16length_040
+    3300372: rail_16length_041
+    3300374: rail_16length_042
+    3300376: rail_16length_043
+    3300378: rail_16length_044
+    3300380: rail_16length_045
+    3300382: rail_16length_046
+    3300384: rail_16length_047
+    3300386: rail_16length_048
+    3300388: rail_16length_049
+    3300390: rail_16length_05
+    3300392: rail_16length_05 1
+    3300394: rail_16length_050
+    3300396: rail_16length_051
+    3300398: rail_16length_052
+    3300400: rail_16length_053
+    3300402: rail_16length_054
+    3300404: rail_16length_055
+    3300406: rail_16length_056
+    3300408: rail_16length_057
+    3300410: rail_16length_058
+    3300412: rail_16length_059
+    3300414: rail_16length_06
+    3300416: rail_16length_06 1
+    3300418: rail_16length_060
+    3300420: rail_16length_061
+    3300422: rail_16length_062
+    3300424: rail_16length_063
+    3300426: rail_16length_064
+    3300428: rail_16length_065
+    3300430: rail_16length_066
+    3300432: rail_16length_067
+    3300434: rail_16length_068
+    3300436: rail_16length_069
+    3300438: rail_16length_07
+    3300440: rail_16length_07 1
+    3300442: rail_16length_070
+    3300444: rail_16length_071
+    3300446: rail_16length_072
+    3300448: rail_16length_073
+    3300450: rail_16length_074
+    3300452: rail_16length_075
+    3300454: rail_16length_076
+    3300456: rail_16length_077
+    3300458: rail_16length_078
+    3300460: rail_16length_079
+    3300462: rail_16length_08
+    3300464: rail_16length_08 1
+    3300466: rail_16length_080
+    3300468: rail_16length_081
+    3300470: rail_16length_082
+    3300472: rail_16length_083
+    3300474: rail_16length_084
+    3300476: rail_16length_085
+    3300478: rail_16length_086
+    3300480: rail_16length_087
+    3300482: rail_16length_088
+    3300484: rail_16length_089
+    3300486: rail_16length_09
+    3300488: rail_16length_09 1
+    3300490: rail_16length_090
+    3300492: rail_16length_091
+    3300494: rail_16length_092
+    3300496: rail_16length_093
+    3300498: rail_16length_094
+    3300500: rail_16length_095
+    3300502: rail_16length_096
+    3300504: rail_16length_097
+    3300506: rail_16length_098
+    3300508: rail_16length_099
+    3300510: rail_4length_010
+    3300512: rail_4length_010 1
+    3300514: rail_4length_011
+    3300516: rail_4length_011 1
+    3300518: rail_4length_012
+    3300520: rail_4length_012 1
+    3300522: rail_4length_013
+    3300524: rail_4length_013 1
+    3300526: rail_4length_014
+    3300528: rail_4length_014 1
+    3300530: rail_4length_015
+    3300532: rail_4length_015 1
+    3300534: rail_4length_016
+    3300536: rail_4length_016 1
+    3300538: rail_4length_017
+    3300540: rail_4length_018
+    3300542: rail_4length_07
+    3300544: rail_4length_07 1
+    3300546: rail_4length_08
+    3300548: rail_4length_08 1
+    3300550: rail_4length_09
+    3300552: rail_4length_09 1
+    3300554: rightPlatform
+    3300556: rightStairs
+    3300558: rightStairs1
+    3300560: rightStairs1 1
+    3300562: rightStairs2
+    3300564: rightStairs2 1
+    3300566: rightStairs3
+    3300568: room_crewQuaters_01
+    3300570: shaft
+    3300572: shaft1
+    3300574: shaft2
+    3300576: shaft3
+    3300578: sideBaySupport_L01
+    3300580: sideBaySupport_L02
+    3300582: sideBaySupport_L03
+    3300584: sideBaySupport_L04
+    3300586: sideBaySupport_R01
+    3300588: sideBaySupport_R02
+    3300590: sideBaySupport_R03
+    3300592: sideBaySupport_R04
+    3300594: transport_centerDoor_threshold
+    3300596: transport_centerPlatform
+    3300598: transport_walls
+    4300000: hangar_outerWall
+    4300002: sideBaySupport_L01
+    4300004: sideBaySupport_R01
+    4300006: sideBaySupport_L02
+    4300008: sideBaySupport_R02
+    4300010: sideBaySupport_R03
+    4300012: sideBaySupport_L03
+    4300014: sideBaySupport_L04
+    4300016: sideBaySupport_R04
+    4300018: main_stairs
+    4300020: rightStairs
+    4300022: leftPlatform
+    4300024: rightPlatform
+    4300026: rightStairs3
+    4300028: hangar_cargoDoor_threshold
+    4300030: hangar_leftDoor_threshold
+    4300032: hangar_rightDoor_threshold
+    4300034: hangar_centerDoor_threshold
+    4300036: transport_walls
+    4300038: transport_centerDoor_threshold
+    4300040: transport_centerPlatform
+    4300042: room_crewQuaters_01
+    4300044: pCylinder5
+    4300046: pCylinder6
+    4300048: pCylinder4
+    4300050: pCylinder3
+    4300052: pCylinder8
+    4300054: pCylinder7
+    4300056: pCylinder9
+    4300058: pCylinder10
+    4300060: pCylinder1
+    4300062: pCylinder12
+    4300064: pCylinder13
+    4300066: pCylinder14
+    4300068: pCylinder15
+    4300070: pCylinder16
+    4300072: pCube6
+    4300074: pCube5
+    4300076: pCylinder17
+    4300078: pCylinder18
+    4300080: pCylinder19
+    4300082: pCube1
+    4300084: pCube2
+    4300086: pCube3
+    4300088: pCylinder2
+    4300090: pCylinder11
+    4300092: shaft
+    4300094: rail_16length_02
+    4300096: rail_16length_029
+    4300098: rail_16length_030
+    4300100: rail_16length_031
+    4300102: rail_16length_032
+    4300104: rail_16length_033
+    4300106: rail_16length_034
+    4300108: rail_16length_035
+    4300110: rail_16length_036
+    4300112: rail_16length_037
+    4300114: rail_16length_038
+    4300116: rail_16length_039
+    4300118: rail_16length_040
+    4300120: rail_16length_041
+    4300122: rail_16length_042
+    4300124: rail_16length_043
+    4300126: rail_16length_044
+    4300128: rail_16length_045
+    4300130: rail_16length_046
+    4300132: rail_16length_047
+    4300134: rail_16length_048
+    4300136: rail_16length_049
+    4300138: rail_16length_050
+    4300140: rail_16length_051
+    4300142: rail_16length_052
+    4300144: rail_16length_053
+    4300146: rail_16length_054
+    4300148: rail_16length_055
+    4300150: rail_16length_056
+    4300152: rail_16length_057
+    4300154: rail_16length_058
+    4300156: rail_16length_059
+    4300158: rail_16length_060
+    4300160: rail_16length_061
+    4300162: shaft1
+    4300164: rail_16length_062
+    4300166: rail_16length_063
+    4300168: rail_16length_064
+    4300170: rail_16length_065
+    4300172: rail_16length_066
+    4300174: rail_16length_067
+    4300176: rail_16length_068
+    4300178: rail_16length_069
+    4300180: rail_16length_070
+    4300182: rail_16length_071
+    4300184: rail_16length_072
+    4300186: rail_16length_073
+    4300188: rail_16length_074
+    4300190: rail_16length_075
+    4300192: rail_16length_076
+    4300194: rail_16length_077
+    4300196: rail_16length_078
+    4300198: rail_16length_079
+    4300200: rail_16length_080
+    4300202: rail_16length_081
+    4300204: rail_16length_082
+    4300206: rail_16length_083
+    4300208: rail_16length_084
+    4300210: rail_16length_085
+    4300212: rail_16length_086
+    4300214: rail_16length_087
+    4300216: rail_16length_088
+    4300218: rail_16length_089
+    4300220: rail_16length_090
+    4300222: rail_16length_091
+    4300224: rail_16length_092
+    4300226: rail_16length_093
+    4300228: rail_16length_094
+    4300230: rail_16length_095
+    4300232: rail_16length_096
+    4300234: rail_16length_097
+    4300236: rail_16length_098
+    4300238: rail_16length_099
+    4300240: rail_16length_0100
+    4300242: rail_16length_0101
+    4300244: rail_16length_0102
+    4300246: rail_16length_0103
+    4300248: shaft2
+    4300250: shaft3
+    4300252: rail_16length_0106
+    4300254: rail_16length_0107
+    4300256: rail_16length_0108
+    4300258: rail_16length_0113
+    4300260: rail_16length_0116
+    4300262: rail_16length_0117
+    4300264: rail_16length_0118
+    4300266: rail_16length_0119
+    4300268: rail_16length_0120
+    4300270: rail_16length_0121
+    4300272: rail_16length_0122
+    4300274: rail_16length_0123
+    4300276: rail_16length_0124
+    4300278: rail_16length_0125
+    4300280: rail_16length_0130
+    4300282: rail_16length_0131
+    4300284: rail_16length_0132
+    4300286: DECO_computerTower_01
+    4300288: DECO_computerTower_02
+    4300290: computerTerminal_01
+    4300292: pCube11
+    4300294: pCube12
+    4300296: pCube13
+    4300298: pCube14
+    4300300: pCube15
+    4300302: pCube16
+    4300304: mainDoor
+    4300306: pCube19
+    4300308: pCube17
+    4300310: pCube18
+    4300312: pCube20
+    4300314: pCube21
+    4300316: pCube22
+    4300318: pCube23
+    4300320: pCube24
+    4300322: pCube25
+    4300324: pCube26
+    4300326: pCube27
+    4300328: pCube29
+    4300330: pCube31
+    4300332: pCube32
+    4300334: pCube33
+    4300336: pCube34
+    4300338: pCube35
+    4300340: pCube36
+    4300342: pCube37
+    4300344: pCube38
+    4300346: pCube39
+    4300348: pCube40
+    4300350: pCube41
+    4300352: pCube42
+    4300354: pCube43
+    4300356: pCube44
+    4300358: pCube45
+    4300360: pCube46
+    4300362: pCube47
+    4300364: iBeam_01
+    4300366: iBeam_02
+    4300368: iBeam_03
+    4300370: iBeam_04
+    4300372: iBeam_09
+    4300374: iBeam_010
+    4300376: iBeam_011
+    4300378: rightStairs2
+    4300380: rail_16length_026
+    4300382: rail_16length_025
+    4300384: pCube28
+    4300386: rail_4length_015
+    4300388: rail_16length_022
+    4300390: rail_16length_024
+    4300392: rail_4length_016
+    4300394: rail_16length_023
+    4300396: rail_16length_021
+    4300398: rail_16length_020
+    4300400: rail_4length_014
+    4300402: rail_4length_013
+    4300404: rail_16length_019
+    4300406: rail_16length_018
+    4300408: rail_16length_013
+    4300410: rail_16length_012
+    4300412: rail_16length_017
+    4300414: rail_16length_03
+    4300416: rail_4length_012
+    4300418: rail_16length_011
+    4300420: rail_16length_010
+    4300422: rail_4length_011
+    4300424: rail_16length_014
+    4300426: rail_16length_09
+    4300428: rail_16length_08
+    4300430: rail_16length_07
+    4300432: rail_16length_015
+    4300434: rail_4length_010
+    4300436: rail_4length_09
+    4300438: rail_16length_016
+    4300440: rail_4length_07
+    4300442: rail_16length_06
+    4300444: rail_16length_05
+    4300446: rail_16length_027
+    4300448: rail_16length_04
+    4300450: rail_4length_08
+    4300452: rail_16length_028
+    4300454: rightStairs1
+    4300456: iBeam_05
+    4300458: iBeam_06
+    4300460: iBeam_07
+    4300462: iBeam_08
+    4300464: rail_16length_0104
+    4300466: rail_16length_0105
+    4300468: rail_4length_017
+    4300470: rail_16length_0109
+    4300472: rail_16length_0110
+    4300474: rail_4length_018
+    4300476: rail_16length_0111
+    4300478: rail_16length_0112
+    4300480: rail_16length_0114
+    4300482: rail_16length_0115
+    4300484: rail_16length_0126
+    4300486: rail_16length_0127
+    4300488: rail_16length_0128
+    4300490: rail_16length_0129
+    4300492: rightStairs2
+    4300494: rail_16length_026
+    4300496: rail_16length_025
+    4300498: pCube28
+    4300500: rail_4length_015
+    4300502: rail_16length_022
+    4300504: rail_16length_024
+    4300506: rail_4length_016
+    4300508: rail_16length_023
+    4300510: rail_16length_021
+    4300512: rail_16length_020
+    4300514: rail_4length_014
+    4300516: rail_4length_013
+    4300518: rail_16length_019
+    4300520: rail_16length_018
+    4300522: rail_16length_013
+    4300524: rail_16length_012
+    4300526: rail_16length_017
+    4300528: rail_16length_03
+    4300530: rail_4length_012
+    4300532: rail_16length_011
+    4300534: rail_16length_010
+    4300536: rail_4length_011
+    4300538: rail_16length_014
+    4300540: rail_16length_09
+    4300542: rail_16length_08
+    4300544: rail_16length_07
+    4300546: rail_16length_015
+    4300548: rail_4length_010
+    4300550: rail_4length_09
+    4300552: rail_16length_016
+    4300554: rail_4length_07
+    4300556: rail_16length_06
+    4300558: rail_16length_05
+    4300560: rail_16length_027
+    4300562: rail_16length_04
+    4300564: rail_4length_08
+    4300566: rail_16length_028
+    4300568: rightStairs1
+    4300570: iBeam_05
+    4300572: iBeam_06
+    4300574: iBeam_07
+    4300576: iBeam_08
+    4300578: pCube10
+    4300580: pCylinder20
+    4300582: pCylinder21
+    4300584: iBeam_012
+    4300586: iBeam_013
+    4300588: iBeam_014
+    4300590: iBeam_015
+    4300592: iBeam_016
+    4300594: iBeam_017
+    4300596: iBeam_018
+    4300598: iBeam_019
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
