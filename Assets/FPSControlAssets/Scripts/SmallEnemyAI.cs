@@ -44,6 +44,7 @@ public class SmallEnemyAI : MonoBehaviour {
 		
 		// set that the enemy is not dead
 		actionContext.SetContextItem<bool>("is_dead", false);
+		actionContext.SetContextItem<string>("emotional_state", "scared");
 		actionContext.SetContextItem<float>("current_health", getCurrentHealth());
 		actionContext.SetContextItem<List<GameObject>>("hiding_spots", hidingSpots);
 	}
