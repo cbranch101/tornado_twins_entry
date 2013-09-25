@@ -4395,7 +4395,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400010, guid: 653ad273bc0124b0ab86a1299bf8b2ee, type: 2}
       propertyPath: behaviorTreeFilename
-      value: SimpleMoveTest2
+      value: SmallEnemyMind
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400006, guid: 653ad273bc0124b0ab86a1299bf8b2ee, type: 2}
@@ -16991,7 +16991,7 @@ GameObject:
   - 114: {fileID: 1240186667}
   - 114: {fileID: 1240186666}
   - 114: {fileID: 1240186664}
-  - 114: {fileID: 1240186670}
+  - 114: {fileID: 1240186665}
   m_Layer: 0
   m_Name: SmallEnemy
   m_TagString: Untagged
@@ -17033,6 +17033,16 @@ MonoBehaviour:
   healingSpeed: 3
   autoHeal: 0
   initialized: 0
+--- !u!114 &1240186665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1240186662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5721c82877bae4373a0fe2e8ec10a00e, type: 3}
+  m_Name: 
 --- !u!114 &1240186666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17106,16 +17116,6 @@ Animation:
   m_UserAABB:
     m_Center: {x: -.177524567, y: .155311555, z: -.199840665}
     m_Extent: {x: .353940904, y: .180923969, z: .456494033}
---- !u!114 &1240186670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1240186662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e35368d54635401ba68cef589821cf3, type: 3}
-  m_Name: 
 --- !u!1 &1241408780
 GameObject:
   m_ObjectHideFlags: 0
@@ -29947,7 +29947,7 @@ MonoBehaviour:
   m_Script: {fileID: -1456383791, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
   rainVersionString: RAIN.Minds.BehaviorTreeMind
-  behaviorTreeFilename: SimpleMoveTest2
+  behaviorTreeFilename: SmallEnemyMind
   rootName: root
 --- !u!1 &2020047507
 GameObject:
