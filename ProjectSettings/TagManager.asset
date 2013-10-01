@@ -7,7 +7,7 @@ TagManager:
   - Interact
   - Weapon
   - Wood
-  - 
+  - Destroyable
   - Environment
   - Friend
   - IgnoreRecast

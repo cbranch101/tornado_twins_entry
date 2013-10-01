@@ -4376,7 +4376,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -15.3315935
+      value: -14.5841026
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4384,7 +4384,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 6.52325869
+      value: 1.55474329
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9985,6 +9985,62 @@ Transform:
   m_LocalScale: {x: .999999881, y: 1, z: .999999881}
   m_Children: []
   m_Father: {fileID: 606047589}
+--- !u!1 &771180890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 771180891}
+  - 135: {fileID: 771180892}
+  - 114: {fileID: 771180893}
+  m_Layer: 0
+  m_Name: ModifierTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &771180891
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771180890}
+  m_LocalRotation: {x: .000941642502, y: .993609011, z: -.112567715, w: .00830040406}
+  m_LocalPosition: {x: -15.1801109, y: 5.02531862, z: 7.29786587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!135 &771180892
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771180890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.58999991
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &771180893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771180890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1500129290, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
+  m_Name: 
+  rainVersionString: RAIN.Path.Dynamic.GraphModifier
+  unwalkable: 1
+  multiplier: 1
+  isActive: 1
+  scale: {x: 1, y: 1, z: 1}
+  padding: {x: 0, y: 0, z: 0}
 --- !u!1 &771256594
 GameObject:
   m_ObjectHideFlags: 0
@@ -18524,15 +18580,15 @@ MonoBehaviour:
   - particleSystem: {fileID: 966880236}
     isEnabled: 1
     position: {fileID: 1994800416}
+    global: 0
+  - particleSystem: {fileID: 0}
+    isEnabled: 0
+    position: {fileID: 0}
     global: 1
   - particleSystem: {fileID: 0}
     isEnabled: 0
     position: {fileID: 0}
-    global: 0
-  - particleSystem: {fileID: 0}
-    isEnabled: 0
-    position: {fileID: 0}
-    global: 0
+    global: 1
   lightIsEnabled: 1
   lightBurst: {fileID: 1093984332}
   lightPosition: {fileID: 1994800416}
@@ -21708,7 +21764,7 @@ Transform:
   m_PrefabInternal: {fileID: 337054179}
   m_GameObject: {fileID: 1457572544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.3315935, y: 4.59728956, z: 6.52325869}
+  m_LocalPosition: {x: -14.5841026, y: 4.59728956, z: 1.55474329}
   m_LocalScale: {x: .200340688, y: .200340688, z: .200340688}
   m_Children: []
   m_Father: {fileID: 0}
