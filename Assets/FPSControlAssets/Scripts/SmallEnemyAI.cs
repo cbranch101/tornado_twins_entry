@@ -10,6 +10,7 @@ public class SmallEnemyAI : EnemyAI {
 	// handle most interactions with the AI
 	List<GameObject> hidingSpots;
 	List<GameObject> objectsToDestroy;
+	public float powerNodeDamage = 10;
 	
 	void setHidingSpots() {
 		hidingSpots = new List<GameObject>();

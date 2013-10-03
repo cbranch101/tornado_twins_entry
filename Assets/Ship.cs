@@ -13,13 +13,10 @@ public class Ship : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(integrity <= 0f) {
-			Debug.Log ("Quitting Mofos");
+			Debug.Log ("You lose, sucka!");
 			Application.LoadLevel ("MainMenuScene");
 		}
 		
-		if(Time.time > 15f) {
-			integrity = -10f;
-		}
 	}
 	
 	public float getIntegrityPercentage() {

@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.04794598, y: 4.62870789, z: 18.8901787}
+  m_LocalPosition: {x: -15.0136137, y: 6.05761957, z: .815538526}
   m_LocalScale: {x: .200340688, y: .200340688, z: .200340688}
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,9 +75,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc7ffce1684f149aba78451150027ea2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a2c6ce76c5924421a07929d938cdfa2, type: 3}
   m_Name: 
   isBeingEaten: 0
+  turnOff: 0
+  isPowerSource: 0
+  connectedNodes: []
+  connectedMachine: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
