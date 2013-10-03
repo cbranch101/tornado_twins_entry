@@ -62,10 +62,16 @@ public class PowerNode : MonoBehaviour {
 	
 	public void powerDown() {
 		hasPower = false;
+		if(connectedMachine != null) {
+			connectedMachine.SendMessage("OnPowerDown");
+		}
 	}
 	
 	public void powerUp() {
 		hasPower = true;
+		if(connectedMachine != null) {
+			connectedMachine.SendMessage("OnPowerUp");
+		}
 	}
 	
 	public bool isPowered() {
