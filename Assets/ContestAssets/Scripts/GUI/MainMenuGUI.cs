@@ -15,7 +15,7 @@ public class MainMenuGUI : MonoBehaviour {
 	
 	void OnGUI() {
 		if(GUI.Button(new Rect(screenCenter.x - (boxWidth / 2), screenCenter.y - (boxHeight / 2), boxHeight, boxWidth), "Headlong, into the breach")) {
-			Application.LoadLevel("RatSceneFPSControl");
+			Application.LoadLevel("MainHangar");
 		}
 	}
 	
