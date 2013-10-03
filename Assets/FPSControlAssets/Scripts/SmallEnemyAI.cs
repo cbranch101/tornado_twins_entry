@@ -9,6 +9,7 @@ public class SmallEnemyAI : EnemyAI {
 	
 	// handle most interactions with the AI
 	List<GameObject> hidingSpots;
+	List<GameObject> objectsToDestroy;
 	
 	void setHidingSpots() {
 		hidingSpots = new List<GameObject>();
@@ -21,13 +22,23 @@ public class SmallEnemyAI : EnemyAI {
 	         	hidingSpots.Add(child.gameObject);
 			
 	        };
+		actionContext.SetContextItem<List<GameObject>>("hiding_spots", hidingSpots);
 		
 	}
 	
+	void setObjectsToDestroy() {
+		objectsToDestroy = new List<GameObject>();
+		GameObject[] foundGameObjects = GameObject.FindGameObjectsWithTag("Destroyable");
+		foreach(GameObject objectToDestroy in foundGameObjects) {
+			objectsToDestroy.Add(objectToDestroy);
+		}
+		actionContext.SetContextItem<List<GameObject>>("objects_to_destroy", objectsToDestroy);
+	}
+
+	
 	protected override void setStartingActionContext() {
 		setHidingSpots();
-		actionContext.SetContextItem<List<GameObject>>("hiding_spots", hidingSpots);
-		
+		setObjectsToDestroy();
 	}
 	
 	protected override void OnAIUpdate() {

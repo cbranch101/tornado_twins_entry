@@ -43,7 +43,7 @@ public class EnemyAI : MonoBehaviour {
 		return (damageSource.sourceType == DamageSource.DamageSourceType.GunFire) &&
 		    (damageSource.sourceObjectType != DamageSource.DamageSourceObjectType.Obstacle); 
 		
-	}
+	} 
 	
 	void takeDamage(float damageAmount) {
 		healthController.current -= damageAmount;

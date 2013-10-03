@@ -3,22 +3,28 @@ using System.Collections;
 using System.Collections.Generic;
 using RAIN.Core;
 using RAIN.Action;
-using System.Collections.Generic;
 
-public class FindRandomHidingSpot : RAIN.Action.Action
+public class RandomlySelectUnOccupiedWire : RAIN.Action.Action
 {
-    public FindRandomHidingSpot()
+    public RandomlySelectUnOccupiedWire()
     {
-        actionName = "FindRandomHidingSpot";
+        actionName = "RandomlySelectUnOccupiedWire";
     }
 
     public override RAIN.Action.Action.ActionResult Start(RAIN.Core.Agent agent, float deltaTime)
     {
-	List<GameObject> hidingSpots = agent.actionContext.GetContextItem<List<GameObject>>("hiding_spots");
-	GameObject selectedHidingSpot = hidingSpots[Random.Range(0, hidingSpots.Count - 1)];
-	agent.actionContext.SetContextItem<GameObject>("move_target", selectedHidingSpot);
+	List<GameObject> unOccupiedWires = agent.actionContext.GetContextItem<List<GameObject>>("un_occupied_wires");
+	GameObject selectedWire = unOccupiedWires[Random.Range(0, unOccupiedWires.Count - 1)];
+	occupyWire (selectedWire);
+	agent.actionContext.SetContextItem<GameObject>("move_target", selectedWire);
 	return RAIN.Action.Action.ActionResult.SUCCESS;
+
     }
+	
+	void occupyWire(GameObject selectedWire) {
+		Wire wireComponent = (Wire) selectedWire.GetComponent("Wire");
+		wireComponent.isBeingEaten = true;
+	} 
 
     public override RAIN.Action.Action.ActionResult Execute(RAIN.Core.Agent agent, float deltaTime)
     {

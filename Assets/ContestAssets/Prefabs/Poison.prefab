@@ -11,13 +11,10 @@ GameObject:
   - 33: {fileID: 3300000}
   - 65: {fileID: 6500000}
   - 23: {fileID: 2300000}
-  - 114: {fileID: 11400004}
-  - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: Poison
-  m_TagString: Untagged
+  m_TagString: Destroyable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.2624683, y: .473383516, z: 27.8074684}
+  m_LocalPosition: {x: -4.04794598, y: 4.62870789, z: 18.8901787}
   m_LocalScale: {x: .200340688, y: .200340688, z: .200340688}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,49 +75,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35571a1be6c8b4af19b8a4f900f0386a, type: 3}
+  m_Script: {fileID: 11500000, guid: cc7ffce1684f149aba78451150027ea2, type: 3}
   m_Name: 
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 169768932, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
-  m_Name: 
-  rainVersionString: RAIN.Ontology.Decoration
-  aspect:
-    aspectName: pointOfInterest
-    sensation:
-      sensationName: sight
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 369423152, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
-  m_Name: 
-  rainVersionString: RAIN.Ontology.Entity
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 169768932, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
-  m_Name: 
-  rainVersionString: RAIN.Ontology.Decoration
-  aspect:
-    aspectName: poison
-    sensation:
-      sensationName: smell
+  isBeingEaten: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
