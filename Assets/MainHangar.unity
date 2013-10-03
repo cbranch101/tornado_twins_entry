@@ -1037,7 +1037,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 653ad273bc0124b0ab86a1299bf8b2ee, type: 2}
       propertyPath: powerNodeDamage
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 653ad273bc0124b0ab86a1299bf8b2ee, type: 2}
@@ -5492,11 +5492,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2c6ce76c5924421a07929d938cdfa2, type: 3}
   m_Name: 
-  isBeingEaten: 0
+  isBeingEaten: 1
   turnOff: 0
   isPowerSource: 0
   connectedNodes: []
-  connectedMachine: {fileID: 0}
+  connectedMachine: {fileID: 1158606012}
 --- !u!23 &394253487
 Renderer:
   m_ObjectHideFlags: 0
@@ -9178,7 +9178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5721c82877bae4373a0fe2e8ec10a00e, type: 3}
   m_Name: 
   startingEmotionalState: calm
-  powerNodeDamage: 1
+  powerNodeDamage: 4
 --- !u!1 &672551113
 GameObject:
   m_ObjectHideFlags: 0
@@ -16961,7 +16961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5721c82877bae4373a0fe2e8ec10a00e, type: 3}
   m_Name: 
   startingEmotionalState: calm
-  powerNodeDamage: 1
+  powerNodeDamage: 4
 --- !u!114 &1129561686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17602,8 +17602,9 @@ GameObject:
   - 33: {fileID: 1158606015}
   - 23: {fileID: 1158606014}
   - 136: {fileID: 1158606016}
+  - 114: {fileID: 1158606017}
   m_Layer: 0
-  m_Name: pCylinder1
+  m_Name: Boiler
   m_TagString: Destroyable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17660,6 +17661,17 @@ CapsuleCollider:
   m_Height: .550000012
   m_Direction: 1
   m_Center: {x: 8.19563866e-08, y: .189999998, z: 1.86264515e-08}
+--- !u!114 &1158606017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1158606012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0f39d9fa7d047819c747bee038e0c8, type: 3}
+  m_Name: 
+  integrityAmount: 50
 --- !u!1 &1160078454
 GameObject:
   m_ObjectHideFlags: 0
@@ -25761,7 +25773,7 @@ Prefab:
       objectReference: {fileID: 394253483}
     - target: {fileID: 11400000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
       propertyPath: isBeingEaten
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
@@ -26337,7 +26349,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2c6ce76c5924421a07929d938cdfa2, type: 3}
   m_Name: 
-  isBeingEaten: 0
+  isBeingEaten: 1
   turnOff: 0
   isPowerSource: 0
   connectedNodes:
@@ -28178,6 +28190,10 @@ Prefab:
     - target: {fileID: 100174, guid: 22e2b7db18e20496b860302d6fb9965e, type: 3}
       propertyPath: m_TagString
       value: Destroyable
+      objectReference: {fileID: 0}
+    - target: {fileID: 100174, guid: 22e2b7db18e20496b860302d6fb9965e, type: 3}
+      propertyPath: m_Name
+      value: Boiler
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22e2b7db18e20496b860302d6fb9965e, type: 3}
@@ -32997,7 +33013,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 653ad273bc0124b0ab86a1299bf8b2ee, type: 2}
       propertyPath: powerNodeDamage
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 653ad273bc0124b0ab86a1299bf8b2ee, type: 2}
@@ -33616,8 +33632,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
       propertyPath: isBeingEaten
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
+      propertyPath: connectedMachine
+      value: 
+      objectReference: {fileID: 1158606012}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7951edd2c1e7a47efb64c56cd343c87d, type: 2}
   m_RootGameObject: {fileID: 394253482}
