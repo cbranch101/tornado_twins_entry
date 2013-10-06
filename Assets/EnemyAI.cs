@@ -3,6 +3,7 @@ using System.Collections;
 using FPSControl;
 using RAIN.Core;
 using System.Collections.Generic;
+using FPSControl;
 
 
 public class EnemyAI : MonoBehaviour {
@@ -12,6 +13,7 @@ public class EnemyAI : MonoBehaviour {
 	protected DataController healthController;
 	protected RAINAgent agent;
 	protected RAIN.Action.ActionContext actionContext;
+	protected List<GameObject> hidingSpots;
 
 	
 	// Use this for initialization
@@ -20,6 +22,21 @@ public class EnemyAI : MonoBehaviour {
 		setRainObjects();
 		setBaseActionContext();
 		setStartingActionContext();
+		
+	}
+	
+	protected void setHidingSpots() {
+		hidingSpots = new List<GameObject>();
+		GameObject hidingSpotCollection = GameObject.Find ("HidingSpots");
+		
+		// the transform variable can be iterated through
+	        foreach(Transform child in hidingSpotCollection.transform) {
+	         	
+			// your iterating through transforms, so you need to get the game object before you use it. 
+	         	hidingSpots.Add(child.gameObject);
+			
+	        };
+		actionContext.SetContextItem<List<GameObject>>("hiding_spots", hidingSpots);
 		
 	}
 	
@@ -69,6 +86,13 @@ public class EnemyAI : MonoBehaviour {
 		actionContext.SetContextItem<bool>("is_dead", false);
 		actionContext.SetContextItem<string>("emotional_state", startingEmotionalState);
 		actionContext.SetContextItem<float>("current_health", getCurrentHealth());
+		setHidingSpots();
+		setPlayer ();
+	}
+	
+	protected void setPlayer() {
+		GameObject player = GameObject.Find ("PlayerConfigured");
+		actionContext.SetContextItem<GameObject>("player", player);
 	}
 	
 	protected float getCurrentHealth() {

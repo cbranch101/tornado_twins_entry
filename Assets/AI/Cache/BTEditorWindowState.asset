@@ -67,9 +67,9 @@ MonoBehaviour:
     Errored: 0
   - FileName: RatMind.xml
     BehaviorTreeName: RatMind
-    BehaviorTreeID: 319
-    LastUpdate: 635164186153763170
-    LastModified: 635164186150000000
+    BehaviorTreeID: 272
+    LastUpdate: 635165712674646060
+    LastModified: 635165712670000000
     Errored: 0
   - FileName: RatSwarm.xml
     BehaviorTreeName: RatSwarm
@@ -106,6 +106,12 @@ MonoBehaviour:
     BehaviorTreeID: 270
     LastUpdate: 635162611510120870
     LastModified: 635162611510000000
+    Errored: 0
+  - FileName: SpiderMind.xml
+    BehaviorTreeName: SpiderMind
+    BehaviorTreeID: 339
+    LastUpdate: 635165915828980660
+    LastModified: 635165915820000000
     Errored: 0
   - FileName: TeddyBehavior.xml
     BehaviorTreeName: TeddyBehavior
@@ -3529,60 +3535,11 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: Play eat animation
-        _recordChange: 1
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      - _field: animation
-        _currentValue: Eating
-        _recordChange: 1
-        _changed: 0
-      - _field: waitforsec
-        _currentValue: 0.2
-        _recordChange: 1
-        _changed: 0
-      - _field: layer
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      - _field: wrapmode
-        _currentValue: default
-        _recordChange: 1
-        _changed: 0
-      - _field: fadein
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      - _field: fadeout
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      _type: 2
-      _id: 96
-      _parent: 97
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: eat node
+        _currentValue: execute behavior based on emotional state
         _recordChange: 1
         _changed: 0
       - _field: open
-        _currentValue: False
+        _currentValue: True
         _recordChange: 0
         _changed: 0
       - _field: precondition
@@ -3590,7 +3547,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: repeatuntil
-        _currentValue: success
+        _currentValue: failure
         _recordChange: 1
         _changed: 0
       - _field: debug
@@ -3598,16 +3555,16 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 20
-      _id: 97
-      _parent: 164
+      _id: 96
+      _parent: 177
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176870865480
-      _children: 6000000051010000
+      _lastUpdate: 635165712664319080
+      _children: 1301000014010000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: Move to move_target
+        _currentValue: set as dying
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -3622,57 +3579,21 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: movetargettype
-        _currentValue: variable
+      - _field: expression
+        _currentValue: emotional_state = "dying"
         _recordChange: 1
         _changed: 0
-      - _field: movetarget
-        _currentValue: move_target
-        _recordChange: 1
-        _changed: 0
-      - _field: movespeed
-        _currentValue: -1
-        _recordChange: 1
-        _changed: 0
-      - _field: looktargettype
-        _currentValue: none
-        _recordChange: 1
-        _changed: 0
-      - _field: looktarget
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: lookspeed
-        _currentValue: -1
-        _recordChange: 1
-        _changed: 0
-      - _field: animation
-        _currentValue: Walk
-        _recordChange: 1
-        _changed: 0
-      - _field: animationlayer
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      - _field: animationwrapmode
-        _currentValue: default
-        _recordChange: 1
-        _changed: 0
-      - _field: animationbasespeed
-        _currentValue: 1
-        _recordChange: 1
-        _changed: 0
-      _type: 12
-      _id: 98
-      _parent: 164
+      _type: 3
+      _id: 97
+      _parent: 99
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513240
+      _lastUpdate: 0
       _children: 
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: randomly select un occupied power node
+        _currentValue: set move target as null
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -3687,17 +3608,46 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: classname
-        _currentValue: RandomlySelectUnOccupiedPowerNode
+      - _field: expression
+        _currentValue: move_target = null
         _recordChange: 1
         _changed: 0
-      _type: 1
+      _type: 3
+      _id: 98
+      _parent: 99
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: assign variables for dying
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
       _id: 99
       _parent: 164
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513210
-      _children: 
+      _lastUpdate: 635165712664318570
+      _children: 6200000061000000
       _variables: 
     - _fields:
       - _field: name
@@ -3828,7 +3778,7 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: set unoccupied power nodes
+        _currentValue: AI has no health
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -3843,16 +3793,16 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: classname
-        _currentValue: SetUnOccupiedPowerNodes
+      - _field: expression
+        _currentValue: current_health > 0
         _recordChange: 1
         _changed: 0
-      _type: 1
+      _type: 7
       _id: 103
       _parent: 164
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513180
+      _lastUpdate: 0
       _children: 
       _variables: 
     - _fields:
@@ -6073,11 +6023,11 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: try to damage power node
+        _currentValue: change to dying
         _recordChange: 1
         _changed: 0
       - _field: open
-        _currentValue: False
+        _currentValue: True
         _recordChange: 0
         _changed: 0
       - _field: precondition
@@ -6092,17 +6042,17 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      _type: 20
+      _type: 19
       _id: 164
       _parent: 165
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513320
-      _children: 670000006300000062000000610000005201000053010000
+      _lastUpdate: 635165712664318190
+      _children: 6700000063000000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: move to and damage power nodes
+        _currentValue: choose emotional state
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -6126,12 +6076,12 @@ MonoBehaviour:
       _parent: 173
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513350
-      _children: a400000054010000
+      _lastUpdate: 635165712664317910
+      _children: a4000000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: is calm
+        _currentValue: confirm not dead
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -6147,7 +6097,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: expression
-        _currentValue: emotional_state == "calm"
+        _currentValue: is_dead == false
         _recordChange: 1
         _changed: 0
       _type: 7
@@ -6155,7 +6105,7 @@ MonoBehaviour:
       _parent: 173
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143504980
+      _lastUpdate: 0
       _children: 
       _variables: 
     - _fields:
@@ -6274,11 +6224,11 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: calm behavior
+        _currentValue: update emotional state
         _recordChange: 1
         _changed: 0
       - _field: open
-        _currentValue: False
+        _currentValue: True
         _recordChange: 0
         _changed: 0
       - _field: precondition
@@ -6286,7 +6236,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: repeatuntil
-        _currentValue: 
+        _currentValue: failure
         _recordChange: 1
         _changed: 0
       - _field: debug
@@ -6295,10 +6245,10 @@ MonoBehaviour:
         _changed: 0
       _type: 20
       _id: 173
-      _parent: 278
+      _parent: 177
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513370
+      _lastUpdate: 635165712664317750
       _children: a6000000a5000000
       _variables: 
     - _fields:
@@ -6336,7 +6286,7 @@ MonoBehaviour:
       _variables: ac000000ab000000aa000000a9000000a8000000
     - _fields:
       - _field: name
-        _currentValue: Move to hiding spot
+        _currentValue: confirm not dead
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -6351,78 +6301,13 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: movetargettype
-        _currentValue: variable
+      - _field: expression
+        _currentValue: is_dead == false
         _recordChange: 1
         _changed: 0
-      - _field: movetarget
-        _currentValue: move_target
-        _recordChange: 1
-        _changed: 0
-      - _field: movespeed
-        _currentValue: -1
-        _recordChange: 1
-        _changed: 0
-      - _field: looktargettype
-        _currentValue: none
-        _recordChange: 1
-        _changed: 0
-      - _field: looktarget
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: lookspeed
-        _currentValue: -1
-        _recordChange: 1
-        _changed: 0
-      - _field: animation
-        _currentValue: Walk
-        _recordChange: 1
-        _changed: 0
-      - _field: animationlayer
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      - _field: animationwrapmode
-        _currentValue: default
-        _recordChange: 1
-        _changed: 0
-      - _field: animationbasespeed
-        _currentValue: 1
-        _recordChange: 1
-        _changed: 0
-      _type: 12
+      _type: 7
       _id: 175
-      _parent: 177
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 635164176722245880
-      _children: 
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: randomly select hiding spot
-        _recordChange: 1
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      - _field: classname
-        _currentValue: FindRandomHidingSpot
-        _recordChange: 1
-        _changed: 0
-      _type: 1
-      _id: 176
-      _parent: 177
+      _parent: 176
       _reference: 0
       _referencedCount: 0
       _lastUpdate: 0
@@ -6430,7 +6315,36 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: move to random hiding spot
+        _currentValue: check object states
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: failure
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 176
+      _parent: 177
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664317220
+      _children: af000000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: living behavior
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -6449,17 +6363,29 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      _type: 20
+      - _field: fail
+        _currentValue: any
+        _recordChange: 1
+        _changed: 0
+      - _field: succeed
+        _currentValue: all
+        _recordChange: 1
+        _changed: 0
+      - _field: tiebreaker
+        _currentValue: fail
+        _recordChange: 1
+        _changed: 0
+      _type: 16
       _id: 177
       _parent: 179
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176722235590
-      _children: b0000000af000000
+      _lastUpdate: 635165712664318720
+      _children: b0000000ad00000060000000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: is scared
+        _currentValue: confirm not dead
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -6475,7 +6401,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: expression
-        _currentValue: emotional_state == "scared"
+        _currentValue: is_dead == false
         _recordChange: 1
         _changed: 0
       _type: 7
@@ -6488,7 +6414,7 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: scared behavior
+        _currentValue: main loop
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -6509,10 +6435,10 @@ MonoBehaviour:
         _changed: 0
       _type: 20
       _id: 179
-      _parent: 278
+      _parent: 271
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164177032143820
+      _lastUpdate: 635165712664316860
       _children: b2000000b1000000
       _variables: 
     - _fields:
@@ -9040,7 +8966,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: open
-        _currentValue: False
+        _currentValue: True
         _recordChange: 0
         _changed: 0
       - _field: precondition
@@ -9429,8 +9355,12 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: set AI as dead
+        _currentValue: root
         _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
         _changed: 0
       - _field: precondition
         _currentValue: 
@@ -9444,22 +9374,22 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: expression
-        _currentValue: is_dead = true
-        _recordChange: 1
-        _changed: 0
-      _type: 3
+      _type: 20
       _id: 271
-      _parent: 275
+      _parent: 272
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
+      _lastUpdate: 635165712664316180
+      _children: b3000000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: play death animation
+        _currentValue: RatMind
         _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
         _changed: 0
       - _field: precondition
         _currentValue: 
@@ -9473,37 +9403,17 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: animation
-        _currentValue: Die
+      - _field: variablesopen
+        _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: waitforsec
-        _currentValue: 2
-        _recordChange: 1
-        _changed: 0
-      - _field: layer
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      - _field: wrapmode
-        _currentValue: default
-        _recordChange: 1
-        _changed: 0
-      - _field: fadein
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      - _field: fadeout
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      _type: 2
+      _type: 5
       _id: 272
-      _parent: 275
+      _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
+      _lastUpdate: 635165712664338570
+      _children: 0f010000
       _variables: 
     - _fields:
       - _field: name
@@ -9589,36 +9499,7 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: Die
-        _recordChange: 1
-        _changed: 0
-      - _field: open
-        _currentValue: False
-        _recordChange: 0
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      _type: 20
-      _id: 275
-      _parent: 277
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 635164176722221340
-      _children: 100100000f010000
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: is dying
+        _currentValue: confirm not dead
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -9634,45 +9515,16 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: expression
-        _currentValue: emotional_state == "dying"
+        _currentValue: is_dead == false
         _recordChange: 1
         _changed: 0
       _type: 7
-      _id: 276
-      _parent: 277
+      _id: 275
+      _parent: 96
       _reference: 0
       _referencedCount: 0
       _lastUpdate: 0
       _children: 
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: dying behavior
-        _recordChange: 1
-        _changed: 0
-      - _field: open
-        _currentValue: False
-        _recordChange: 0
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      _type: 20
-      _id: 277
-      _parent: 278
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 635164176722220620
-      _children: 1401000013010000
       _variables: 
     - _fields:
       - _field: name
@@ -9696,45 +9548,16 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 19
-      _id: 278
-      _parent: 280
+      _id: 276
+      _parent: 96
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176722235820
-      _children: 15010000b3000000ad000000
+      _lastUpdate: 635165712664333370
+      _children: 150100001a0100001f010000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: confirm not dead
-        _recordChange: 1
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      - _field: expression
-        _currentValue: is_dead == false
-        _recordChange: 1
-        _changed: 0
-      _type: 7
-      _id: 279
-      _parent: 280
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: execute behavior based on emotional state
+        _currentValue: dying behavior
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -9746,7 +9569,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: repeatuntil
-        _currentValue: failure
+        _currentValue: 
         _recordChange: 1
         _changed: 0
       - _field: debug
@@ -9754,16 +9577,16 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 20
-      _id: 280
-      _parent: 310
+      _id: 277
+      _parent: 276
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176722220190
-      _children: 1701000016010000
+      _lastUpdate: 635165712664319480
+      _children: 1601000017010000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: set as dying
+        _currentValue: is dying
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -9779,12 +9602,12 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: expression
-        _currentValue: emotional_state = "dying"
+        _currentValue: emotional_state == "dying"
         _recordChange: 1
         _changed: 0
-      _type: 3
-      _id: 281
-      _parent: 283
+      _type: 7
+      _id: 278
+      _parent: 277
       _reference: 0
       _referencedCount: 0
       _lastUpdate: 0
@@ -9792,7 +9615,670 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: set move target as null
+        _currentValue: Die
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 279
+      _parent: 277
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664320240
+      _children: 1801000019010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: play death animation
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: animation
+        _currentValue: Die
+        _recordChange: 1
+        _changed: 0
+      - _field: waitforsec
+        _currentValue: 2
+        _recordChange: 1
+        _changed: 0
+      - _field: layer
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: wrapmode
+        _currentValue: default
+        _recordChange: 1
+        _changed: 0
+      - _field: fadein
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: fadeout
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      _type: 2
+      _id: 280
+      _parent: 279
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: set AI as dead
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: is_dead = true
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 281
+      _parent: 279
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: scared behavior
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 282
+      _parent: 276
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664320670
+      _children: 1b0100001c010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: is scared
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state == "scared"
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _id: 283
+      _parent: 282
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: move to random hiding spot
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 284
+      _parent: 282
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664333180
+      _children: 1d0100001e010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: randomly select hiding spot
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: FindRandomHidingSpot
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 285
+      _parent: 284
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: Move to hiding spot
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: movetargettype
+        _currentValue: variable
+        _recordChange: 1
+        _changed: 0
+      - _field: movetarget
+        _currentValue: move_target
+        _recordChange: 1
+        _changed: 0
+      - _field: movespeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: looktargettype
+        _currentValue: none
+        _recordChange: 1
+        _changed: 0
+      - _field: looktarget
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: lookspeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: animation
+        _currentValue: Walk
+        _recordChange: 1
+        _changed: 0
+      - _field: animationlayer
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: animationwrapmode
+        _currentValue: default
+        _recordChange: 1
+        _changed: 0
+      - _field: animationbasespeed
+        _currentValue: 1
+        _recordChange: 1
+        _changed: 0
+      _type: 12
+      _id: 286
+      _parent: 284
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664338450
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: calm behavior
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 287
+      _parent: 276
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664333650
+      _children: 2001000021010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: is calm
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state == "calm"
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _id: 288
+      _parent: 287
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: move to and damage power nodes
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 19
+      _id: 289
+      _parent: 287
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664335610
+      _children: 220100002b010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: try to damage power node
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 290
+      _parent: 289
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664335460
+      _children: 23010000240100002501000026010000290100002a010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: set unoccupied power nodes
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: SetUnOccupiedPowerNodes
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 291
+      _parent: 290
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: randomly select un occupied power node
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: RandomlySelectUnOccupiedPowerNode
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 292
+      _parent: 290
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: Move to move_target
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: movetargettype
+        _currentValue: variable
+        _recordChange: 1
+        _changed: 0
+      - _field: movetarget
+        _currentValue: move_target
+        _recordChange: 1
+        _changed: 0
+      - _field: movespeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: looktargettype
+        _currentValue: none
+        _recordChange: 1
+        _changed: 0
+      - _field: looktarget
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: lookspeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: animation
+        _currentValue: Walk
+        _recordChange: 1
+        _changed: 0
+      - _field: animationlayer
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: animationwrapmode
+        _currentValue: default
+        _recordChange: 1
+        _changed: 0
+      - _field: animationbasespeed
+        _currentValue: 1
+        _recordChange: 1
+        _changed: 0
+      _type: 12
+      _id: 293
+      _parent: 290
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664338570
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: eat node
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: success
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 294
+      _parent: 290
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712664335190
+      _children: 2701000028010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: Play eat animation
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: animation
+        _currentValue: Eating
+        _recordChange: 1
+        _changed: 0
+      - _field: waitforsec
+        _currentValue: 0.2
+        _recordChange: 1
+        _changed: 0
+      - _field: layer
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: wrapmode
+        _currentValue: default
+        _recordChange: 1
+        _changed: 0
+      - _field: fadein
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: fadeout
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      _type: 2
+      _id: 295
+      _parent: 294
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: damage power node
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: DamagePowerNode
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 296
+      _parent: 294
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: set current power node as null
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: current_power_node = null
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 297
+      _parent: 290
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: set move_target as null
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -9812,8 +10298,8 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 3
-      _id: 282
-      _parent: 283
+      _id: 298
+      _parent: 290
       _reference: 0
       _referencedCount: 0
       _lastUpdate: 0
@@ -9821,36 +10307,7 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: assign variables for dying
-        _recordChange: 1
-        _changed: 0
-      - _field: open
-        _currentValue: True
-        _recordChange: 0
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      _type: 20
-      _id: 283
-      _parent: 285
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 635164176722219720
-      _children: 1a01000019010000
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: AI has no health
+        _currentValue: set as scared
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -9866,16 +10323,198 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: expression
-        _currentValue: current_health > 0
+        _currentValue: emotional_state = "scared"
         _recordChange: 1
         _changed: 0
-      _type: 7
-      _id: 284
-      _parent: 285
+      _type: 3
+      _id: 299
+      _parent: 289
       _reference: 0
       _referencedCount: 0
       _lastUpdate: 0
       _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: change to aggressive
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: False
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 317
+      _parent: 348
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165912113860340
+      _children: 460100004401000043010000
       _variables: 
     - _fields:
       - _field: name
@@ -9883,7 +10522,83 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: open
+        _currentValue: False
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
         _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 318
+      _parent: 348
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165906149554930
+      _children: 5e0100006001000061010000
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: confirm aggressive
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state == "aggressive"
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _id: 321
+      _parent: 322
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165895158181070
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: aggressive behavior
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: False
         _recordChange: 0
         _changed: 0
       - _field: precondition
@@ -9898,17 +10613,160 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      _type: 19
-      _id: 285
-      _parent: 286
+      _type: 20
+      _id: 322
+      _parent: 356
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176722219350
-      _children: 1c0100001b010000
+      _lastUpdate: 635165909983167070
+      _children: 410100005d0100005f010000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: choose emotional state
+        _currentValue: set emotional state as aggresive
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state = "aggressive"
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 323
+      _parent: 317
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165906149554970
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: set move_target as null
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: move_target = null
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 324
+      _parent: 317
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165906149554960
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: player is in attack distance
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: PlayerIsInAttackDistance
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 326
+      _parent: 317
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165896591358990
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: set the emotional state as calm
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state = "calm"
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 328
+      _parent: 330
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165914318496370
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: change to calm
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -9927,13 +10785,119 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
+      _type: 20
+      _id: 330
+      _parent: 348
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165913746188570
+      _children: 48010000
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: assign 13040
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: move_target = null
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 333
+      _parent: 335
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165818298397910
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: if the AI can't move behind the player, return to scared mode
+          and hide out
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state = "scared"
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 334
+      _parent: 335
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196990
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: try to move behind the player
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: False
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
       _type: 19
-      _id: 286
-      _parent: 307
+      _id: 335
+      _parent: 367
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176722218960
-      _children: 1d010000
+      _lastUpdate: 635165829961197020
+      _children: 510100004d0100004e010000
       _variables: 
     - _fields: []
       _type: 0
@@ -9944,23 +10908,190 @@ MonoBehaviour:
       _lastUpdate: 0
       _children: 
       _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
+    - _fields:
+      - _field: name
+        _currentValue: move behind player
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: movetargettype
+        _currentValue: variable
+        _recordChange: 1
+        _changed: 0
+      - _field: movetarget
+        _currentValue: move_target
+        _recordChange: 1
+        _changed: 0
+      - _field: movespeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: looktargettype
+        _currentValue: none
+        _recordChange: 1
+        _changed: 0
+      - _field: looktarget
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: lookspeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: animation
+        _currentValue: Run
+        _recordChange: 1
+        _changed: 0
+      - _field: animationlayer
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: animationwrapmode
+        _currentValue: loop
+        _recordChange: 1
+        _changed: 0
+      - _field: animationbasespeed
+        _currentValue: 1
+        _recordChange: 1
+        _changed: 0
+      _type: 12
+      _id: 337
+      _parent: 335
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635165829961196950
       _children: 
       _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
+    - _fields:
+      - _field: name
+        _currentValue: set position behind player
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: SetPositionBehindPlayer
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 338
+      _parent: 367
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196920
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: SpiderMind
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: variablesopen
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 5
+      _id: 339
       _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
+      _lastUpdate: 635165915818695620
+      _children: 54010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: root
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 340
+      _parent: 339
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165712906983030
+      _children: 55010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: main loop
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 341
+      _parent: 340
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165716454659550
+      _children: 5601000057010000
       _variables: 
     - _fields:
       - _field: name
@@ -9984,243 +11115,12 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 7
-      _id: 290
-      _parent: 307
+      _id: 342
+      _parent: 341
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635165712992047100
       _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: update emotional state
-        _recordChange: 1
-        _changed: 0
-      - _field: open
-        _currentValue: True
-        _recordChange: 0
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: failure
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      _type: 20
-      _id: 307
-      _parent: 310
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 635164176722218820
-      _children: 220100001e010000
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: confirm not dead
-        _recordChange: 1
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      - _field: expression
-        _currentValue: is_dead == false
-        _recordChange: 1
-        _changed: 0
-      _type: 7
-      _id: 308
-      _parent: 309
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: check object states
-        _recordChange: 1
-        _changed: 0
-      - _field: open
-        _currentValue: True
-        _recordChange: 0
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: failure
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      _type: 20
-      _id: 309
-      _parent: 310
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 635164176722218320
-      _children: 34010000
       _variables: 
     - _fields:
       - _field: name
@@ -10256,12 +11156,41 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 16
-      _id: 310
-      _parent: 315
+      _id: 343
+      _parent: 341
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176722219860
-      _children: 350100003301000018010000
+      _lastUpdate: 635165713059304910
+      _children: 580100005a01000062010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: set object states
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: False
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: failure
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 344
+      _parent: 343
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165713159622250
+      _children: 59010000
       _variables: 
     - _fields:
       - _field: name
@@ -10285,43 +11214,16 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 7
-      _id: 311
-      _parent: 315
+      _id: 345
+      _parent: 344
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635165713216317420
       _children: 
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: main loop
+        _currentValue: change emotional state
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -10333,7 +11235,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: repeatuntil
-        _currentValue: 
+        _currentValue: failure
         _recordChange: 1
         _changed: 0
       - _field: debug
@@ -10341,16 +11243,45 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 20
-      _id: 315
-      _parent: 316
+      _id: 346
+      _parent: 343
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176722218010
-      _children: 3701000036010000
+      _lastUpdate: 635165713581471880
+      _children: 5b0100005c010000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: root
+        _currentValue: confirm not dead
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: is_dead == false
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _id: 347
+      _parent: 346
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165713632642740
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: choose emotional state
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -10366,43 +11297,46 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      _type: 19
+      _id: 348
+      _parent: 346
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165913351268370
+      _children: 3e0100003d0100004a010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: timer 26057
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      _type: 20
-      _id: 316
-      _parent: 319
+      - _field: waitforsec
+        _currentValue: 1
+        _recordChange: 1
+        _changed: 0
+      _type: 21
+      _id: 349
+      _parent: 322
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164176722217370
-      _children: 3b010000
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635165910539007730
       _children: 
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: RatMind
+        _currentValue: AI has health
         _recordChange: 1
-        _changed: 0
-      - _field: open
-        _currentValue: True
-        _recordChange: 0
         _changed: 0
       - _field: precondition
         _currentValue: 
@@ -10413,177 +11347,24 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
-      - _field: variablesopen
-        _currentValue: False
+      - _field: expression
+        _currentValue: current_health <= 0
         _recordChange: 1
         _changed: 0
-      _type: 5
-      _id: 319
-      _parent: 0
+      _type: 7
+      _id: 350
+      _parent: 318
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513370
-      _children: 3c010000
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
-      _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635165906149546890
       _children: 
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: damage power node
+        _currentValue: attack player
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -10599,20 +11380,20 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: classname
-        _currentValue: DamagePowerNode
+        _currentValue: AttackPlayer
         _recordChange: 1
         _changed: 0
       _type: 1
-      _id: 337
-      _parent: 97
+      _id: 351
+      _parent: 322
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513260
+      _lastUpdate: 635165908943573050
       _children: 
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: set current power node as null
+        _currentValue: set move target as null
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -10624,36 +11405,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
-        _recordChange: 1
-        _changed: 0
-      - _field: expression
-        _currentValue: current_power_node = null
-        _recordChange: 1
-        _changed: 0
-      _type: 3
-      _id: 338
-      _parent: 164
-      _reference: 0
-      _referencedCount: 0
-      _lastUpdate: 635164186143513280
-      _children: 
-      _variables: 
-    - _fields:
-      - _field: name
-        _currentValue: set move_target as null
-        _recordChange: 1
-        _changed: 0
-      - _field: precondition
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: repeatuntil
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
       - _field: expression
@@ -10661,16 +11413,74 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       _type: 3
-      _id: 339
-      _parent: 164
+      _id: 352
+      _parent: 318
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513300
+      _lastUpdate: 635165906149554880
       _children: 
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: set as scared
+        _currentValue: set emotional state as dying
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state = "dying"
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 353
+      _parent: 318
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165906149554910
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: execute behavior based on emotional state
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: failure
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 354
+      _parent: 343
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961197150
+      _children: 6301000064010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: confirm not dead
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -10686,16 +11496,449 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: expression
-        _currentValue: emotional_state = "scared"
+        _currentValue: is_dead == false
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _id: 355
+      _parent: 354
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961187600
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: choose behavior based on emotional state
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 19
+      _id: 356
+      _parent: 354
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165915818695620
+      _children: 650100006a010000420100006f010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: dying behavoir
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: False
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 357
+      _parent: 356
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196620
+      _children: 6601000067010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: confirm dying
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state == "dying"
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _id: 358
+      _parent: 357
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196480
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: die
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 359
+      _parent: 357
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196600
+      _children: 6801000069010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: play death animation
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: animation
+        _currentValue: Die
+        _recordChange: 1
+        _changed: 0
+      - _field: waitforsec
+        _currentValue: 2
+        _recordChange: 1
+        _changed: 0
+      - _field: layer
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: wrapmode
+        _currentValue: default
+        _recordChange: 1
+        _changed: 0
+      - _field: fadein
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: fadeout
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      _type: 2
+      _id: 360
+      _parent: 359
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196530
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: set dead
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: is_dead = true
         _recordChange: 1
         _changed: 0
       _type: 3
-      _id: 340
-      _parent: 165
+      _id: 361
+      _parent: 359
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635164186143513330
+      _lastUpdate: 635165829961196570
       _children: 
       _variables: 
-    _freeList: 1f0100002001000021010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f01000030010000310100003201000038010000390100003a0100003d0100003e010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f01000050010000
+    - _fields:
+      - _field: name
+        _currentValue: scared behavior
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: False
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 362
+      _parent: 356
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196780
+      _children: 6b0100006c010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: confirm scared
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state == "scared"
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _id: 363
+      _parent: 362
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196660
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: move to random hiding spot
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 364
+      _parent: 362
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196760
+      _children: 6d0100006e010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: find random hiding spot
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: FindRandomHidingSpot
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 365
+      _parent: 364
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196690
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: move to hiding spot
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: movetargettype
+        _currentValue: variable
+        _recordChange: 1
+        _changed: 0
+      - _field: movetarget
+        _currentValue: move_target
+        _recordChange: 1
+        _changed: 0
+      - _field: movespeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: looktargettype
+        _currentValue: none
+        _recordChange: 1
+        _changed: 0
+      - _field: looktarget
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: lookspeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: animation
+        _currentValue: Walk
+        _recordChange: 1
+        _changed: 0
+      - _field: animationlayer
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: animationwrapmode
+        _currentValue: default
+        _recordChange: 1
+        _changed: 0
+      - _field: animationbasespeed
+        _currentValue: 1
+        _recordChange: 1
+        _changed: 0
+      _type: 12
+      _id: 366
+      _parent: 364
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196720
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: calm behavior
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 367
+      _parent: 356
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961197050
+      _children: 70010000520100004f010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: confirm calm
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state == "calm"
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _id: 368
+      _parent: 367
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635165829961196890
+      _children: 
+      _variables: 
+    _freeList: 2c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003f010000400100004501000047010000490100004b0100004c01000050010000
   Version: 14

@@ -6,7 +6,8 @@ using System.Collections.Generic;
 
 public class BigEnemyAI : EnemyAI {
 	
-
+	
+	public float attackDistance = 5f;
 	
 	protected override void setStartingActionContext() {
 		

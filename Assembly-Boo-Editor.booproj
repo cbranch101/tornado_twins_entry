@@ -79,6 +79,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
      <None Include="Assets\FPSControlAssets\Art-Packs\ShellShock-Guns\FPS_m16_anim_list.txt" />
+     <None Include="Assets\AI\Resources\BehaviorTrees\SpiderMind.xml" />
      <None Include="Assets\AI\Resources\BehaviorTrees\GoToHIdingSpot.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />

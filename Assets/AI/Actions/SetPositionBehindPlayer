@@ -1,0 +1,44 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using RAIN.Core;
+using RAIN.Action;
+
+public class SetPositionBehindPlayer : RAIN.Action.Action
+{
+	GameObject player;
+	Vector3 positionBehindPlayer;
+	
+	public MoveBehindPlayer()
+	{
+        	actionName = "SetPositionBehindPlayer";
+    	}
+
+    	public override RAIN.Action.Action.ActionResult Start(RAIN.Core.Agent agent, float deltaTime)
+    	{
+		player = agent.actionContext.GetContextItem<GameObject>("player");
+        	positionBehindPlayer = getPositionBehindPlayer();
+		return RAIN.Action.Action.ActionResult.SUCCESS;
+    	}
+	
+	Vector3 getPositionBehindPlayer() {
+		Vector3 playerFacingDirection = player.transform.position;
+		return playerFacingDirection;
+	}
+
+    	public override RAIN.Action.Action.ActionResult Execute(RAIN.Core.Agent agent, float deltaTime)
+    	{
+		bool reachedDestination = agent.MoveTo(positionBehindPlayer, deltaTime);
+		if(reachedDestination) {
+			return RAIN.Action.Action.ActionResult.SUCCESS;
+		} else {
+			return RAIN.Action.Action.ActionResult.RUNNING;
+		}
+
+    	}
+
+    	public override RAIN.Action.Action.ActionResult Stop(RAIN.Core.Agent agent, float deltaTime)
+    	{
+        	return RAIN.Action.Action.ActionResult.SUCCESS;
+    	}
+}
