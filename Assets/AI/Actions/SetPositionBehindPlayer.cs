@@ -16,6 +16,7 @@ public class SetPositionBehindPlayer : RAIN.Action.Action
 		GameObject player = agent.actionContext.GetContextItem<GameObject>("player");
 		Vector3 positionBehindPlayer = getPositionBehindPlayer(player);
 		agent.actionContext.SetContextItem<Vector3>("move_target", positionBehindPlayer);
+		agent.actionContext.SetContextItem<bool>("move_target_is_valid", true);
 		return RAIN.Action.Action.ActionResult.SUCCESS;
     	}
 	

@@ -3747,6 +3747,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2c6ce76c5924421a07929d938cdfa2, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
   isPowerSource: 1
@@ -3766,7 +3767,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -5103,6 +5104,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2c6ce76c5924421a07929d938cdfa2, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   isBeingEaten: 1
   turnOff: 0
   isPowerSource: 0
@@ -5121,7 +5123,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -5499,6 +5501,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1228999585, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   _camera: {fileID: 1632138287}
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   enemyColor: {r: 1, g: 0, b: 0, a: 1}
@@ -5541,6 +5544,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1348884034, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   crosshair: {fileID: 429518001}
 --- !u!1 &430015152
 GameObject:
@@ -8664,6 +8668,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2b63c8a26d314c5b9fef5afdf59744d, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &680814201
 GameObject:
   m_ObjectHideFlags: 0
@@ -10398,7 +10403,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819279389}
   m_LocalRotation: {x: -.0430463403, y: -.0769085735, z: -.00332225556, w: .996102929}
-  m_LocalPosition: {x: -15.2595434, y: 12.4783077, z: 11.4367809}
+  m_LocalPosition: {x: -15.2595434, y: 19.7951279, z: 31.7577953}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11482,6 +11487,18 @@ Prefab:
       propertyPath: m_Radius
       value: .100000001
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: aa58fc1aa4f244666b2ccf0105831533, type: 2}
+      propertyPath: behaviorTreeFilename
+      value: SpiderMind
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: aa58fc1aa4f244666b2ccf0105831533, type: 2}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: aa58fc1aa4f244666b2ccf0105831533, type: 2}
+      propertyPath: maxAcceleration
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa58fc1aa4f244666b2ccf0105831533, type: 2}
   m_RootGameObject: {fileID: 1893408558}
@@ -11742,6 +11759,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -1456383791, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Minds.BehaviorTreeMind
   behaviorTreeFilename: SpiderMind
   rootName: root
@@ -13325,6 +13343,7 @@ ParticleSystem:
       m_Bits: 4294967295
     quality: 0
     voxelSize: .5
+    collisionMessages: 0
   SubModule:
     enabled: 0
     subEmitterBirth: {fileID: 0}
@@ -14500,6 +14519,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1031171884, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Sensors.ExpandingBoxSensor
   focusOfAttention: []
   maxFocus: 5
@@ -14993,6 +15013,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 603243038, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   definition:
     render: 1
     consistentRender: 0
@@ -15016,6 +15037,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 2141095057, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   equipSFX: {fileID: 8300000, guid: 6d648ff1059034586be099b4b9fbc613, type: 3}
   fire1SFX: {fileID: 8300000, guid: ec04813e25d1f4849bd3d6170b23a93d, type: 3}
   fire2SFX: {fileID: 0}
@@ -15033,6 +15055,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 392185083, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   particles:
   - particleSystem: {fileID: 1521568901}
     isEnabled: 1
@@ -15062,6 +15085,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -352054857, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   definition:
     patternType: 0
     blend: 0
@@ -15139,6 +15163,8 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -16667,6 +16693,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe0f39d9fa7d047819c747bee038e0c8, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   integrityAmount: 50
 --- !u!1 &1160078454
 GameObject:
@@ -17957,6 +17984,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 603243038, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   definition:
     render: 1
     consistentRender: 0
@@ -18012,6 +18040,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 2141095057, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   equipSFX: {fileID: 8300000, guid: b91658268ac8846e699ef6a511802ebe, type: 3}
   fire1SFX: {fileID: 8300000, guid: d6d99694ac67f42838b406805c79fcde, type: 3}
   fire2SFX: {fileID: 8300000, guid: d6d99694ac67f42838b406805c79fcde, type: 3}
@@ -18040,6 +18069,8 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -18086,6 +18117,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 392185083, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   particles:
   - particleSystem: {fileID: 966880236}
     isEnabled: 1
@@ -18115,6 +18147,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -352054857, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   definition:
     patternType: 0
     blend: 0
@@ -19702,6 +19735,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5721c82877bae4373a0fe2e8ec10a00e, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   startingEmotionalState: calm
   powerNodeDamage: 4
 --- !u!114 &1362143029
@@ -19715,6 +19749,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1975918722, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   max: 100
   current: 100
   initial: 100
@@ -19733,6 +19768,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2121150447, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Motion.AICharacterController
   controllerType: 2
 --- !u!114 &1362143031
@@ -19746,6 +19782,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2124519495, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Core.RAINAgent
   avatar: {fileID: 1362143026}
   mind: {fileID: 1667773100}
@@ -23563,6 +23600,7 @@ ParticleSystem:
       m_Bits: 4294967295
     quality: 0
     voxelSize: .5
+    collisionMessages: 0
   SubModule:
     enabled: 0
     subEmitterBirth: {fileID: 0}
@@ -24304,6 +24342,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 681896232, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Path.RAINPathManager
   moveTarget:
     closeEnoughDistance: 0
@@ -24688,6 +24727,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21c6b06a3a98145cd8399b20a312c2ad, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   barTexture: {fileID: 2800000, guid: 75de013942afc4801810ec987e213462, type: 3}
   barHeight: 25
   barWidth: 100
@@ -24760,6 +24800,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 169768932, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Ontology.Decoration
   aspect:
     aspectName: Destroyable
@@ -24775,6 +24816,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 369423152, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Ontology.Entity
 --- !u!65 &1612483288
 BoxCollider:
@@ -24855,6 +24897,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 169768932, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Ontology.Decoration
   aspect:
     aspectName: meleetarget
@@ -24871,6 +24914,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 169768932, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Ontology.Decoration
   aspect:
     aspectName: player
@@ -24887,6 +24931,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 369423152, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Ontology.Entity
 --- !u!65 &1621322606
 BoxCollider:
@@ -25028,6 +25073,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1228999585, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   _camera: {fileID: 1632138287}
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   enemyColor: {r: 1, g: 0, b: 0, a: 1}
@@ -25070,6 +25116,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1348884034, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   crosshair: {fileID: 0}
 --- !u!114 &1632138290
 MonoBehaviour:
@@ -25082,6 +25129,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -1677577522, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   interactionKey: 101
   allowInteracting: 1
   interactionMaxRange: 2
@@ -25096,6 +25144,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -765792495, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   mouseSensitivity: {x: 3, y: 3}
   invertedY: 0
   pitchConstraints: {x: -65, y: 90}
@@ -25193,6 +25242,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2c6ce76c5924421a07929d938cdfa2, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   isBeingEaten: 1
   turnOff: 0
   isPowerSource: 0
@@ -25212,7 +25262,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -25692,6 +25742,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -1456383791, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Minds.BehaviorTreeMind
   behaviorTreeFilename: RatMind
   rootName: root
@@ -25773,6 +25824,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 681896232, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Path.RAINPathManager
   moveTarget:
     closeEnoughDistance: 0
@@ -26845,6 +26897,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1121929730, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   definition:
     weaponName: Beretta
     pivot: {x: -.473077208, y: -.95769459, z: .311538488}
@@ -27259,6 +27312,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1348884034, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   crosshair: {fileID: 1778984935}
 --- !u!114 &1778984935
 MonoBehaviour:
@@ -27271,6 +27325,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1228999585, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   _camera: {fileID: 1632138287}
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   enemyColor: {r: 1, g: 0, b: 0, a: 1}
@@ -28580,6 +28635,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1031171884, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Sensors.ExpandingBoxSensor
   focusOfAttention: []
   maxFocus: 5
@@ -29057,6 +29113,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bedb2708c70b247d0b5eff3ae4dab13e, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   startingEmotionalState: calm
   attackDistance: 5
 --- !u!114 &1893408561
@@ -29070,6 +29127,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1975918722, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   max: 100
   current: 100
   initial: 100
@@ -29088,6 +29146,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2121150447, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Motion.AICharacterController
   controllerType: 2
 --- !u!114 &1893408563
@@ -29101,11 +29160,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2124519495, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Core.RAINAgent
   avatar: {fileID: 1893408558}
   mind: {fileID: 930960748}
-  maxSpeed: 1
-  maxAcceleration: 1
+  maxSpeed: 5
+  maxAcceleration: 5
   ApplyMaxToYAxis: 0
   maxRotationRate: 180
   maxAngularAcceleration: 90
@@ -29493,6 +29553,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -171798174, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   weaponKey1: 49
   weaponKey2: 50
   weaponKey3: 51
@@ -29980,6 +30041,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1121929730, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   definition:
     weaponName: M16
     pivot: {x: -.0807692334, y: -.669230938, z: 0}
@@ -30831,6 +30893,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1975918722, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   max: 100
   current: 100
   initial: 100
@@ -30849,6 +30912,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5e0535acf10e5846bad8a26d5b3375f, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   _loadLevel: 1
   _takeCollideDamage: 1
   _collideThreshhold: 7
@@ -30868,6 +30932,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -1815056448, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   stepsPerSecondWalking: .5
   stepsPerSecondRunning: .25
   stepsPerSecondCrouching: .75
@@ -30898,6 +30963,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 121224304, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   runKeyLeft: 304
   runKeyRight: 303
   crouchKeyLeft: 306
@@ -30921,6 +30987,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1875604271, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   playerCamera: {fileID: 1632138291}
   interactionManager: {fileID: 1632138290}
   movementController: {fileID: 1995709557}
@@ -32452,6 +32519,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1972531995, guid: 4f17a5fa9f2b4a649ad5ca5476724184, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   UseRecastDistance: 1
   RecastDistance: 100
   RecastObject: {fileID: 0}

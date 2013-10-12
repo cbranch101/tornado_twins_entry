@@ -3,11 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using RAIN.Core;
 using RAIN.Action;
+using RAIN.Path;
 
 public class PlayerIsAimingAtAIWithWeapon : RAIN.Action.Action
 {
     GameObject player;
-	float angleThreshold = 50.0f;
+	float angleThreshold = 10.0f;
 	
 	public PlayerIsAimingAtAIWithWeapon()
     {
@@ -15,9 +16,16 @@ public class PlayerIsAimingAtAIWithWeapon : RAIN.Action.Action
     }
 
     public bool playerIsFacingAgent(RAIN.Core.Agent agent) {
+		RAINPathManager pathManager = agent.PathManager as RAINPathManager;
+
 		player = GameObject.Find("PlayerConfigured");
 		Vector3 targetDirection = player.transform.position - agent.Avatar.gameObject.transform.position;
 		float angleBetweenPlayerAimAndAI = Vector3.Angle(targetDirection, player.transform.forward * -1);
+		
+		Vector3 badVector = new Vector3(15f, 19f, 31f);
+		Debug.Log (pathManager.gridPathGraph);
+		bool validLocation = (pathManager.gridPathGraph.Quantize(badVector) >= 0);
+		
 		return angleBetweenPlayerAimAndAI < angleThreshold;
 
 	}
