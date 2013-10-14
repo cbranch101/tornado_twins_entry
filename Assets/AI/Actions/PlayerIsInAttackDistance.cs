@@ -21,7 +21,6 @@ public class PlayerIsInAttackDistance : RAIN.Action.Action
     {
 	GameObject player = agent.actionContext.GetContextItem<GameObject>("player");
 	float distanceToPlayer = Vector3.Distance(player.transform.position, agent.Avatar.gameObject.transform.position);
-	Debug.Log (distanceToPlayer);
 		BigEnemyAI ai = (BigEnemyAI) agent.Avatar.gameObject.GetComponent("BigEnemyAI"); 
 	if(distanceToPlayer <= ai.attackDistance) {
 		return RAIN.Action.Action.ActionResult.SUCCESS;			
