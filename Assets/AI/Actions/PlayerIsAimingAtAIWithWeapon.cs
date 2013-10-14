@@ -16,16 +16,11 @@ public class PlayerIsAimingAtAIWithWeapon : RAIN.Action.Action
     }
 
     public bool playerIsFacingAgent(RAIN.Core.Agent agent) {
-		RAINPathManager pathManager = agent.PathManager as RAINPathManager;
+		
 
 		player = GameObject.Find("PlayerConfigured");
 		Vector3 targetDirection = player.transform.position - agent.Avatar.gameObject.transform.position;
-		float angleBetweenPlayerAimAndAI = Vector3.Angle(targetDirection, player.transform.forward * -1);
-		
-		Vector3 badVector = new Vector3(15f, 19f, 31f);
-		Debug.Log (pathManager.gridPathGraph);
-		bool validLocation = (pathManager.gridPathGraph.Quantize(badVector) >= 0);
-		
+		float angleBetweenPlayerAimAndAI = Vector3.Angle(targetDirection, player.transform.forward * -1);	
 		return angleBetweenPlayerAimAndAI < angleThreshold;
 
 	}
@@ -42,7 +37,7 @@ public class PlayerIsAimingAtAIWithWeapon : RAIN.Action.Action
 			return RAIN.Action.Action.ActionResult.SUCCESS;
 		} else {
 
-			return RAIN.Action.Action.ActionResult.SUCCESS;
+			return RAIN.Action.Action.ActionResult.FAILURE;
 		}
 
     }
