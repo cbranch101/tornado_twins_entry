@@ -117,8 +117,8 @@ MonoBehaviour:
   - FileName: SpiderMind.xml
     BehaviorTreeName: SpiderMind
     BehaviorTreeID: 272
-    LastUpdate: 635173534823547410
-    LastModified: 635173534820000000
+    LastUpdate: 635173556496088980
+    LastModified: 635173556490000000
     Errored: 0
   - FileName: SpiderMindPre.xml
     BehaviorTreeName: SpiderMindPre
@@ -6255,13 +6255,33 @@ MonoBehaviour:
       _lastUpdate: 0
       _children: 
       _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
+    - _fields:
+      - _field: name
+        _currentValue: set as scared
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      - _field: expression
+        _currentValue: emotional_state == "scared"
+        _recordChange: 1
+        _changed: 0
+      _type: 3
+      _id: 173
+      _parent: 176
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635173556485747670
       _children: 
       _variables: 
     - _fields:
@@ -6297,23 +6317,64 @@ MonoBehaviour:
       _lastUpdate: 635130993162550400
       _children: a700000065000000
       _variables: ac000000ab000000aa000000a9000000a8000000
-    - _fields: []
-      _type: 0
-      _id: 0
+    - _fields:
+      - _field: name
+        _currentValue: try to set position behind player
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: SetPositionBehindPlayer
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 175
       _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635173551648267820
       _children: 
       _variables: 
-    - _fields: []
-      _type: 0
-      _id: 0
-      _parent: 0
+    - _fields:
+      - _field: name
+        _currentValue: try to set position behind player or change to scared if that's
+          not possible
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: True
+        _recordChange: 1
+        _changed: 0
+      _type: 19
+      _id: 176
+      _parent: 282
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
-      _children: 
+      _lastUpdate: 635173556485747690
+      _children: 1b010000ad000000
       _variables: 
     - _fields:
       - _field: name
@@ -9385,7 +9446,7 @@ MonoBehaviour:
       _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635173534812997750
+      _lastUpdate: 635173556485747730
       _children: 0f010000
       _variables: 
     - _fields:
@@ -9723,7 +9784,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
       _type: 20
@@ -9731,8 +9792,8 @@ MonoBehaviour:
       _parent: 98
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635173528994517680
-      _children: 1b010000210100001d010000
+      _lastUpdate: 635173556485747730
+      _children: b000000020010000
       _variables: 
     - _fields:
       - _field: name
@@ -9748,7 +9809,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
       - _field: classname
@@ -9757,10 +9818,10 @@ MonoBehaviour:
         _changed: 0
       _type: 1
       _id: 283
-      _parent: 282
+      _parent: 176
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635173556485747600
       _children: 
       _variables: 
     - _fields:
@@ -9822,7 +9883,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
       - _field: fail
@@ -9839,11 +9900,11 @@ MonoBehaviour:
         _changed: 0
       _type: 16
       _id: 285
-      _parent: 282
+      _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635173528954808890
-      _children: 1e01000020010000
+      _lastUpdate: 635173553027473310
+      _children: 1e010000
       _variables: 
     - _fields:
       - _field: name
@@ -9859,7 +9920,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: repeatuntil
-        _currentValue: 
+        _currentValue: failure
         _recordChange: 1
         _changed: 0
       - _field: debug
@@ -9871,7 +9932,7 @@ MonoBehaviour:
       _parent: 285
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635173528065695560
+      _lastUpdate: 635173543215236680
       _children: 1f01000026010000
       _variables: 
     - _fields:
@@ -9888,7 +9949,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
       - _field: classname
@@ -9900,7 +9961,7 @@ MonoBehaviour:
       _parent: 286
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635173542092591970
       _children: 
       _variables: 
     - _fields:
@@ -9917,7 +9978,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
       - _field: movetargettype
@@ -9962,10 +10023,10 @@ MonoBehaviour:
         _changed: 0
       _type: 12
       _id: 288
-      _parent: 285
+      _parent: 282
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635173517009343490
+      _lastUpdate: 635173556485747710
       _children: 
       _variables: 
     - _fields:
@@ -9982,7 +10043,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
       - _field: expression
@@ -9991,10 +10052,10 @@ MonoBehaviour:
         _changed: 0
       _type: 3
       _id: 289
-      _parent: 282
+      _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635173522934945730
+      _lastUpdate: 635173542092591930
       _children: 
       _variables: 
     - _fields:
@@ -10131,7 +10192,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: debug
-        _currentValue: False
+        _currentValue: True
         _recordChange: 1
         _changed: 0
       - _field: expression
@@ -10143,7 +10204,7 @@ MonoBehaviour:
       _parent: 286
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635173528212235270
+      _lastUpdate: 635173542092591990
       _children: 
       _variables: 
     - _fields:
@@ -10954,5 +11015,5 @@ MonoBehaviour:
       _lastUpdate: 0
       _children: 
       _variables: 
-    _freeList: ad000000af000000b0000000
+    _freeList: 
   Version: 14
