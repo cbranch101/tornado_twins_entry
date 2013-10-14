@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 1892fa8f659f34dc4a2ef145fddf38cd
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: R_ball_bn
+    100004: L_tibia_bn 1
+    100006: ratGEO
+    100008: L_ball_bn
+    100010: R_ped_bn
+    100012: L_tibia_bn
+    100014: R_femur_bn
+    100016: tail2_bn
+    100018: L_ped_bn
+    100020: tail0_bn
+    100022: L_femur_bn
+    100024: R_manus_bn
+    100026: tail1_bn
+    100028: R_humerus_bn
+    100030: bellieFix_bn
+    100032: L_manus_bn
+    100034: R_radius_bn
+    100036: L_humerus_bn
+    100038: R_scapula_bn
+    100040: L_ear_bn
+    100042: L_radius_bn
+    100044: head_bn
+    100046: L_scapula_bn
+    100048: spine2_bn
+    100050: R_ear_bn
+    100052: spine0_bn
+    100054: spine3_bn
+    100056: spine1_bn
+    100058: ROOT_bn
+    400000: //RootNode
+    400002: R_ball_bn
+    400004: L_tibia_bn 1
+    400006: ratGEO
+    400008: L_ball_bn
+    400010: R_ped_bn
+    400012: L_tibia_bn
+    400014: R_femur_bn
+    400016: tail2_bn
+    400018: L_ped_bn
+    400020: tail0_bn
+    400022: L_femur_bn
+    400024: R_manus_bn
+    400026: tail1_bn
+    400028: R_humerus_bn
+    400030: bellieFix_bn
+    400032: L_manus_bn
+    400034: R_radius_bn
+    400036: L_humerus_bn
+    400038: R_scapula_bn
+    400040: L_ear_bn
+    400042: L_radius_bn
+    400044: head_bn
+    400046: L_scapula_bn
+    400048: spine2_bn
+    400050: R_ear_bn
+    400052: spine0_bn
+    400054: spine3_bn
+    400056: spine1_bn
+    400058: ROOT_bn
+    4300000: ratGEO
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ratGEO
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: ROOT_bn
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

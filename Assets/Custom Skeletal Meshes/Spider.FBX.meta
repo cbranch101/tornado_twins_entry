@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 664855a116d850742bf75e2c7bdf385e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: BN_Body
+    100002: BN_Body_nub
+    100004: BN_Eye_LF_1
+    100006: BN_Eye_LF_1_nub
+    100008: BN_Eye_LF_2
+    100010: BN_Eye_LF_2_nub
+    100012: BN_Eye_LF_3
+    100014: BN_Eye_LF_3_nub
+    100016: BN_Eye_LF_4
+    100018: BN_Eye_LF_4_nub
+    100020: BN_Eye_RT_1
+    100022: BN_Eye_RT_1_nub
+    100024: BN_Eye_RT_2
+    100026: BN_Eye_RT_2_nub
+    100028: BN_Eye_RT_3
+    100030: BN_Eye_RT_3_nub
+    100032: BN_Eye_RT_4
+    100034: BN_Eye_RT_4_nub
+    100036: BN_LF_Fang
+    100038: BN_LF_Leg_A1
+    100040: BN_LF_Leg_A2
+    100042: BN_LF_Leg_A3
+    100044: BN_LF_Leg_B1
+    100046: BN_LF_Leg_B2
+    100048: BN_LF_Leg_B3
+    100050: BN_LF_Leg_C1
+    100052: BN_LF_Leg_C2
+    100054: BN_LF_Leg_C3
+    100056: BN_LF_Leg_D1
+    100058: BN_LF_Leg_D2
+    100060: BN_LF_Leg_D3
+    100062: BN_LF_Lip
+    100064: BN_LF_Whisker_A
+    100066: BN_LF_Whisker_B
+    100068: BN_LF_Whisker_C
+    100070: BN_Root
+    100072: BN_RT_Fang
+    100074: BN_RT_Leg_A1
+    100076: BN_RT_Leg_A2
+    100078: BN_RT_Leg_A3
+    100080: BN_RT_Leg_B1
+    100082: BN_RT_Leg_B2
+    100084: BN_RT_Leg_B3
+    100086: BN_RT_Leg_C1
+    100088: BN_RT_Leg_C2
+    100090: BN_RT_Leg_C3
+    100092: BN_RT_Leg_D1
+    100094: BN_RT_Leg_D2
+    100096: BN_RT_Leg_D3
+    100098: BN_RT_Lip
+    100100: BN_RT_Whisker_A
+    100102: BN_RT_Whisker_B
+    100104: BN_RT_Whisker_C
+    100106: BN_Thorax
+    100108: BN_Thorax_nub
+    100110: Box035
+    100112: Cylinder001
+    100114: GEO_Eyes
+    100116: Lips
+    100118: //RootNode
+    100120: Spider_LP
+    400000: BN_Body
+    400002: BN_Body_nub
+    400004: BN_Eye_LF_1
+    400006: BN_Eye_LF_1_nub
+    400008: BN_Eye_LF_2
+    400010: BN_Eye_LF_2_nub
+    400012: BN_Eye_LF_3
+    400014: BN_Eye_LF_3_nub
+    400016: BN_Eye_LF_4
+    400018: BN_Eye_LF_4_nub
+    400020: BN_Eye_RT_1
+    400022: BN_Eye_RT_1_nub
+    400024: BN_Eye_RT_2
+    400026: BN_Eye_RT_2_nub
+    400028: BN_Eye_RT_3
+    400030: BN_Eye_RT_3_nub
+    400032: BN_Eye_RT_4
+    400034: BN_Eye_RT_4_nub
+    400036: BN_LF_Fang
+    400038: BN_LF_Leg_A1
+    400040: BN_LF_Leg_A2
+    400042: BN_LF_Leg_A3
+    400044: BN_LF_Leg_B1
+    400046: BN_LF_Leg_B2
+    400048: BN_LF_Leg_B3
+    400050: BN_LF_Leg_C1
+    400052: BN_LF_Leg_C2
+    400054: BN_LF_Leg_C3
+    400056: BN_LF_Leg_D1
+    400058: BN_LF_Leg_D2
+    400060: BN_LF_Leg_D3
+    400062: BN_LF_Lip
+    400064: BN_LF_Whisker_A
+    400066: BN_LF_Whisker_B
+    400068: BN_LF_Whisker_C
+    400070: BN_Root
+    400072: BN_RT_Fang
+    400074: BN_RT_Leg_A1
+    400076: BN_RT_Leg_A2
+    400078: BN_RT_Leg_A3
+    400080: BN_RT_Leg_B1
+    400082: BN_RT_Leg_B2
+    400084: BN_RT_Leg_B3
+    400086: BN_RT_Leg_C1
+    400088: BN_RT_Leg_C2
+    400090: BN_RT_Leg_C3
+    400092: BN_RT_Leg_D1
+    400094: BN_RT_Leg_D2
+    400096: BN_RT_Leg_D3
+    400098: BN_RT_Lip
+    400100: BN_RT_Whisker_A
+    400102: BN_RT_Whisker_B
+    400104: BN_RT_Whisker_C
+    400106: BN_Thorax
+    400108: BN_Thorax_nub
+    400110: Box035
+    400112: Cylinder001
+    400114: GEO_Eyes
+    400116: Lips
+    400118: //RootNode
+    400120: Spider_LP
+    4300000: Spider_LP
+    4300002: Cylinder001
+    4300004: Box035
+    4300006: GEO_Eyes
+    4300008: Lips
+    7400000: Walk
+    7400002: Walk R
+    7400004: Walk L
+    7400006: Idle
+    7400008: Turn R
+    7400010: Turn L
+    7400012: Attack
+    7400014: Die
+    7400016: Get Hit Start
+    7400018: Get Hit End
+    7400020: Get Hit While Hit
+    7400022: Kill Rat Start
+    7400024: Kill Rat loop
+    7400026: Kill Rat End
+    9500000: //RootNode
+    13700000: Box035
+    13700002: Cylinder001
+    13700004: GEO_Eyes
+    13700006: Lips
+    13700008: Spider_LP
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Walk
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Walk R
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Walk L
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Idle
+      takeName: Take 001
+      firstFrame: 301
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Turn R
+      takeName: Take 001
+      firstFrame: 401
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Turn L
+      takeName: Take 001
+      firstFrame: 501
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Attack
+      takeName: Take 001
+      firstFrame: 601
+      lastFrame: 630
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Die
+      takeName: Take 001
+      firstFrame: 701
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Get Hit Start
+      takeName: Take 001
+      firstFrame: 901
+      lastFrame: 915
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Get Hit End
+      takeName: Take 001
+      firstFrame: 925
+      lastFrame: 950
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Get Hit While Hit
+      takeName: Take 001
+      firstFrame: 915
+      lastFrame: 925
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Kill Rat Start
+      takeName: Take 001
+      firstFrame: 1001
+      lastFrame: 1005
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Kill Rat loop
+      takeName: Take 001
+      firstFrame: 1005
+      lastFrame: 1020
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Kill Rat End
+      takeName: Take 001
+      firstFrame: 1020
+      lastFrame: 1040
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: BN_Root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
