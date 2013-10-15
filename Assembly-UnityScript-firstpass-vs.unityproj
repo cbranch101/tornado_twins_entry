@@ -125,6 +125,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\AI\Resources\BehaviorTrees\SimpleMoveTest.xml" />
      <None Include="Assets\FPSControlCore\Editor\FPSControl\Editor Assets\Text Assets\GameSettings_Template.txt" />
+     <None Include="Assets\Custom Skeletal Meshes\RatAnimated\contactInfo.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
