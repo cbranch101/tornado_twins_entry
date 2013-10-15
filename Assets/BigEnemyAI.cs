@@ -8,6 +8,7 @@ public class BigEnemyAI : EnemyAI {
 	
 	
 	public float attackDistance = 5f;
+	public float avoidAngle = 10f;
 	
 	protected override void setStartingActionContext() {
 		
