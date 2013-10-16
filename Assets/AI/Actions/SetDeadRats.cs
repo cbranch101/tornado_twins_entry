@@ -28,8 +28,7 @@ public class SetDeadRats : RAIN.Action.Action
     public override RAIN.Action.Action.ActionResult Execute(RAIN.Core.Agent agent, float deltaTime)
     {
 	if(deadRats.Count > 0) {
-		agent.actionContext.SetContextItem<List<GameObject>>("dead_rats", deadRats);
-		return RAIN.Action.Action.ActionResult.SUCCESS;	
+		return RAIN.Action.Action.ActionResult.SUCCESS;
 	} else {
 		return RAIN.Action.Action.ActionResult.FAILURE;		
 	}
