@@ -1179,7 +1179,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bedb2708c70b247d0b5eff3ae4dab13e, type: 3}
   m_Name: 
-  startingEmotionalState: none
+  m_EditorClassIdentifier: 
+  startingEmotionalState: calm
+  attackDistance: 5
+  avoidAngle: 10
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1190,6 +1193,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -1456383791, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Minds.BehaviorTreeMind
   behaviorTreeFilename: SpiderMind
   rootName: root
@@ -1203,6 +1207,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 681896232, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Path.RAINPathManager
   moveTarget:
     closeEnoughDistance: 0
@@ -1214,8 +1219,8 @@ MonoBehaviour:
     _targetType: 0
     _transformTarget: {fileID: 0}
     _vectorTarget: {x: 0, y: 0, z: 0}
-  closeEnoughDistance: .100000001
-  closeEnoughAngle: 5
+  closeEnoughDistance: .600000024
+  closeEnoughAngle: 1
   faceBeforeMoveAngle: 90
   avoidObstacles: 0
   avoidRadius: .5
@@ -1229,7 +1234,7 @@ MonoBehaviour:
   waypointCollection: {fileID: 0}
   allow3DMovement: 0
   allow3DLook: 0
-  drawPaths: 0
+  drawPaths: 1
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1240,6 +1245,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1031171884, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Sensors.ExpandingBoxSensor
   focusOfAttention: []
   maxFocus: 5
@@ -1266,6 +1272,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1975918722, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   max: 100
   current: 100
   initial: 100
@@ -1283,6 +1290,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2121150447, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Motion.AICharacterController
   controllerType: 2
 --- !u!114 &11400012
@@ -1295,11 +1303,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2124519495, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Core.RAINAgent
   avatar: {fileID: 100070}
   mind: {fileID: 11400002}
-  maxSpeed: 1
-  maxAcceleration: 1
+  maxSpeed: 5
+  maxAcceleration: 5
   ApplyMaxToYAxis: 0
   maxRotationRate: 180
   maxAngularAcceleration: 90
@@ -1362,13 +1371,13 @@ CharacterController:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   serializedVersion: 2
-  m_Height: 0
-  m_Radius: .180000007
+  m_Height: .109999999
+  m_Radius: .100000001
   m_SlopeLimit: 45
   m_StepOffset: .300000012
   m_SkinWidth: .0799999982
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: .239999995, z: 0}
+  m_Center: {x: 0, y: .100000001, z: .0299999993}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
