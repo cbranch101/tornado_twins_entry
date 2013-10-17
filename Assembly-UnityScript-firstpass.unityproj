@@ -169,6 +169,7 @@
      <None Include="Assets\AI\Resources\BehaviorTrees\TeddyLook.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
      <None Include="Assets\FPSControlAssets\Art-Packs\Shaders\Glass Shader.shader" />
+     <None Include="Assets\AI\Resources\BehaviorTrees\MecanimMoveTest.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
      <None Include="Assets\AI\Resources\BehaviorTrees\ReferenceTest.xml" />

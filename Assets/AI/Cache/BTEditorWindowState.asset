@@ -14,9 +14,9 @@ MonoBehaviour:
   HolderNodes:
   - FileName: .currentai
     BehaviorTreeName: Currently Selected AI
-    BehaviorTreeID: 272
-    LastUpdate: 635175074883349950
-    LastModified: 635175074880000000
+    BehaviorTreeID: 0
+    LastUpdate: 0
+    LastModified: 0
     Errored: 0
   - FileName: .createxml
     BehaviorTreeName: Create New Behavior Tree
@@ -53,6 +53,12 @@ MonoBehaviour:
     BehaviorTreeID: 216
     LastUpdate: 635147664515182330
     LastModified: 635147664510000000
+    Errored: 0
+  - FileName: MecanimMoveTest.xml
+    BehaviorTreeName: MecanimMoveTest
+    BehaviorTreeID: 317
+    LastUpdate: 635175533393125920
+    LastModified: 635175533390000000
     Errored: 0
   - FileName: MoveToLookAtTest.xml
     BehaviorTreeName: MoveToLookAtTest
@@ -117,8 +123,8 @@ MonoBehaviour:
   - FileName: SpiderMind.xml
     BehaviorTreeName: SpiderMind
     BehaviorTreeID: 288
-    LastUpdate: 635175056721121530
-    LastModified: 635175056720000000
+    LastUpdate: 635175542265095750
+    LastModified: 635175542260000000
     Errored: 0
   - FileName: SpiderMindPre.xml
     BehaviorTreeName: SpiderMindPre
@@ -10029,7 +10035,7 @@ MonoBehaviour:
       _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635175056710822860
+      _lastUpdate: 635175542254977960
       _children: 21010000
       _variables: 
     - _fields:
@@ -10900,8 +10906,8 @@ MonoBehaviour:
       _parent: 304
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635175056710804520
-      _children: 3c0100003d0100003e010000
+      _lastUpdate: 635175541965343080
+      _children: 3c0100004b0100003e010000
       _variables: 
     - _fields:
       - _field: name
@@ -10934,8 +10940,12 @@ MonoBehaviour:
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: move to random hiding spot
+        _currentValue: MecanimMoveTest
         _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
         _changed: 0
       - _field: precondition
         _currentValue: 
@@ -10949,53 +10959,17 @@ MonoBehaviour:
         _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: movetargettype
-        _currentValue: variable
+      - _field: variablesopen
+        _currentValue: False
         _recordChange: 1
         _changed: 0
-      - _field: movetarget
-        _currentValue: move_target
-        _recordChange: 1
-        _changed: 0
-      - _field: movespeed
-        _currentValue: 5
-        _recordChange: 1
-        _changed: 0
-      - _field: looktargettype
-        _currentValue: none
-        _recordChange: 1
-        _changed: 0
-      - _field: looktarget
-        _currentValue: 
-        _recordChange: 1
-        _changed: 0
-      - _field: lookspeed
-        _currentValue: -1
-        _recordChange: 1
-        _changed: 0
-      - _field: animation
-        _currentValue: Walk
-        _recordChange: 1
-        _changed: 0
-      - _field: animationlayer
-        _currentValue: 0
-        _recordChange: 1
-        _changed: 0
-      - _field: animationwrapmode
-        _currentValue: loop
-        _recordChange: 1
-        _changed: 0
-      - _field: animationbasespeed
-        _currentValue: 5
-        _recordChange: 1
-        _changed: 0
-      _type: 12
+      _type: 5
       _id: 317
-      _parent: 315
+      _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635175056710822800
-      _children: 
+      _lastUpdate: 635175533383088710
+      _children: 4c010000
       _variables: 
     - _fields:
       - _field: name
@@ -11291,5 +11265,330 @@ MonoBehaviour:
       _lastUpdate: 635175056710822860
       _children: 
       _variables: 
-    _freeList: 
+    - _fields:
+      - _field: name
+        _currentValue: mecmove 18948
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: movetargettype
+        _currentValue: none
+        _recordChange: 1
+        _changed: 0
+      - _field: movetarget
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: movespeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: looktargettype
+        _currentValue: none
+        _recordChange: 1
+        _changed: 0
+      - _field: looktarget
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: lookspeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: linearspeedparameter
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: angularspeedparameter
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: turnangleparameter
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: velocityparameter
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: rotationparameter
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: damptime
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      _type: 14
+      _id: 327
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635175529301753900
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: move to hiding spot
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: movetargettype
+        _currentValue: variable
+        _recordChange: 1
+        _changed: 0
+      - _field: movetarget
+        _currentValue: move_target
+        _recordChange: 1
+        _changed: 0
+      - _field: movespeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: looktargettype
+        _currentValue: none
+        _recordChange: 1
+        _changed: 0
+      - _field: looktarget
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: lookspeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: animation
+        _currentValue: Walk
+        _recordChange: 1
+        _changed: 0
+      - _field: animationlayer
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      - _field: animationwrapmode
+        _currentValue: default
+        _recordChange: 1
+        _changed: 0
+      - _field: animationbasespeed
+        _currentValue: 1
+        _recordChange: 1
+        _changed: 0
+      _type: 12
+      _id: 331
+      _parent: 315
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635175542254977960
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: root
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 332
+      _parent: 317
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635175530909534160
+      _children: 4d010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: sequencer 14883
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: emotional_state == "scared"
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 333
+      _parent: 332
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635175531271593860
+      _children: 4e0100004f010000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: action 2620
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: FindRandomHidingSpot
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 334
+      _parent: 333
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635175530909534480
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: mecmove 26565
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: movetargettype
+        _currentValue: variable
+        _recordChange: 1
+        _changed: 0
+      - _field: movetarget
+        _currentValue: move_target
+        _recordChange: 1
+        _changed: 0
+      - _field: movespeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: looktargettype
+        _currentValue: none
+        _recordChange: 1
+        _changed: 0
+      - _field: looktarget
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: lookspeed
+        _currentValue: -1
+        _recordChange: 1
+        _changed: 0
+      - _field: linearspeedparameter
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: angularspeedparameter
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: turnangleparameter
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: velocityparameter
+        _currentValue: forward
+        _recordChange: 1
+        _changed: 0
+      - _field: rotationparameter
+        _currentValue: turning
+        _recordChange: 1
+        _changed: 0
+      - _field: damptime
+        _currentValue: 0
+        _recordChange: 1
+        _changed: 0
+      _type: 14
+      _id: 335
+      _parent: 333
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635175533383088710
+      _children: 
+      _variables: 
+    _freeList: 48010000490100004a010000
   Version: 14
