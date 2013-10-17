@@ -6,6 +6,7 @@ using RAIN.Action;
 
 public class RandomlySelectUnOccupiedPowerNode : RAIN.Action.Action
 {
+
     public RandomlySelectUnOccupiedPowerNode()
     {
         actionName = "RandomlySelectUnOccupiedPowerNode";

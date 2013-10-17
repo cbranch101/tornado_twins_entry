@@ -15,11 +15,16 @@ public class ShipSystem : MonoBehaviour {
 
 	}
 	
+	protected virtual void onStart() {
+		
+	}
+	
 	
 	// Use this for initialization
 	protected void Start () {
 		GameObject shipObject = GameObject.Find("Ship");
 		shipComponent = (Ship) shipObject.GetComponent("Ship");
+		onStart ();
 	}
 	
 	// Update is called once per frame
