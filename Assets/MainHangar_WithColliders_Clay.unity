@@ -1842,6 +1842,7 @@ GameObject:
   - 4: {fileID: 77159390}
   - 33: {fileID: 77159392}
   - 23: {fileID: 77159391}
+  - 64: {fileID: 77159393}
   m_Layer: 0
   m_Name: WALL_ShortCorner_02 2
   m_TagString: Untagged
@@ -1886,6 +1887,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 77159389}
+  m_Mesh: {fileID: 4300878, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &77159393
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 77159389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300878, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &79459305
 GameObject:
@@ -2788,6 +2802,7 @@ GameObject:
   - 4: {fileID: 137251603}
   - 33: {fileID: 137251605}
   - 23: {fileID: 137251604}
+  - 64: {fileID: 137251606}
   m_Layer: 0
   m_Name: polySurface179
   m_TagString: Untagged
@@ -2832,6 +2847,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 137251602}
+  m_Mesh: {fileID: 4300924, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &137251606
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 137251602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300924, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &137478422
 GameObject:
@@ -3308,6 +3336,7 @@ GameObject:
   - 4: {fileID: 164252286}
   - 33: {fileID: 164252288}
   - 23: {fileID: 164252287}
+  - 64: {fileID: 164252289}
   m_Layer: 0
   m_Name: DOORWAY_ShortCorner_03
   m_TagString: Untagged
@@ -3352,6 +3381,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 164252285}
+  m_Mesh: {fileID: 4300892, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &164252289
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 164252285}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300892, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &164563636
 GameObject:
@@ -3556,6 +3598,7 @@ GameObject:
   - 4: {fileID: 168685386}
   - 33: {fileID: 168685388}
   - 23: {fileID: 168685387}
+  - 64: {fileID: 168685389}
   m_Layer: 0
   m_Name: WALL_ShortCorner_02 3
   m_TagString: Untagged
@@ -3600,6 +3643,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 168685385}
+  m_Mesh: {fileID: 4300896, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &168685389
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 168685385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300896, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &169197876
 GameObject:
@@ -4665,6 +4721,7 @@ GameObject:
   - 4: {fileID: 208666340}
   - 33: {fileID: 208666342}
   - 23: {fileID: 208666341}
+  - 64: {fileID: 208666343}
   m_Layer: 0
   m_Name: DoubleDoorWay_Corner_013
   m_TagString: Untagged
@@ -4709,6 +4766,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 208666339}
+  m_Mesh: {fileID: 4300044, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &208666343
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 208666339}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300044, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &210652184
 GameObject:
@@ -5339,6 +5409,7 @@ GameObject:
   - 4: {fileID: 246777727}
   - 33: {fileID: 246777729}
   - 23: {fileID: 246777728}
+  - 64: {fileID: 246777730}
   m_Layer: 0
   m_Name: DOORWAY_Short_05
   m_TagString: Untagged
@@ -5383,6 +5454,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 246777726}
+  m_Mesh: {fileID: 4300064, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &246777730
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 246777726}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300064, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &247596621
 GameObject:
@@ -6111,6 +6195,7 @@ GameObject:
   - 4: {fileID: 273430729}
   - 33: {fileID: 273430731}
   - 23: {fileID: 273430730}
+  - 64: {fileID: 273430732}
   m_Layer: 0
   m_Name: polySurface128
   m_TagString: Untagged
@@ -6155,6 +6240,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 273430728}
+  m_Mesh: {fileID: 4300916, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &273430732
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 273430728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300916, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &273598450
 GameObject:
@@ -6498,6 +6596,7 @@ GameObject:
   - 4: {fileID: 294920083}
   - 33: {fileID: 294920085}
   - 23: {fileID: 294920084}
+  - 64: {fileID: 294920086}
   m_Layer: 0
   m_Name: DOORWAY_Short_01 5
   m_TagString: Untagged
@@ -6542,6 +6641,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 294920082}
+  m_Mesh: {fileID: 4300856, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &294920086
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 294920082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300856, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &300857918
 GameObject:
@@ -6898,6 +7010,7 @@ GameObject:
   - 4: {fileID: 310436728}
   - 33: {fileID: 310436730}
   - 23: {fileID: 310436729}
+  - 64: {fileID: 310436731}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_019
   m_TagString: Untagged
@@ -6942,6 +7055,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 310436727}
+  m_Mesh: {fileID: 4300066, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &310436731
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 310436727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300066, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &311752202
 GameObject:
@@ -7145,6 +7271,7 @@ GameObject:
   - 4: {fileID: 316763940}
   - 33: {fileID: 316763942}
   - 23: {fileID: 316763941}
+  - 64: {fileID: 316763943}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_020
   m_TagString: Untagged
@@ -7189,6 +7316,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 316763939}
+  m_Mesh: {fileID: 4300068, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &316763943
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 316763939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300068, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &318454259
 GameObject:
@@ -8029,6 +8169,7 @@ GameObject:
   - 4: {fileID: 353681528}
   - 33: {fileID: 353681530}
   - 23: {fileID: 353681529}
+  - 64: {fileID: 353681531}
   m_Layer: 0
   m_Name: ShortWall_038
   m_TagString: Untagged
@@ -8073,6 +8214,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 353681527}
+  m_Mesh: {fileID: 4300038, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &353681531
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 353681527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300038, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &354228218
 GameObject:
@@ -8577,6 +8731,7 @@ GameObject:
   - 4: {fileID: 377127135}
   - 33: {fileID: 377127137}
   - 23: {fileID: 377127136}
+  - 64: {fileID: 377127138}
   m_Layer: 0
   m_Name: WALL_Tall_011
   m_TagString: Untagged
@@ -8621,6 +8776,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 377127134}
+  m_Mesh: {fileID: 4300074, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &377127138
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 377127134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300074, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &380782659
 GameObject:
@@ -9498,6 +9666,7 @@ GameObject:
   - 4: {fileID: 411762593}
   - 33: {fileID: 411762595}
   - 23: {fileID: 411762594}
+  - 64: {fileID: 411762596}
   m_Layer: 0
   m_Name: polySurface126
   m_TagString: Untagged
@@ -9542,6 +9711,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 411762592}
+  m_Mesh: {fileID: 4300912, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &411762596
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 411762592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300912, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &416619761
 GameObject:
@@ -10530,6 +10712,7 @@ GameObject:
   - 4: {fileID: 457189478}
   - 33: {fileID: 457189480}
   - 23: {fileID: 457189479}
+  - 64: {fileID: 457189481}
   m_Layer: 0
   m_Name: WALL_MiscPanel_02 1
   m_TagString: Untagged
@@ -10574,6 +10757,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 457189477}
+  m_Mesh: {fileID: 4300838, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &457189481
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457189477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300838, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &466283417
 GameObject:
@@ -11951,6 +12147,7 @@ GameObject:
   - 4: {fileID: 563223071}
   - 33: {fileID: 563223073}
   - 23: {fileID: 563223072}
+  - 65: {fileID: 563223074}
   m_Layer: 0
   m_Name: FLOOR_Panel_03
   m_TagString: Untagged
@@ -11996,6 +12193,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 563223070}
   m_Mesh: {fileID: 4300060, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!65 &563223074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563223070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .319999993, y: 0, z: .319999993}
+  m_Center: {x: 0, y: 0, z: -2.38418579e-07}
 --- !u!1 &563620650
 GameObject:
   m_ObjectHideFlags: 0
@@ -12006,6 +12215,7 @@ GameObject:
   - 4: {fileID: 563620651}
   - 33: {fileID: 563620653}
   - 23: {fileID: 563620652}
+  - 64: {fileID: 563620654}
   m_Layer: 0
   m_Name: Gangway_Stairs01_024
   m_TagString: Untagged
@@ -12051,6 +12261,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 563620650}
   m_Mesh: {fileID: 4300922, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &563620654
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563620650}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300922, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &564931473
 GameObject:
   m_ObjectHideFlags: 0
@@ -12061,6 +12284,7 @@ GameObject:
   - 4: {fileID: 564931474}
   - 33: {fileID: 564931476}
   - 23: {fileID: 564931475}
+  - 64: {fileID: 564931477}
   m_Layer: 0
   m_Name: DOORWAY_Elevator
   m_TagString: Untagged
@@ -12105,6 +12329,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 564931473}
+  m_Mesh: {fileID: 4300024, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &564931477
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564931473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300024, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &566669533
 GameObject:
@@ -13413,6 +13650,7 @@ GameObject:
   - 4: {fileID: 630263517}
   - 33: {fileID: 630263519}
   - 23: {fileID: 630263518}
+  - 64: {fileID: 630263520}
   m_Layer: 0
   m_Name: DOORWAY_Octogon_01
   m_TagString: Untagged
@@ -13457,6 +13695,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 630263516}
+  m_Mesh: {fileID: 4300026, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &630263520
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630263516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300026, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &630328812
 GameObject:
@@ -13766,6 +14017,7 @@ GameObject:
   - 4: {fileID: 651101040}
   - 33: {fileID: 651101042}
   - 23: {fileID: 651101041}
+  - 64: {fileID: 651101043}
   m_Layer: 0
   m_Name: polySurface130
   m_TagString: Untagged
@@ -13810,6 +14062,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 651101039}
+  m_Mesh: {fileID: 4300920, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &651101043
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 651101039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300920, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &653706531
 GameObject:
@@ -15484,6 +15749,7 @@ GameObject:
   - 4: {fileID: 740103167}
   - 33: {fileID: 740103169}
   - 23: {fileID: 740103168}
+  - 64: {fileID: 740103170}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_017
   m_TagString: Untagged
@@ -15528,6 +15794,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 740103166}
+  m_Mesh: {fileID: 4300006, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &740103170
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 740103166}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300006, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &744735002
 GameObject:
@@ -16751,6 +17030,7 @@ GameObject:
   - 4: {fileID: 823575783}
   - 33: {fileID: 823575785}
   - 23: {fileID: 823575784}
+  - 64: {fileID: 823575786}
   m_Layer: 0
   m_Name: DoubleDoorWay_Corner_011
   m_TagString: Untagged
@@ -16795,6 +17075,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 823575782}
+  m_Mesh: {fileID: 4300034, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &823575786
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 823575782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300034, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &824273718
 GameObject:
@@ -17278,6 +17571,7 @@ GameObject:
   - 4: {fileID: 853877061}
   - 33: {fileID: 853877063}
   - 23: {fileID: 853877062}
+  - 64: {fileID: 853877064}
   m_Layer: 0
   m_Name: WALL_ShortCorner_01 4
   m_TagString: Untagged
@@ -17322,6 +17616,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 853877060}
+  m_Mesh: {fileID: 4300876, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &853877064
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 853877060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300876, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &855340919
 GameObject:
@@ -17947,6 +18254,7 @@ GameObject:
   - 4: {fileID: 896318116}
   - 33: {fileID: 896318118}
   - 23: {fileID: 896318117}
+  - 64: {fileID: 896318119}
   m_Layer: 0
   m_Name: WALL_MiscPanel_02 2
   m_TagString: Untagged
@@ -17991,6 +18299,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 896318115}
+  m_Mesh: {fileID: 4300860, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &896318119
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 896318115}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300860, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &897058463
 GameObject:
@@ -18576,6 +18897,7 @@ GameObject:
   - 4: {fileID: 915912845}
   - 33: {fileID: 915912847}
   - 23: {fileID: 915912846}
+  - 64: {fileID: 915912848}
   m_Layer: 0
   m_Name: WALL_MiscPanel_01 1
   m_TagString: Untagged
@@ -18620,6 +18942,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 915912844}
+  m_Mesh: {fileID: 4300836, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &915912848
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 915912844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300836, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &916405168
 GameObject:
@@ -18740,6 +19075,7 @@ GameObject:
   - 4: {fileID: 931084444}
   - 33: {fileID: 931084446}
   - 23: {fileID: 931084445}
+  - 64: {fileID: 931084447}
   m_Layer: 0
   m_Name: WALL_ShortAngled_02
   m_TagString: Untagged
@@ -18784,6 +19120,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 931084443}
+  m_Mesh: {fileID: 4300898, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &931084447
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 931084443}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300898, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &932274011
 GameObject:
@@ -18905,6 +19254,7 @@ GameObject:
   - 4: {fileID: 934399249}
   - 33: {fileID: 934399251}
   - 23: {fileID: 934399250}
+  - 64: {fileID: 934399252}
   m_Layer: 0
   m_Name: DOORWAY_Short_03
   m_TagString: Untagged
@@ -18949,6 +19299,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 934399248}
+  m_Mesh: {fileID: 4300030, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &934399252
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 934399248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300030, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &935645624
 GameObject:
@@ -19077,6 +19440,7 @@ GameObject:
   - 4: {fileID: 937630548}
   - 33: {fileID: 937630550}
   - 23: {fileID: 937630549}
+  - 65: {fileID: 937630551}
   m_Layer: 0
   m_Name: FLOOR_Panel_01
   m_TagString: Untagged
@@ -19122,6 +19486,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 937630547}
   m_Mesh: {fileID: 4300056, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!65 &937630551
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 937630547}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .319999993, y: 0, z: .319999993}
+  m_Center: {x: 0, y: 0, z: -2.38418579e-07}
 --- !u!1 &939777156
 GameObject:
   m_ObjectHideFlags: 0
@@ -19354,6 +19730,7 @@ GameObject:
   - 4: {fileID: 954065694}
   - 33: {fileID: 954065696}
   - 23: {fileID: 954065695}
+  - 64: {fileID: 954065697}
   m_Layer: 0
   m_Name: Gangway_Side_026
   m_TagString: Untagged
@@ -19398,6 +19775,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 954065693}
+  m_Mesh: {fileID: 4300936, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &954065697
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 954065693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300936, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &957265876
 GameObject:
@@ -19602,6 +19992,7 @@ GameObject:
   - 4: {fileID: 961024304}
   - 33: {fileID: 961024306}
   - 23: {fileID: 961024305}
+  - 64: {fileID: 961024307}
   m_Layer: 0
   m_Name: polySurface180
   m_TagString: Untagged
@@ -19646,6 +20037,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 961024303}
+  m_Mesh: {fileID: 4300926, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &961024307
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 961024303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300926, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &966880236
 GameObject:
@@ -22882,6 +23286,7 @@ GameObject:
   - 4: {fileID: 1105880692}
   - 33: {fileID: 1105880694}
   - 23: {fileID: 1105880693}
+  - 64: {fileID: 1105880695}
   m_Layer: 0
   m_Name: WALL_Tall_010
   m_TagString: Untagged
@@ -22926,6 +23331,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1105880691}
+  m_Mesh: {fileID: 4300010, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1105880695
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1105880691}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300010, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1116857412
 GameObject:
@@ -23150,6 +23568,7 @@ GameObject:
   - 4: {fileID: 1122707066}
   - 33: {fileID: 1122707068}
   - 23: {fileID: 1122707067}
+  - 64: {fileID: 1122707069}
   m_Layer: 0
   m_Name: polySurface181
   m_TagString: Untagged
@@ -23194,6 +23613,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1122707065}
+  m_Mesh: {fileID: 4300928, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1122707069
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122707065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300928, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1122995073
 GameObject:
@@ -24348,6 +24780,7 @@ GameObject:
   - 4: {fileID: 1183272892}
   - 33: {fileID: 1183272894}
   - 23: {fileID: 1183272893}
+  - 64: {fileID: 1183272895}
   m_Layer: 0
   m_Name: DOORWAY_ShortCorner_01 2
   m_TagString: Untagged
@@ -24392,6 +24825,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1183272891}
+  m_Mesh: {fileID: 4300874, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1183272895
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1183272891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300874, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1183954108
 GameObject:
@@ -25125,6 +25571,7 @@ GameObject:
   - 4: {fileID: 1252834763}
   - 33: {fileID: 1252834765}
   - 23: {fileID: 1252834764}
+  - 64: {fileID: 1252834766}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_016
   m_TagString: Untagged
@@ -25169,6 +25616,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1252834762}
+  m_Mesh: {fileID: 4300004, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1252834766
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1252834762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300004, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1255730440
 GameObject:
@@ -25512,6 +25972,7 @@ GameObject:
   - 4: {fileID: 1275486627}
   - 33: {fileID: 1275486629}
   - 23: {fileID: 1275486628}
+  - 64: {fileID: 1275486630}
   m_Layer: 0
   m_Name: DOORWAY_Short_01 3
   m_TagString: Untagged
@@ -25556,6 +26017,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1275486626}
+  m_Mesh: {fileID: 4300028, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1275486630
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275486626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300028, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1280117298
 GameObject:
@@ -26787,6 +27261,7 @@ GameObject:
   - 4: {fileID: 1332114081}
   - 33: {fileID: 1332114083}
   - 23: {fileID: 1332114082}
+  - 64: {fileID: 1332114084}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_021
   m_TagString: Untagged
@@ -26831,6 +27306,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1332114080}
+  m_Mesh: {fileID: 4300070, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1332114084
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332114080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300070, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1332787965
 GameObject:
@@ -27290,6 +27778,7 @@ GameObject:
   - 4: {fileID: 1370491433}
   - 33: {fileID: 1370491435}
   - 23: {fileID: 1370491434}
+  - 64: {fileID: 1370491436}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_015
   m_TagString: Untagged
@@ -27334,6 +27823,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1370491432}
+  m_Mesh: {fileID: 4300002, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1370491436
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1370491432}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300002, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1383681311
 GameObject:
@@ -27629,6 +28131,7 @@ GameObject:
   - 4: {fileID: 1386371198}
   - 33: {fileID: 1386371200}
   - 23: {fileID: 1386371199}
+  - 64: {fileID: 1386371201}
   m_Layer: 0
   m_Name: Gangway_Side_011
   m_TagString: Untagged
@@ -27673,6 +28176,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1386371197}
+  m_Mesh: {fileID: 4300932, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1386371201
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1386371197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300932, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1388408453
 GameObject:
@@ -29210,6 +29726,7 @@ GameObject:
   - 4: {fileID: 1477826055}
   - 33: {fileID: 1477826057}
   - 23: {fileID: 1477826056}
+  - 64: {fileID: 1477826058}
   m_Layer: 0
   m_Name: WALL_MiscPanel_03 1
   m_TagString: Untagged
@@ -29254,6 +29771,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1477826054}
+  m_Mesh: {fileID: 4300840, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1477826058
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1477826054}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300840, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1481231990
 GameObject:
@@ -31435,6 +31965,7 @@ GameObject:
   - 4: {fileID: 1532782940}
   - 33: {fileID: 1532782942}
   - 23: {fileID: 1532782941}
+  - 64: {fileID: 1532782943}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_06
   m_TagString: Untagged
@@ -31479,6 +32010,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1532782939}
+  m_Mesh: {fileID: 4300042, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1532782943
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1532782939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300042, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1537163707
 GameObject:
@@ -31699,6 +32243,7 @@ GameObject:
   - 4: {fileID: 1550720201}
   - 33: {fileID: 1550720203}
   - 23: {fileID: 1550720202}
+  - 64: {fileID: 1550720204}
   m_Layer: 0
   m_Name: polySurface129
   m_TagString: Untagged
@@ -31744,6 +32289,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1550720200}
   m_Mesh: {fileID: 4300918, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1550720204
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1550720200}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300918, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1554612325
 GameObject:
   m_ObjectHideFlags: 0
@@ -31781,6 +32339,7 @@ GameObject:
   - 4: {fileID: 1556125132}
   - 33: {fileID: 1556125134}
   - 23: {fileID: 1556125133}
+  - 64: {fileID: 1556125135}
   m_Layer: 0
   m_Name: WALL_ShortCorner_01 5
   m_TagString: Untagged
@@ -31825,6 +32384,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1556125131}
+  m_Mesh: {fileID: 4300894, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1556125135
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556125131}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300894, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1558037169
 GameObject:
@@ -32289,6 +32861,7 @@ GameObject:
   - 4: {fileID: 1582440931}
   - 33: {fileID: 1582440933}
   - 23: {fileID: 1582440932}
+  - 64: {fileID: 1582440934}
   m_Layer: 0
   m_Name: ShortWall_045
   m_TagString: Untagged
@@ -32333,6 +32906,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1582440930}
+  m_Mesh: {fileID: 4300032, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1582440934
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582440930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300032, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1586053658
 GameObject:
@@ -32716,6 +33302,7 @@ GameObject:
   - 4: {fileID: 1602131624}
   - 33: {fileID: 1602131626}
   - 23: {fileID: 1602131625}
+  - 64: {fileID: 1602131627}
   m_Layer: 0
   m_Name: WALL_ShortAngled_01 2
   m_TagString: Untagged
@@ -32760,6 +33347,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1602131623}
+  m_Mesh: {fileID: 4300880, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1602131627
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1602131623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300880, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1607490351
 GameObject:
@@ -35172,6 +35772,7 @@ GameObject:
   - 4: {fileID: 1708733585}
   - 33: {fileID: 1708733587}
   - 23: {fileID: 1708733586}
+  - 64: {fileID: 1708733588}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_022
   m_TagString: Untagged
@@ -35216,6 +35817,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1708733584}
+  m_Mesh: {fileID: 4300072, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1708733588
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708733584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300072, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1711799087
 GameObject:
@@ -35922,6 +36536,7 @@ GameObject:
   - 4: {fileID: 1745424791}
   - 33: {fileID: 1745424793}
   - 23: {fileID: 1745424792}
+  - 64: {fileID: 1745424794}
   m_Layer: 0
   m_Name: ShortWall_044
   m_TagString: Untagged
@@ -35966,6 +36581,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1745424790}
+  m_Mesh: {fileID: 4300040, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1745424794
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1745424790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300040, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1746336504
 GameObject:
@@ -36495,6 +37123,7 @@ GameObject:
   - 4: {fileID: 1766923422}
   - 33: {fileID: 1766923424}
   - 23: {fileID: 1766923423}
+  - 64: {fileID: 1766923425}
   m_Layer: 0
   m_Name: ShortWall_040
   m_TagString: Untagged
@@ -36539,6 +37168,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1766923421}
+  m_Mesh: {fileID: 4300046, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1766923425
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1766923421}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300046, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1768384140
 GameObject:
@@ -36966,6 +37608,7 @@ GameObject:
   - 4: {fileID: 1789482143}
   - 33: {fileID: 1789482145}
   - 23: {fileID: 1789482144}
+  - 64: {fileID: 1789482146}
   m_Layer: 0
   m_Name: Gangway_Side_027
   m_TagString: Untagged
@@ -37011,6 +37654,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1789482142}
   m_Mesh: {fileID: 4300938, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1789482146
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1789482142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300938, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1790704577
 GameObject:
   m_ObjectHideFlags: 0
@@ -37021,6 +37677,7 @@ GameObject:
   - 4: {fileID: 1790704578}
   - 33: {fileID: 1790704580}
   - 23: {fileID: 1790704579}
+  - 64: {fileID: 1790704581}
   m_Layer: 0
   m_Name: WALL_MiscPanel_03 2
   m_TagString: Untagged
@@ -37065,6 +37722,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1790704577}
+  m_Mesh: {fileID: 4300858, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1790704581
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790704577}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300858, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1802638027
 GameObject:
@@ -38002,6 +38672,7 @@ GameObject:
   - 4: {fileID: 1873749050}
   - 33: {fileID: 1873749052}
   - 23: {fileID: 1873749051}
+  - 64: {fileID: 1873749053}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_010
   m_TagString: Untagged
@@ -38046,6 +38717,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1873749049}
+  m_Mesh: {fileID: 4300036, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1873749053
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1873749049}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300036, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1879802947
 GameObject:
@@ -38222,6 +38906,7 @@ GameObject:
   - 4: {fileID: 1889017661}
   - 33: {fileID: 1889017663}
   - 23: {fileID: 1889017662}
+  - 65: {fileID: 1889017664}
   m_Layer: 0
   m_Name: FLOOR_Panel_02
   m_TagString: Untagged
@@ -38267,6 +38952,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1889017660}
   m_Mesh: {fileID: 4300058, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!65 &1889017664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889017660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .319999993, y: 0, z: .319999993}
+  m_Center: {x: 0, y: 0, z: -2.38418579e-07}
 --- !u!1 &1889256515
 GameObject:
   m_ObjectHideFlags: 0
@@ -38277,6 +38974,7 @@ GameObject:
   - 4: {fileID: 1889256516}
   - 33: {fileID: 1889256518}
   - 23: {fileID: 1889256517}
+  - 64: {fileID: 1889256519}
   m_Layer: 0
   m_Name: WALL_MiscPanel_01 2
   m_TagString: Untagged
@@ -38321,6 +39019,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1889256515}
+  m_Mesh: {fileID: 4300862, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1889256519
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889256515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300862, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1894917072
 GameObject:
@@ -38442,6 +39153,7 @@ GameObject:
   - 4: {fileID: 1907474790}
   - 33: {fileID: 1907474792}
   - 23: {fileID: 1907474791}
+  - 64: {fileID: 1907474793}
   m_Layer: 0
   m_Name: WALL_CORNER_SHORT_018
   m_TagString: Untagged
@@ -38486,6 +39198,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1907474789}
+  m_Mesh: {fileID: 4300008, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1907474793
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1907474789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300008, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1911479791
 GameObject:
@@ -39552,6 +40277,7 @@ GameObject:
   - 4: {fileID: 1956813096}
   - 33: {fileID: 1956813098}
   - 23: {fileID: 1956813097}
+  - 64: {fileID: 1956813099}
   m_Layer: 0
   m_Name: polySurface182
   m_TagString: Untagged
@@ -39596,6 +40322,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1956813095}
+  m_Mesh: {fileID: 4300930, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1956813099
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1956813095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300930, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1957369531
 GameObject:
@@ -40048,6 +40787,7 @@ GameObject:
   - 4: {fileID: 1984164899}
   - 33: {fileID: 1984164901}
   - 23: {fileID: 1984164900}
+  - 64: {fileID: 1984164902}
   m_Layer: 0
   m_Name: Gangway_Side_012
   m_TagString: Untagged
@@ -40092,6 +40832,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 1984164898}
+  m_Mesh: {fileID: 4300934, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &1984164902
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1984164898}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300934, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &1984550879
 GameObject:
@@ -42604,6 +43357,7 @@ GameObject:
   - 4: {fileID: 2098638615}
   - 33: {fileID: 2098638617}
   - 23: {fileID: 2098638616}
+  - 64: {fileID: 2098638618}
   m_Layer: 0
   m_Name: DOORWAY_Short_04
   m_TagString: Untagged
@@ -42648,6 +43402,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 2098638614}
+  m_Mesh: {fileID: 4300000, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &2098638618
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098638614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &2098866303
 GameObject:
@@ -43469,6 +44236,7 @@ GameObject:
   - 4: {fileID: 2136940104}
   - 33: {fileID: 2136940106}
   - 23: {fileID: 2136940105}
+  - 64: {fileID: 2136940107}
   m_Layer: 0
   m_Name: polySurface127
   m_TagString: Untagged
@@ -43513,6 +44281,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 2136940103}
+  m_Mesh: {fileID: 4300914, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!64 &2136940107
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2136940103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300914, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
 --- !u!1 &2143721791
 GameObject:
@@ -43673,6 +44454,7 @@ GameObject:
   - 4: {fileID: 2146085864}
   - 33: {fileID: 2146085866}
   - 23: {fileID: 2146085865}
+  - 65: {fileID: 2146085867}
   m_Layer: 0
   m_Name: FLOOR_Panel_04
   m_TagString: Untagged
@@ -43718,3 +44500,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2077941076}
   m_GameObject: {fileID: 2146085863}
   m_Mesh: {fileID: 4300062, guid: cbfc55f11d45845b2b1b626d60748031, type: 3}
+--- !u!65 &2146085867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2146085863}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .319999993, y: 0, z: .319999993}
+  m_Center: {x: 0, y: 0, z: 0}
