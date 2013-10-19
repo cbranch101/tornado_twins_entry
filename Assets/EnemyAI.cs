@@ -3,7 +3,6 @@ using System.Collections;
 using FPSControl;
 using RAIN.Core;
 using System.Collections.Generic;
-using FPSControl;
 
 
 public class EnemyAI : MonoBehaviour {
