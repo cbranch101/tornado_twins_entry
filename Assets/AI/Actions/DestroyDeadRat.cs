@@ -4,24 +4,22 @@ using System.Collections.Generic;
 using RAIN.Core;
 using RAIN.Action;
 
-public class SelectRandomDeadRat : RAIN.Action.Action
+public class DestroyDeadRat : RAIN.Action.Action
 {
-    public SelectRandomDeadRat()
+    public DestroyDeadRat()
     {
-        actionName = "SelectRandomDeadRat";
+        actionName = "DestroyDeadRat";
     }
 
     public override RAIN.Action.Action.ActionResult Start(RAIN.Core.Agent agent, float deltaTime)
     {
-        return RAIN.Action.Action.ActionResult.SUCCESS;
+               	GameObject ratToEat = agent.actionContext.GetContextItem<GameObject>("rat_to_eat");
+		GameObject.Destroy(ratToEat);
+		return RAIN.Action.Action.ActionResult.SUCCESS;
     }
 
     public override RAIN.Action.Action.ActionResult Execute(RAIN.Core.Agent agent, float deltaTime)
     {
-	List<GameObject> deadRats = agent.actionContext.GetContextItem<List<GameObject>>("dead_rats");
-	GameObject selectedDeadRat = deadRats[Random.Range(0, deadRats.Count - 1)];
-	selectedDeadRat.tag = "DeadRat";
-	agent.actionContext.SetContextItem<GameObject>("rat_to_eat", selectedDeadRat);
         return RAIN.Action.Action.ActionResult.SUCCESS;
     }
 
