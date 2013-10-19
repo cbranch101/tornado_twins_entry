@@ -32,9 +32,6 @@ public class FindRandomHidingSpot : RAIN.Action.Action
 	
 	public override RAIN.Action.Action.ActionResult Start(RAIN.Core.Agent agent, float deltaTime)
     {
-	
-	
-	
 	return RAIN.Action.Action.ActionResult.SUCCESS;
     }
 

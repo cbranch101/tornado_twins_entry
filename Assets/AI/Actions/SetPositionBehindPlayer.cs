@@ -20,7 +20,8 @@ public class SetPositionBehindPlayer : RAIN.Action.Action
 		RAINPathManager pathManager = agent.PathManager as RAINPathManager;
 		
 		if ((pathManager != null) && (pathManager.gridPathGraph != null)) {
-			positionIsValid = (pathManager.gridPathGraph.Quantize(positionBehindPlayer) >= 0);
+			Debug.Log (pathManager.gridPathGraph.Quantize(positionBehindPlayer));
+			positionIsValid = (pathManager.gridPathGraph.Quantize(positionBehindPlayer) >= 0f);
 
 		}
 		

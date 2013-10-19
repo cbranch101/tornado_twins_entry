@@ -5624,7 +5624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equipSFX: {fileID: 8300000, guid: b91658268ac8846e699ef6a511802ebe, type: 3}
-  fire1SFX: {fileID: 8300000, guid: d6d99694ac67f42838b406805c79fcde, type: 3}
+  fire1SFX: {fileID: 8300000, guid: 30685f1d217f54ac1a57d2a87305a83d, type: 3}
   fire2SFX: {fileID: 8300000, guid: d6d99694ac67f42838b406805c79fcde, type: 3}
   fire3SFX: {fileID: 8300000, guid: d6d99694ac67f42838b406805c79fcde, type: 3}
   reloadSFX: {fileID: 8300000, guid: ba1eb2a332c71453eb5aab6cf8f0a76b, type: 3}

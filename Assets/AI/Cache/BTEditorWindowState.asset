@@ -14,9 +14,9 @@ MonoBehaviour:
   HolderNodes:
   - FileName: .currentai
     BehaviorTreeName: Currently Selected AI
-    BehaviorTreeID: 330
-    LastUpdate: 635176293056667290
-    LastModified: 635176293050000000
+    BehaviorTreeID: 0
+    LastUpdate: 0
+    LastModified: 0
     Errored: 0
   - FileName: .createxml
     BehaviorTreeName: Create New Behavior Tree
@@ -123,8 +123,8 @@ MonoBehaviour:
   - FileName: SpiderMind.xml
     BehaviorTreeName: SpiderMind
     BehaviorTreeID: 330
-    LastUpdate: 635176293056667290
-    LastModified: 635176293050000000
+    LastUpdate: 635176443823872630
+    LastModified: 635176443820000000
     Errored: 0
   - FileName: SpiderMindPre.xml
     BehaviorTreeName: SpiderMindPre
@@ -10485,7 +10485,7 @@ MonoBehaviour:
       _parent: 0
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635176293046056500
+      _lastUpdate: 635176443813800620
       _children: 49010000
       _variables: 
     - _fields:
@@ -11602,12 +11602,12 @@ MonoBehaviour:
       _parent: 348
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 635176293046014480
+      _lastUpdate: 635176443794045320
       _children: 6c0100006d010000
       _variables: 
     - _fields:
       - _field: name
-        _currentValue: wait 1 second
+        _currentValue: timer 36871
         _recordChange: 1
         _changed: 0
       - _field: precondition
@@ -11619,7 +11619,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: waitforsec
-        _currentValue: 1
+        _currentValue: .5
         _recordChange: 1
         _changed: 0
       _type: 21
@@ -11627,7 +11627,7 @@ MonoBehaviour:
       _parent: 363
       _reference: 0
       _referencedCount: 0
-      _lastUpdate: 0
+      _lastUpdate: 635176443813800620
       _children: 
       _variables: 
     - _fields:
