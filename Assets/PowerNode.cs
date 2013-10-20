@@ -29,10 +29,11 @@ public class PowerNode : MonoBehaviour {
 	
 	public void addSelfAsParentToChildNodes() {
 		foreach(PowerNode powerNode in childNodes) {
-			
-			powerNode.addParentNode(this);
-			powerNode.addSelfAsParentToChildNodes();
-			updateCurrentPowerState();
+			if(powerNode != null) {
+				powerNode.addParentNode(this);
+				powerNode.addSelfAsParentToChildNodes();
+				updateCurrentPowerState();				
+			}
 			
 		}
 	}

@@ -27,6 +27,7 @@ public class SmallEnemyAI : EnemyAI {
 		foreach(GameObject foundObject in foundObjects) {
 			objectsToDestroy.Add (foundObject);
 		}
+
 		actionContext.SetContextItem<List<GameObject>>("objects_to_destroy", objectsToDestroy);
 	}
 	
