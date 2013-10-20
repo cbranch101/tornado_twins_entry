@@ -135,6 +135,7 @@ ModelImporter:
     7400002: Walking
     7400004: Begin Shooting
     7400006: Stop Shooting
+    7400008: Idle
     9500000: //RootNode
     11100000: //RootNode
     13700000: Cylinder004
@@ -224,6 +225,27 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Idle
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 60.0999985
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
