@@ -2966,7 +2966,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
       propertyPath: m_Name
-      value: DestroyableLight7
+      value: DestroyableLight8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
@@ -13748,7 +13748,7 @@ GameObject:
   - 108: {fileID: 443001650}
   - 114: {fileID: 443001649}
   m_Layer: 0
-  m_Name: DestroyableLight7
+  m_Name: DestroyableLight8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

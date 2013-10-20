@@ -11,6 +11,7 @@ public class PlayerHUD : MonoBehaviour {
 	float barXPosition;
 	DataController dataController;
 	public float distanceFromBottom = 30;
+	public string currentMessage;
 	
 	// Use this for initialization
 	void Start () {
@@ -27,6 +28,7 @@ public class PlayerHUD : MonoBehaviour {
 	}
 	
 	void OnGUI() {
+		GUI.Label (new Rect(0, 0, 300, 25), currentMessage);
 		float currentShipIntegrity = getShipIntegrity();
 		float currentHealth = getHealth();
 		GUI.Label (new Rect(10, barXPosition - 15, 200, 25), "Health");
