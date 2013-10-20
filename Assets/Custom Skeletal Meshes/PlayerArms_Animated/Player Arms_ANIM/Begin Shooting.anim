@@ -1241,7 +1241,7 @@ AnimationClip:
         value: {x: -1.48404374e-14, y: 9.76233932e-15, z: -.549565136, w: .835450947}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 569173848
+        tangentMode: -559038737
       - time: .333333492
         value: {x: -1.48404374e-14, y: 9.76233932e-15, z: -.549565136, w: .835450947}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -1277,7 +1277,7 @@ AnimationClip:
         value: {x: 5.83723248e-09, y: -4.63010563e-09, z: -.621442199, w: .783460021}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: -559038737
+        tangentMode: 707117304
       - time: .333333492
         value: {x: 5.83723248e-09, y: -4.63010563e-09, z: -.621442199, w: .783460021}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -3829,7 +3829,7 @@ AnimationClip:
       Foot/Bip001 R Toe0/Bip001 R Toe01/Bip001 R Toe02
   m_FloatCurves: []
   m_SampleRate: 30
-  m_WrapMode: 0
+  m_WrapMode: 1
   m_Bounds:
     m_Center: {x: -.00841569901, y: .551088452, z: .156773508}
     m_Extent: {x: .121563986, y: .0681598186, z: .181187809}
