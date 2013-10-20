@@ -13,6 +13,7 @@ public class EnemyAI : MonoBehaviour {
 	protected RAINAgent agent;
 	protected RAIN.Action.ActionContext actionContext;
 	protected List<GameObject> hidingSpots;
+	protected GameObject player;
 
 	
 	// Use this for initialization
@@ -90,7 +91,7 @@ public class EnemyAI : MonoBehaviour {
 	}
 	
 	protected void setPlayer() {
-		GameObject player = GameObject.Find ("PlayerConfigured");
+		player = GameObject.Find ("PlayerConfigured");
 		actionContext.SetContextItem<GameObject>("player", player);
 	}
 	
