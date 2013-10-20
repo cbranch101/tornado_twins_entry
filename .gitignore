@@ -8,9 +8,5 @@ Library/*
 Temp
 *.pidb
 Build
-<<<<<<< HEAD
-Assets/FPSControlAssets/Prefabs/Projectiles/line.mat
-=======
-Assets/FPSControlAssets/Prefabs/Projectiles/*
+Assets/FPSControlAssets/Prefabs/Projectiles/
 
->>>>>>> 03be9dd8dfb5f8e480ecff4b885ff0af5ccb8088
