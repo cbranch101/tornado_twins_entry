@@ -3818,8 +3818,7 @@ MonoBehaviour:
   isBeingEaten: 0
   turnOff: 0
   isPowerSource: 1
-  connectedNodes:
-  - {fileID: 1635203245}
+  childNodes: []
   connectedMachine: {fileID: 0}
 --- !u!23 &310762734
 Renderer:
@@ -5260,7 +5259,7 @@ MonoBehaviour:
   isBeingEaten: 1
   turnOff: 0
   isPowerSource: 0
-  connectedNodes: []
+  childNodes: []
   connectedMachine: {fileID: 1158606012}
 --- !u!23 &394253487
 Renderer:
@@ -19332,7 +19331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equipSFX: {fileID: 8300000, guid: b91658268ac8846e699ef6a511802ebe, type: 3}
-  fire1SFX: {fileID: 8300000, guid: d6d99694ac67f42838b406805c79fcde, type: 3}
+  fire1SFX: {fileID: 8300000, guid: 30685f1d217f54ac1a57d2a87305a83d, type: 3}
   fire2SFX: {fileID: 8300000, guid: d6d99694ac67f42838b406805c79fcde, type: 3}
   fire3SFX: {fileID: 8300000, guid: d6d99694ac67f42838b406805c79fcde, type: 3}
   reloadSFX: {fileID: 8300000, guid: ba1eb2a332c71453eb5aab6cf8f0a76b, type: 3}
@@ -26987,8 +26986,7 @@ MonoBehaviour:
   isBeingEaten: 1
   turnOff: 0
   isPowerSource: 0
-  connectedNodes:
-  - {fileID: 394253483}
+  childNodes: []
   connectedMachine: {fileID: 0}
 --- !u!23 &1635203249
 Renderer:

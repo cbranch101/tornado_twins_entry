@@ -64,6 +64,7 @@ ModelImporter:
     100116: Lips
     100118: //RootNode
     100120: Spider_LP
+    100122: SpiderBlocked
     400000: BN_Body
     400002: BN_Body_nub
     400004: BN_Eye_LF_1
@@ -125,11 +126,13 @@ ModelImporter:
     400116: Lips
     400118: //RootNode
     400120: Spider_LP
+    400122: SpiderBlocked
     4300000: Spider_LP
     4300002: Cylinder001
     4300004: Box035
     4300006: GEO_Eyes
     4300008: Lips
+    4300010: SpiderBlocked
     7400000: Walk
     7400002: Walk R
     7400004: Walk L
@@ -150,6 +153,7 @@ ModelImporter:
     13700004: GEO_Eyes
     13700006: Lips
     13700008: Spider_LP
+    13700010: SpiderBlocked
   materials:
     importMaterials: 1
     materialName: 0
@@ -424,7 +428,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1

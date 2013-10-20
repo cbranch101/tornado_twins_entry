@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Spider_DIFF
-  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 13, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2
@@ -16,12 +16,82 @@ Material:
         first:
           name: _MainTex
         second:
+          m_Texture: {fileID: 2800000, guid: 03cf29cfd40075a468d13030da6d60f9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b91a3837cfdfdc54f998913959f5660a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 2800000, guid: a026636e4dbdfe641ad0b87e8cda3c8e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecCubeIBL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .299296051
+      data:
+        first:
+          name: _EmissionLM
+        second: 0
+      data:
+        first:
+          name: _GlowStrength
+        second: 1
+      data:
+        first:
+          name: _SpecInt
+        second: 1
+      data:
+        first:
+          name: _Fresnel
+        second: .346153855
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: 0, g: 0, b: 0, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .346666664, g: .360334277, b: .400000006, a: 1}
+      data:
+        first:
+          name: _GlowColor
+        second: {r: 1, g: 1, b: 1, a: 1}
