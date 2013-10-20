@@ -3076,6 +3076,14 @@ Prefab:
       propertyPath: m_SpotAngle
       value: 41
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
+      propertyPath: failureNotificaiton
+      value: Light Failed
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
+      propertyPath: m_Name
+      value: DestroyableLight7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
     - {fileID: 13500000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
@@ -5508,7 +5516,7 @@ GameObject:
   - 108: {fileID: 178022217}
   - 114: {fileID: 178022216}
   m_Layer: 0
-  m_Name: DestroyableLight
+  m_Name: DestroyableLight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5527,6 +5535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   integrityAmount: 0
+  failureNotificaiton: system failed
 --- !u!108 &178022217
 Light:
   m_ObjectHideFlags: 0
@@ -6182,6 +6191,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 1299059101}
@@ -6621,6 +6634,10 @@ Prefab:
       propertyPath: m_SpotAngle
       value: 41
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
+      propertyPath: m_Name
+      value: DestroyableLight1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
     - {fileID: 13500000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
@@ -6661,6 +6678,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
       propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8171,7 +8192,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -28.5816002
+      value: -27.9475517
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
       propertyPath: m_LocalPosition.y
@@ -8179,7 +8200,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 27.9189377
+      value: 29.7792397
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -8195,6 +8216,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
       propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9935,9 +9960,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
-  connectedMachine: {fileID: 0}
+  connectedMachine: {fileID: 2106664124}
 --- !u!23 &318741430
 Renderer:
   m_ObjectHideFlags: 0
@@ -11839,6 +11864,10 @@ Prefab:
       propertyPath: m_SpotAngle
       value: 41
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
+      propertyPath: m_Name
+      value: DestroyableLight3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
     - {fileID: 13500000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
@@ -12947,6 +12976,10 @@ Prefab:
       propertyPath: m_SpotAngle
       value: 41
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
+      propertyPath: m_Name
+      value: DestroyableLight6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
     - {fileID: 13500000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
@@ -13761,7 +13794,7 @@ GameObject:
   - 108: {fileID: 443001650}
   - 114: {fileID: 443001649}
   m_Layer: 0
-  m_Name: DestroyableLight
+  m_Name: DestroyableLight7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13780,6 +13813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   integrityAmount: 0
+  failureNotificaiton: Light Failed
 --- !u!108 &443001650
 Light:
   m_ObjectHideFlags: 0
@@ -14629,6 +14663,10 @@ Prefab:
     - target: {fileID: 10800000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
       propertyPath: m_SpotAngle
       value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
+      propertyPath: m_Name
+      value: DestroyableLight2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
@@ -16050,6 +16088,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
       propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20091,7 +20133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
   connectedMachine: {fileID: 0}
 --- !u!23 &692690920
@@ -22303,6 +22345,10 @@ Prefab:
       propertyPath: m_SpotAngle
       value: 41
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
+      propertyPath: m_Name
+      value: DestroyableLight5
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
     - {fileID: 13500000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
@@ -23070,7 +23116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
   connectedMachine: {fileID: 0}
 --- !u!23 &799048998
@@ -29557,6 +29603,14 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: connectedMachine
+      value: 
+      objectReference: {fileID: 1227193453}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 1015893746}
@@ -29769,9 +29823,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
-  connectedMachine: {fileID: 0}
+  connectedMachine: {fileID: 1227193453}
 --- !u!23 &1015893749
 Renderer:
   m_ObjectHideFlags: 0
@@ -31986,6 +32040,10 @@ Prefab:
     - target: {fileID: 10800000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
       propertyPath: m_SpotAngle
       value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
+      propertyPath: m_Name
+      value: DestroyableLight4
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 1198fb7b738764b028ad6736a954d517, type: 2}
@@ -34292,6 +34350,14 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: connectedMachine
+      value: 
+      objectReference: {fileID: 1870805894}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 1569356154}
@@ -34523,7 +34589,7 @@ GameObject:
   - 108: {fileID: 1227193455}
   - 114: {fileID: 1227193454}
   m_Layer: 0
-  m_Name: DestroyableLight
+  m_Name: DestroyableLight6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34542,6 +34608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   integrityAmount: 0
+  failureNotificaiton: system failed
 --- !u!108 &1227193455
 Light:
   m_ObjectHideFlags: 0
@@ -36571,7 +36638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
   connectedMachine: {fileID: 0}
 --- !u!23 &1299059104
@@ -38613,7 +38680,7 @@ GameObject:
   - 108: {fileID: 1391568888}
   - 114: {fileID: 1391568887}
   m_Layer: 0
-  m_Name: DestroyableLight
+  m_Name: DestroyableLight5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38632,6 +38699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   integrityAmount: 0
+  failureNotificaiton: system failed
 --- !u!108 &1391568888
 Light:
   m_ObjectHideFlags: 0
@@ -40886,6 +40954,14 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: connectedMachine
+      value: 
+      objectReference: {fileID: 2106664124}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 318741427}
@@ -43255,6 +43331,14 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: connectedMachine
+      value: 
+      objectReference: {fileID: 1391568886}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 1989166306}
@@ -44701,9 +44785,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
-  connectedMachine: {fileID: 0}
+  connectedMachine: {fileID: 1870805894}
 --- !u!23 &1569356157
 Renderer:
   m_ObjectHideFlags: 0
@@ -45042,9 +45126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
-  connectedMachine: {fileID: 0}
+  connectedMachine: {fileID: 1728378567}
 --- !u!23 &1579637891
 Renderer:
   m_ObjectHideFlags: 0
@@ -45781,6 +45865,7 @@ MonoBehaviour:
   barHeight: 25
   barWidth: 100
   distanceFromBottom: 35
+  currentMessage: 
 --- !u!1 &1608409811
 GameObject:
   m_ObjectHideFlags: 0
@@ -49581,6 +49666,14 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: connectedMachine
+      value: 
+      objectReference: {fileID: 178022215}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 1999407294}
@@ -49681,7 +49774,7 @@ Transform:
   m_PrefabInternal: {fileID: 270311867}
   m_GameObject: {fileID: 1726125895}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.5816002, y: -9.83574677, z: 27.9189377}
+  m_LocalPosition: {x: -27.9475517, y: -9.83574677, z: 29.7792397}
   m_LocalScale: {x: .0324892923, y: .0324892923, z: .0324892923}
   m_Children: []
   m_Father: {fileID: 1388410139}
@@ -49699,7 +49792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
   connectedMachine: {fileID: 0}
 --- !u!23 &1726125898
@@ -49780,7 +49873,7 @@ GameObject:
   - 108: {fileID: 1728378569}
   - 114: {fileID: 1728378568}
   m_Layer: 0
-  m_Name: DestroyableLight
+  m_Name: DestroyableLight4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49799,6 +49892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   integrityAmount: 0
+  failureNotificaiton: system failed
 --- !u!108 &1728378569
 Light:
   m_ObjectHideFlags: 0
@@ -52888,7 +52982,7 @@ GameObject:
   - 108: {fileID: 1870805898}
   - 114: {fileID: 1870805895}
   m_Layer: 0
-  m_Name: DestroyableLight
+  m_Name: DestroyableLight3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52907,6 +53001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   integrityAmount: 0
+  failureNotificaiton: system failed
 --- !u!108 &1870805898
 Light:
   m_ObjectHideFlags: 0
@@ -56272,9 +56367,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
-  connectedMachine: {fileID: 0}
+  connectedMachine: {fileID: 1391568886}
 --- !u!23 &1989166309
 Renderer:
   m_ObjectHideFlags: 0
@@ -56766,9 +56861,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
-  connectedMachine: {fileID: 0}
+  connectedMachine: {fileID: 178022215}
 --- !u!23 &1999407297
 Renderer:
   m_ObjectHideFlags: 0
@@ -57588,9 +57683,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBeingEaten: 0
   turnOff: 0
-  isPowerSource: 0
+  isPowerSource: 1
   childNodes: []
-  connectedMachine: {fileID: 0}
+  connectedMachine: {fileID: 443001648}
 --- !u!23 &2036563595
 Renderer:
   m_ObjectHideFlags: 0
@@ -59266,6 +59361,14 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: connectedMachine
+      value: 
+      objectReference: {fileID: 1728378567}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 1579637889}
@@ -59650,7 +59753,7 @@ GameObject:
   - 108: {fileID: 2106664126}
   - 114: {fileID: 2106664125}
   m_Layer: 0
-  m_Name: DestroyableLight
+  m_Name: DestroyableLight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59669,6 +59772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   integrityAmount: 0
+  failureNotificaiton: system failed
 --- !u!108 &2106664126
 Light:
   m_ObjectHideFlags: 0
@@ -59955,6 +60059,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
       propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: connectedMachine
+      value: 
+      objectReference: {fileID: 443001648}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: isPowerSource
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
