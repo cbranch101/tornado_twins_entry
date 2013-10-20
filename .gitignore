@@ -8,5 +8,5 @@ Library/*
 Temp
 *.pidb
 Build
-Assets/FPSControlAssets/Prefabs/Projectiles/*
+Assets/FPSControlAssets/Prefabs/Projectiles
 
