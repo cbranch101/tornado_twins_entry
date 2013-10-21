@@ -66,6 +66,8 @@ ModelImporter:
     100120: Cylinder004
     100122: Mesh001
     100124: Torus001
+    100126: Sprayer LP
+    100128: Sprayer LP_GLass
     400000: //RootNode
     400002: Bip001
     400004: Bip001 L Calf
@@ -129,8 +131,16 @@ ModelImporter:
     400120: Cylinder004
     400122: Mesh001
     400124: Torus001
+    400126: Sprayer LP
+    400128: Sprayer LP_GLass
+    2300000: Sprayer LP
+    2300002: Sprayer LP_GLass
+    3300000: Sprayer LP
+    3300002: Sprayer LP_GLass
     4300000: Mesh001
     4300002: Cylinder004
+    4300004: Sprayer LP
+    4300006: Sprayer LP_GLass
     7400000: Running
     7400002: Walking
     7400004: Begin Shooting
@@ -144,8 +154,8 @@ ModelImporter:
     13700002: Mesh001
   materials:
     importMaterials: 1
-    materialName: 0
-    materialSearch: 1
+    materialName: 1
+    materialSearch: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
