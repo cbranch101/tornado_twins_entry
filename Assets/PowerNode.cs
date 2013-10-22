@@ -32,10 +32,10 @@ public class PowerNode : MonoBehaviour {
 			if(powerNode != null) {
 				powerNode.addParentNode(this);
 				powerNode.addSelfAsParentToChildNodes();
-				updateCurrentPowerState();				
+								
 			}
-			
 		}
+		updateCurrentPowerState();
 	}
 	// Update is called once per frame
 	void Update () {
@@ -59,10 +59,9 @@ public class PowerNode : MonoBehaviour {
 	
 	public void updateCurrentPowerState() {
 		
-		
 		bool willBePowered = isPowerSource ? true : atLeastOneParentNodeHasPower();
 		willBePowered = isDestroyed ? false : willBePowered; 
-		
+		Debug.Log (gameObject.name + " " + willBePowered);
 		if(hasPower) {
 			if(!willBePowered) {
 				powerDown();
@@ -92,13 +91,16 @@ public class PowerNode : MonoBehaviour {
 	}
 	
 	public void powerDown() {
+		Debug.Log (gameObject.name + " powering down");
 		hasPower = false;
 		if(connectedMachine != null) {
+
 			connectedMachine.SendMessage("OnPowerDown");
 		}
 	}
 	
 	public void powerUp() {
+		Debug.Log (gameObject.name + " powering up");
 		hasPower = true;
 		if(connectedMachine != null) {
 			connectedMachine.SendMessage("OnPowerUp");

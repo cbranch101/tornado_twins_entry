@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/RatSceneFPSControl.unity
   - enabled: 1
     path: Assets/MainHangar.unity
+  - enabled: 1
+    path: Assets/MainHanger_WIthNodes_Clay.unity
