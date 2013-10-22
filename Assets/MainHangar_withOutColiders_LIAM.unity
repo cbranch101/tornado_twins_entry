@@ -12284,7 +12284,7 @@ MonoBehaviour:
   camView: {x: -.00614949642, y: -.00347899715, z: -.999975026}
   gridObjPos: {x: 0, y: 0, z: 0}
   nearestSnapPos: {x: .75, y: 1.25, z: -8.75}
-  activePoint: {x: 11, y: 4, z: -12}
+  activePoint: {x: -2.39999962, y: -4.79999924, z: -2.39999866}
 --- !u!4 &747027261
 Transform:
   m_ObjectHideFlags: 0
