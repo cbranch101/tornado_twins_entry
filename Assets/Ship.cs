@@ -4,10 +4,11 @@ using System.Collections;
 public class Ship : MonoBehaviour {
 
 	float integrity = 100f;
+	AudioSource audioSource;
 	
 	// Use this for initialization
 	void Start () {
-		
+		audioSource = (AudioSource) gameObject.GetComponent("AudioSource");
 	}
 	
 	// Update is called once per frame
@@ -25,6 +26,12 @@ public class Ship : MonoBehaviour {
 	
 	public void takeDamage(float damageAmount) {
 		integrity -= damageAmount;
+	}
+	
+	public void playNotification(AudioClip notificationClip) {
+		Debug.Log ("getting called");
+		audioSource.clip = notificationClip;
+		audioSource.Play ();
 	}
 	
 	

@@ -4,6 +4,7 @@ using System.Collections;
 public class ShipSystem : MonoBehaviour {
 
 	public float integrityAmount;
+	public AudioClip failureClip;
 	protected Ship shipComponent;
 	public string failureNotificaiton = "system failed";
 	protected PlayerHUD playerHUD;
@@ -16,6 +17,12 @@ public class ShipSystem : MonoBehaviour {
 		
 	}
 	
+	protected void playFailureNotification() {
+		if(failureClip != null) {
+			shipComponent.playNotification(failureClip);
+		}	
+	}
+	
 	protected void OnPowerUp ()
 	{
 		
@@ -25,6 +32,7 @@ public class ShipSystem : MonoBehaviour {
 	
 	protected void OnPowerDown() {
 		playerHUD.currentMessage = failureNotificaiton;
+		playFailureNotification();
 		triggerPowerDownEffects();
 	}
 	
