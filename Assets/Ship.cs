@@ -29,7 +29,6 @@ public class Ship : MonoBehaviour {
 	}
 	
 	public void playNotification(AudioClip notificationClip) {
-		Debug.Log ("getting called");
 		audioSource.clip = notificationClip;
 		audioSource.Play ();
 	}

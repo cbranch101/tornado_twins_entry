@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using FPSControl;
+using System;
+using System.Reflection;
 
 public class PlayerHUD : MonoBehaviour {
 
@@ -13,6 +15,13 @@ public class PlayerHUD : MonoBehaviour {
 	public float distanceFromBottom = 30;
 	public string currentMessage;
 	private bool gameOver = false;
+	int startTime;
+	int restSeconds;
+	int roundedRestSeconds;
+	int displaySeconds;
+	int displayMinutes;
+	int countdownSeconds = 120;
+	public string gameStatus;
 	
 	// Use this for initialization
 	void Start () {
@@ -25,7 +34,11 @@ public class PlayerHUD : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		
+	}
+	
+	void Awake () {
+		startTime = (int) Time.time;
 	}
 	
 	public void PlayerDied() {
@@ -36,24 +49,52 @@ public class PlayerHUD : MonoBehaviour {
 		gameOver = true;
 	}
 	
+	
+	
 	void OnGUI() {
 		if(!gameOver) {
-			GUI.Label (new Rect(0, 0, 300, 25), currentMessage);
-			float currentShipIntegrity = getShipIntegrity();
-			float currentHealth = getHealth();
-			GUI.Label (new Rect(10, barXPosition - 15, 200, 25), "Health");
-			GUI.DrawTexture(new Rect(10, barXPosition, currentHealth, barHeight), barTexture);
-			
-			GUI.Label (new Rect(10 + barWidth + 30, barXPosition - 15, 200, 25), "Ship Integrity");
-			GUI.DrawTexture(new Rect(10 + barWidth + 30, barXPosition, currentShipIntegrity, barHeight), barTexture);
+			drawInGameHud();
 		} else {
-			GameObject player = GameObject.Find ("PlayerConfigured");
-			GameObject.Destroy(player);
-			GUI.Label (new Rect(0, 0, 300, 25), "Game Over");
-			if (GUI.Button(new Rect(10, 70, 50, 30), "Restart")) {
-				Application.LoadLevel("MainHanger_WithNodes_Clay");
-			}
+			drawGameOver();
 		}
+		
+	}
+	
+	void drawGameOver() {
+		GameObject player = GameObject.Find ("PlayerConfigured");
+		GameObject.Destroy(player);
+		GUI.Label (new Rect(0, 0, 300, 25), gameStatus);
+		if (GUI.Button(new Rect(10, 70, 50, 30), "Restart")) {
+			Application.LoadLevel("MainHanger_WithNodes_Clay");
+		}
+		
+	}
+	
+	void drawInGameHud() {
+		int guiTime = (int) Time.time - startTime;
+		
+		restSeconds = countdownSeconds - guiTime;
+		
+		if(restSeconds == 0) {
+			gameStatus = "You survived, somehow";
+			endGame();
+		}
+		
+		roundedRestSeconds = Mathf.CeilToInt(restSeconds);
+		displaySeconds = roundedRestSeconds % 60;
+		displayMinutes = roundedRestSeconds / 60;
+		
+		string text = String.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
+		
+		GUI.Label (new Rect(0, 0, 300, 25), "Survive for : " + text);
+		GUI.Label (new Rect(0, 30, 300, 25), currentMessage);
+		float currentShipIntegrity = getShipIntegrity();
+		float currentHealth = getHealth();
+		GUI.Label (new Rect(10, barXPosition - 15, 200, 25), "Health");
+		GUI.DrawTexture(new Rect(10, barXPosition, currentHealth, barHeight), barTexture);
+		
+		GUI.Label (new Rect(10 + barWidth + 30, barXPosition - 15, 200, 25), "Ship Integrity");
+		GUI.DrawTexture(new Rect(10 + barWidth + 30, barXPosition, currentShipIntegrity, barHeight), barTexture);
 		
 	}
 	
@@ -62,6 +103,7 @@ public class PlayerHUD : MonoBehaviour {
 			float currentHealthPercentage = dataController.current / dataController.max;
 			return barWidth * currentHealthPercentage;
 		} else {
+			gameStatus = "You died of spider, game over";
 			endGame ();
 			return 0;
 		}
