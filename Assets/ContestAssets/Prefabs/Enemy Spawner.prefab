@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.5799103, y: 4.48945141, z: -5.68915415}
+  m_LocalPosition: {x: 6.81634045, y: 12.8318062, z: -19.4490147}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38,7 +38,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e67aab6c229472ab8417acbc424580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spiderPrefab: {fileID: 100070, guid: aa58fc1aa4f244666b2ccf0105831533, type: 2}
+  spiderPrefab: {fileID: 100070, guid: 123ede173a9a5425ea56eb8df56386d5, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
