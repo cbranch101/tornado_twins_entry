@@ -1520,7 +1520,7 @@ MonoBehaviour:
   waypointCollection: {fileID: 0}
   allow3DMovement: 0
   allow3DLook: 0
-  drawPaths: 0
+  drawPaths: 1
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
