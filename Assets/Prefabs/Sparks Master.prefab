@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   m_Layer: 0
-  m_Name: Sparks Master
+  m_Name: Sparks Floor Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   m_Layer: 0
-  m_Name: Sparks Floor Collider
+  m_Name: Sparks Master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,12 +72,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.663764, y: 12.8434315, z: 8.69644642}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400004}
-  - {fileID: 400006}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 400004}
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
@@ -96,10 +94,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 9.663764, y: 12.8434315, z: 8.69644642}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400000}
+  m_Children:
+  - {fileID: 400000}
+  - {fileID: 400006}
+  m_Father: {fileID: 0}
 --- !u!4 &400006
 Transform:
   m_ObjectHideFlags: 1
@@ -111,7 +111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
-  m_Father: {fileID: 400000}
+  m_Father: {fileID: 400004}
 --- !u!108 &10800000
 Light:
   m_ObjectHideFlags: 1
@@ -391,7 +391,7 @@ ParticleSystem:
       minMaxState: 0
     gravityModifier: 0
     inheritVelocity: 0
-    maxNumParticles: 1000
+    maxNumParticles: 100
   ShapeModule:
     serializedVersion: 2
     enabled: 1
@@ -1195,7 +1195,7 @@ ParticleSystem:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
-  lengthInSec: 7
+  lengthInSec: 5
   startDelay: 0
   speed: 1
   randomSeed: 0
@@ -1206,7 +1206,7 @@ ParticleSystem:
   InitialModule:
     enabled: 1
     startLifetime:
-      scalar: 5
+      scalar: 4
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1423,7 +1423,7 @@ ParticleSystem:
       minMaxState: 0
     gravityModifier: 2
     inheritVelocity: 0
-    maxNumParticles: 1000
+    maxNumParticles: 100
   ShapeModule:
     serializedVersion: 2
     enabled: 1
@@ -2037,7 +2037,7 @@ ParticleSystem:
   SizeBySpeedModule:
     enabled: 1
     curve:
-      scalar: 1
+      scalar: .75
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -2052,7 +2052,7 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - time: 0
-          value: .100000001
+          value: .13333334
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2196,7 +2196,7 @@ ParticleSystem:
   CollisionModule:
     enabled: 1
     type: 0
-    plane0: {fileID: 400004}
+    plane0: {fileID: 400000}
     plane1: {fileID: 0}
     plane2: {fileID: 0}
     plane3: {fileID: 0}
@@ -2290,6 +2290,6 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100000}
+  m_RootGameObject: {fileID: 100004}
   m_IsPrefabParent: 1
   m_IsExploded: 1
