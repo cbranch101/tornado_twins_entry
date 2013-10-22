@@ -3094,7 +3094,7 @@ AnimationClip:
       Foot/Bip001 R Toe0/Bip001 R Toe01/Bip001 R Toe02
   m_FloatCurves: []
   m_SampleRate: 30
-  m_WrapMode: 4
+  m_WrapMode: 0
   m_Bounds:
     m_Center: {x: -.00804397464, y: .556048393, z: .141006485}
     m_Extent: {x: .119965121, y: .0557359457, z: .165533587}

@@ -132,7 +132,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 12e5c76f12e5c76f
+      m_Data: 0ae5c76f0ae5c76f
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
@@ -149,7 +149,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 1b65949d1b65949d
+      m_Data: 1b55949d1b55949d
     m_Slopes:
       m_NumItems: 8
       m_Range: .0796320587
@@ -183,7 +183,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 7b73da897b73da89
+      m_Data: 7b63da897b63da89
     m_Slopes:
       m_NumItems: 8
       m_Range: .051137276
@@ -201,7 +201,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbd7d662fbc7d662
+      m_Data: fbd79662fbc79662
     m_Slopes:
       m_NumItems: 8
       m_Range: .0507410429
@@ -219,7 +219,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 0368a5760368a576
+      m_Data: fb57a576fb57a576
     m_Slopes:
       m_NumItems: 8
       m_Range: 1.00582213e-06
@@ -237,7 +237,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fb67257cfb67257c
+      m_Data: fb57257cfb57257c
     m_Slopes:
       m_NumItems: 8
       m_Range: 4.12110239e-07
@@ -255,7 +255,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: dbf75d53dbf79d53
+      m_Data: dbf71d53dbf75d53
     m_Slopes:
       m_NumItems: 8
       m_Range: .500446498
@@ -278,7 +278,7 @@ AnimationClip:
       m_NumItems: 8
       m_Range: .446329147
       m_Start: -7.00434271e-07
-      m_Data: 00c06b00f06f
+      m_Data: 00c06b00f06b
       m_BitSize: 6
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -291,12 +291,12 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf79f54fbf7df54
+      m_Data: fbf75f54fbf79f54
     m_Slopes:
       m_NumItems: 8
       m_Range: .458982438
       m_Start: -6.08395112e-08
-      m_Data: 00c05700f05b
+      m_Data: 00c05700f057
       m_BitSize: 6
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -309,7 +309,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 9bc79e479bc7de47
+      m_Data: 9bb79e479bb7de47
     m_Slopes:
       m_NumItems: 8
       m_Range: .26642704
@@ -327,12 +327,12 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf75f42fbf75f42
+      m_Data: fbf71f42fbf71f42
     m_Slopes:
       m_NumItems: 8
       m_Range: .2520127
       m_Start: -1.5059743e-07
-      m_Data: 00c07f00f083
+      m_Data: 00c07f00f07f
       m_BitSize: 6
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -363,12 +363,12 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 1b579e381b57de38
+      m_Data: 1b475e381b479e38
     m_Slopes:
       m_NumItems: 8
       m_Range: .221669227
       m_Start: -.0120702013
-      m_Data: 00c2a300f2af
+      m_Data: c0c1a3c0f1af
       m_BitSize: 6
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -404,7 +404,7 @@ AnimationClip:
       m_NumItems: 8
       m_Range: .217400014
       m_Start: -2.68580266e-07
-      m_Data: 00c08b00f08f
+      m_Data: 00c08b00f08b
       m_BitSize: 6
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -417,7 +417,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: f3369e2ef346de2e
+      m_Data: f3269e2ef336de2e
     m_Slopes:
       m_NumItems: 8
       m_Range: .205639899
@@ -453,7 +453,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf7df38fbf7df38
+      m_Data: fbf79f38fbf79f38
     m_Slopes:
       m_NumItems: 8
       m_Range: .208358675
@@ -504,7 +504,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf71fb3fbf71fb3
+      m_Data: fbf7dfb2fbf7dfb2
     m_Slopes:
       m_NumItems: 8
       m_Range: .0613064244
@@ -557,7 +557,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: dbf7d876dbf7d876
+      m_Data: dbe7d876dbe7d876
     m_Slopes:
       m_NumItems: 8
       m_Range: 2.01164426e-06
@@ -575,7 +575,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: dbe7187cdbe7187c
+      m_Data: dbd7187cdbd7187c
     m_Slopes:
       m_NumItems: 8
       m_Range: 1.89989612e-06
@@ -593,7 +593,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 3398a1663398a166
+      m_Data: 3388a1663388a166
     m_Slopes:
       m_NumItems: 8
       m_Range: 5.30851764e-07
@@ -611,7 +611,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf79f31fbf79f31
+      m_Data: fbf75f31fbf75f31
     m_Slopes:
       m_NumItems: 8
       m_Range: 1.11761312e-06
@@ -629,7 +629,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf71f39fbf71f39
+      m_Data: fbf7df38fbf7df38
     m_Slopes:
       m_NumItems: 8
       m_Range: 7.19820434e-08
@@ -647,7 +647,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 3b18e1343b18e134
+      m_Data: 3b08e1343b08e134
     m_Slopes:
       m_NumItems: 8
       m_Range: 1.7322559e-06
@@ -701,7 +701,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: bba8a12fbba8a12f
+      m_Data: bb98a12fbb98a12f
     m_Slopes:
       m_NumItems: 8
       m_Range: 1.56462784e-06
@@ -737,7 +737,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf71f33fbf71f33
+      m_Data: fbf7df32fbf7df32
     m_Slopes:
       m_NumItems: 8
       m_Range: 1.09689756e-06
@@ -755,7 +755,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: f6b1c3d7f6b1c3d7
+      m_Data: f691c3d7f691c3d7
     m_Slopes:
       m_NumItems: 8
       m_Range: 1.34109609e-06
@@ -773,7 +773,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf79f2afbf79f2a
+      m_Data: fbf75f2afbf75f2a
     m_Slopes:
       m_NumItems: 8
       m_Range: 1.09918687e-06
@@ -796,7 +796,7 @@ AnimationClip:
       m_NumItems: 8
       m_Range: 5.14631552e-07
       m_Start: -2.66320768e-07
-      m_Data: cd0d82c00f82
+      m_Data: cc0d82c00f82
       m_BitSize: 6
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -825,7 +825,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: b3d81b82b3d81b82
+      m_Data: b3d8db81b3d8db81
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
@@ -841,7 +841,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 19efdf7f19efdf7f
+      m_Data: 11efdf7f11efdf7f
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
@@ -874,7 +874,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf7df78fbf7df78
+      m_Data: fbf79f78fbf79f78
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
@@ -891,7 +891,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: feef3fd9feef3fd9
+      m_Data: feefbfd8feefbfd8
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
@@ -941,7 +941,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: 19efdf7f19efdf7f
+      m_Data: 11efdf7f11efdf7f
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
@@ -974,7 +974,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: fbf7df78fbf7df78
+      m_Data: fbf79f78fbf79f78
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
@@ -991,7 +991,7 @@ AnimationClip:
       m_BitSize: 0
     m_Values:
       m_NumItems: 2
-      m_Data: feef3fd9feef3fd9
+      m_Data: feefbfd8feefbfd8
     m_Slopes:
       m_NumItems: 8
       m_Range: 0
