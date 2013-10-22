@@ -8,13 +8,24 @@ public class ShipSystem : MonoBehaviour {
 	public string failureNotificaiton = "system failed";
 	protected PlayerHUD playerHUD;
 	
-	protected virtual void OnPowerUp ()
-	{
-
+	protected virtual void triggerPowerDownEffects() {
+		
 	}
 	
-	protected virtual void OnPowerDown() {
+	protected virtual void triggerPowerUpEffects() {
+		
+	}
+	
+	protected void OnPowerUp ()
+	{
+		
 
+		triggerPowerUpEffects();
+	}
+	
+	protected void OnPowerDown() {
+		playerHUD.currentMessage = failureNotificaiton;
+		triggerPowerDownEffects();
 	}
 	
 	protected virtual void onStart() {

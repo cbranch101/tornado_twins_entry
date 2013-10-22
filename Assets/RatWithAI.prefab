@@ -1044,7 +1044,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: 0, y: -.730558217, z: 0, w: -.68285048}
-  m_LocalPosition: {x: -10.8830376, y: 4.57314014, z: 17.0387573}
+  m_LocalPosition: {x: 10.4259863, y: 4.28735733, z: 4.72310066}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400012}
@@ -1179,6 +1179,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5721c82877bae4373a0fe2e8ec10a00e, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   startingEmotionalState: calm
   powerNodeDamage: 4
 --- !u!114 &11400002
@@ -1191,6 +1192,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -1456383791, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Minds.BehaviorTreeMind
   behaviorTreeFilename: RatMind
   rootName: root
@@ -1204,6 +1206,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 681896232, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Path.RAINPathManager
   moveTarget:
     closeEnoughDistance: 0
@@ -1225,7 +1228,7 @@ MonoBehaviour:
   avoidanceStrength: 2
   useNavigationGrid: 1
   maxPathFindStepsPerFrame: 100
-  navgridFilename: HangerNavGrid
+  navgridFilename: CargoBayNavGrid
   useWaypointCollection: 0
   waypointCollection: {fileID: 0}
   allow3DMovement: 0
@@ -1241,6 +1244,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1031171884, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Sensors.ExpandingBoxSensor
   focusOfAttention: []
   maxFocus: 5
@@ -1267,6 +1271,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 1975918722, guid: bc76cc0c25d9143f9a3f919db1a9dd44, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   max: 100
   current: 100
   initial: 100
@@ -1284,6 +1289,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2121150447, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Motion.AICharacterController
   controllerType: 2
 --- !u!114 &11400012
@@ -1296,6 +1302,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2124519495, guid: d5b7e7bc48f50bc49b16520df5c134e0, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   rainVersionString: RAIN.Core.RAINAgent
   avatar: {fileID: 100070}
   mind: {fileID: 11400002}

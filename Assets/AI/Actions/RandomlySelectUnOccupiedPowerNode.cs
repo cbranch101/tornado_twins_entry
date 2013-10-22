@@ -24,7 +24,16 @@ public class RandomlySelectUnOccupiedPowerNode : RAIN.Action.Action
     }
 	
 	void setMoveTargetForRandomPowerNode(List<GameObject >unOccupiedPowerNodes, RAIN.Core.Agent agent) {
-		GameObject selectedPowerNode = unOccupiedPowerNodes[Random.Range(0, unOccupiedPowerNodes.Count - 1)];
+		GameObject selectedPowerNode = null;
+		float leastDistance = 100000f;;
+		foreach(GameObject powerNode in unOccupiedPowerNodes) {
+			Vector3 vectorDistance = agent.Avatar.gameObject.transform.position - powerNode.gameObject.transform.position;
+			float distance = vectorDistance.sqrMagnitude;
+			if(distance < leastDistance) {
+				leastDistance = distance;
+				selectedPowerNode = powerNode;
+			}
+		}	
 		occupyPowerNode (selectedPowerNode, agent);
 		agent.actionContext.SetContextItem<GameObject>("move_target", selectedPowerNode);
 	}
