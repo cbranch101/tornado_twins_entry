@@ -62,7 +62,6 @@ public class PowerNode : MonoBehaviour {
 		
 		bool willBePowered = isPowerSource ? true : atLeastOneParentNodeHasPower();
 		willBePowered = isDestroyed ? false : willBePowered; 
-		Debug.Log (gameObject.name + " " + willBePowered);
 		if(hasPower) {
 			if(!willBePowered) {
 				powerDown();
