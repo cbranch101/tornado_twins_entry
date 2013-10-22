@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SkyBox
+  m_Shader: {fileID: 104, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Tex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FrontTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 137f4380f5b33494eb1843aa5339742d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a756f3bd9e2468d48ac2b6ee3ff8dfda, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LeftTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c0d9b152273a22149967a3dae9ec9896, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RightTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a5a08d9788c423c4c8d28cc7c6f646ee, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _UpTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9cb8f116049a2264cb767a5ca9955029, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DownTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 295d3ca6a66003b4bb7c5034c6811469, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Tint
+        second: {r: .507352948, g: .507352948, b: .507352948, a: 0}
