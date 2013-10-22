@@ -14,6 +14,7 @@ public class PowerNode : MonoBehaviour {
 	public PowerNode[] childNodes;
 	List<PowerNode> parentNodes = new List<PowerNode>();
 	public GameObject connectedMachine;
+	public ParticleSystem sparkEffect;
 	
 	// Use this for initialization
 	void Start () {
@@ -76,7 +77,9 @@ public class PowerNode : MonoBehaviour {
 	
 	public void takeDamage(float damageAmount) {
 		integrity -= damageAmount;
+		sparkEffect.Play ();
 		if(integrity <= 0f) {
+			sparkEffect.Stop();
 			isDestroyed = true;
 			updateCurrentPowerState();
 		}
