@@ -1044,7 +1044,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: 0, y: -.730558217, z: 0, w: -.68285048}
-  m_LocalPosition: {x: 4.97504854, y: 4.28735733, z: 7.6970253}
+  m_LocalPosition: {x: 10.1219759, y: 4.28735733, z: 3.00940204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400012}
@@ -1233,7 +1233,7 @@ MonoBehaviour:
   waypointCollection: {fileID: 0}
   allow3DMovement: 0
   allow3DLook: 0
-  drawPaths: 0
+  drawPaths: 1
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1306,7 +1306,7 @@ MonoBehaviour:
   rainVersionString: RAIN.Core.RAINAgent
   avatar: {fileID: 100070}
   mind: {fileID: 11400002}
-  maxSpeed: 1
+  maxSpeed: 5
   maxAcceleration: 1
   ApplyMaxToYAxis: 0
   maxRotationRate: 180
