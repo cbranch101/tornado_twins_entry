@@ -15,6 +15,9 @@ public class PowerNode : MonoBehaviour {
 	List<PowerNode> parentNodes = new List<PowerNode>();
 	public GameObject connectedMachine;
 	public ParticleSystem sparkEffect;
+	public GameObject powerBoxObject;
+	public Texture poweredUpTexture;
+	public Texture poweredDownTexture;
 	
 	// Use this for initialization
 	void Start () {
@@ -26,6 +29,12 @@ public class PowerNode : MonoBehaviour {
 	
 	public void addParentNode(PowerNode parentNode) {
 		parentNodes.Add(parentNode);
+	}
+	
+	public void setTextureInMaterial(Texture textureToSet) {
+		if(textureToSet != null) {
+			powerBoxObject.renderer.material.SetTexture("_MainTex", textureToSet);
+		}
 	}
 	
 	public void addSelfAsParentToChildNodes() {
@@ -96,7 +105,7 @@ public class PowerNode : MonoBehaviour {
 		Debug.Log (gameObject.name + " powering down");
 		hasPower = false;
 		if(connectedMachine != null) {
-
+			setTextureInMaterial(poweredDownTexture);
 			connectedMachine.SendMessage("OnPowerDown");
 		}
 	}
@@ -105,6 +114,7 @@ public class PowerNode : MonoBehaviour {
 		Debug.Log (gameObject.name + " powering up");
 		hasPower = true;
 		if(connectedMachine != null) {
+			setTextureInMaterial(poweredUpTexture);
 			connectedMachine.SendMessage("OnPowerUp");
 		}
 	}

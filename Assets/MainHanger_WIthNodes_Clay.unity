@@ -2202,6 +2202,18 @@ Prefab:
       propertyPath: isBeingEaten
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: powerBoxObject
+      value: 
+      objectReference: {fileID: 441691883}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: poweredUpTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: poweredDownTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 971164195}
@@ -2777,6 +2789,9 @@ MonoBehaviour:
   - {fileID: 1478234684}
   connectedMachine: {fileID: 725956844}
   sparkEffect: {fileID: 1910946336}
+  powerBoxObject: {fileID: 1589448929}
+  poweredUpTexture: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+  poweredDownTexture: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
 --- !u!23 &76527595
 Renderer:
   m_ObjectHideFlags: 0
@@ -10450,6 +10465,9 @@ MonoBehaviour:
   - {fileID: 334080109}
   connectedMachine: {fileID: 1647745395}
   sparkEffect: {fileID: 0}
+  powerBoxObject: {fileID: 0}
+  poweredUpTexture: {fileID: 0}
+  poweredDownTexture: {fileID: 0}
 --- !u!1 &243230025
 GameObject:
   m_ObjectHideFlags: 0
@@ -13156,6 +13174,9 @@ MonoBehaviour:
   childNodes: []
   connectedMachine: {fileID: 312388458}
   sparkEffect: {fileID: 0}
+  powerBoxObject: {fileID: 0}
+  poweredUpTexture: {fileID: 0}
+  poweredDownTexture: {fileID: 0}
 --- !u!1 &335716301
 GameObject:
   m_ObjectHideFlags: 0
@@ -14960,6 +14981,18 @@ Prefab:
       propertyPath: m_Name
       value: RightTallBoiler
       objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: 97c0055f65da8468788a5aa247909755, type: 2}
+      propertyPath: m_Name
+      value: RightTallBoilerBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 100254, guid: 97c0055f65da8468788a5aa247909755, type: 2}
+      propertyPath: m_Name
+      value: RightShortBoilerPowerBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 101238, guid: 97c0055f65da8468788a5aa247909755, type: 2}
+      propertyPath: m_Name
+      value: LeftTallBoilerBox
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97c0055f65da8468788a5aa247909755, type: 2}
   m_RootGameObject: {fileID: 966675231}
@@ -16371,7 +16404,7 @@ GameObject:
   - 23: {fileID: 441691885}
   - 64: {fileID: 441691887}
   m_Layer: 0
-  m_Name: MODULE_06
+  m_Name: RightShortBoilerPowerBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22636,6 +22669,18 @@ Prefab:
       propertyPath: childNodes.Array.data[1]
       value: 
       objectReference: {fileID: 1478234684}
+    - target: {fileID: 11400000, guid: 56123e4e570064549b1d12c514583cd3, type: 2}
+      propertyPath: powerBoxObject
+      value: 
+      objectReference: {fileID: 1085181836}
+    - target: {fileID: 11400000, guid: 56123e4e570064549b1d12c514583cd3, type: 2}
+      propertyPath: poweredUpTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+    - target: {fileID: 11400000, guid: 56123e4e570064549b1d12c514583cd3, type: 2}
+      propertyPath: poweredDownTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56123e4e570064549b1d12c514583cd3, type: 2}
   m_RootGameObject: {fileID: 1725995033}
@@ -24113,6 +24158,18 @@ Prefab:
       propertyPath: isBeingEaten
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: powerBoxObject
+      value: 
+      objectReference: {fileID: 1589448929}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: poweredUpTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+    - target: {fileID: 11400000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
+      propertyPath: poweredDownTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9707202ca15524e26b4e119ada6fff2a, type: 2}
   m_RootGameObject: {fileID: 76527593}
@@ -28901,6 +28958,18 @@ Prefab:
       propertyPath: connectedMachine
       value: 
       objectReference: {fileID: 838048632}
+    - target: {fileID: 11400000, guid: 56123e4e570064549b1d12c514583cd3, type: 2}
+      propertyPath: powerBoxObject
+      value: 
+      objectReference: {fileID: 983916017}
+    - target: {fileID: 11400000, guid: 56123e4e570064549b1d12c514583cd3, type: 2}
+      propertyPath: poweredUpTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+    - target: {fileID: 11400000, guid: 56123e4e570064549b1d12c514583cd3, type: 2}
+      propertyPath: poweredDownTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56123e4e570064549b1d12c514583cd3, type: 2}
   m_RootGameObject: {fileID: 1044926231}
@@ -36489,6 +36558,9 @@ MonoBehaviour:
   - {fileID: 241356923}
   connectedMachine: {fileID: 931584313}
   sparkEffect: {fileID: 757001809}
+  powerBoxObject: {fileID: 441691883}
+  poweredUpTexture: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+  poweredDownTexture: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
 --- !u!23 &971164198
 Renderer:
   m_ObjectHideFlags: 0
@@ -38982,6 +39054,9 @@ MonoBehaviour:
   - {fileID: 1677423700}
   connectedMachine: {fileID: 838048632}
   sparkEffect: {fileID: 1498099314}
+  powerBoxObject: {fileID: 983916017}
+  poweredUpTexture: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+  poweredDownTexture: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
 --- !u!23 &1044926234
 Renderer:
   m_ObjectHideFlags: 0
@@ -40404,7 +40479,7 @@ GameObject:
   - 23: {fileID: 1085181838}
   - 64: {fileID: 1085181840}
   m_Layer: 0
-  m_Name: MODULE_04
+  m_Name: LeftTallBoilerBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54755,6 +54830,9 @@ MonoBehaviour:
   childNodes: []
   connectedMachine: {fileID: 1279127987}
   sparkEffect: {fileID: 0}
+  powerBoxObject: {fileID: 0}
+  poweredUpTexture: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+  poweredDownTexture: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
 --- !u!4 &1478234685
 Transform:
   m_ObjectHideFlags: 0
@@ -61095,7 +61173,7 @@ GameObject:
   - 23: {fileID: 1589448931}
   - 64: {fileID: 1589448933}
   m_Layer: 0
-  m_Name: MODULE_05
+  m_Name: RightTallBoilerBox
   m_TagString: Destroyable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66402,6 +66480,9 @@ MonoBehaviour:
   - {fileID: 334080109}
   connectedMachine: {fileID: 76012933}
   sparkEffect: {fileID: 0}
+  powerBoxObject: {fileID: 0}
+  poweredUpTexture: {fileID: 0}
+  poweredDownTexture: {fileID: 0}
 --- !u!1 &1678566282
 GameObject:
   m_ObjectHideFlags: 0
@@ -67700,6 +67781,9 @@ MonoBehaviour:
   - {fileID: 1677423700}
   connectedMachine: {fileID: 1051365886}
   sparkEffect: {fileID: 2128655027}
+  powerBoxObject: {fileID: 1085181836}
+  poweredUpTexture: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+  poweredDownTexture: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
 --- !u!23 &1725995036
 Renderer:
   m_ObjectHideFlags: 0
@@ -80269,6 +80353,14 @@ Prefab:
       propertyPath: connectedMachine
       value: 
       objectReference: {fileID: 1279127987}
+    - target: {fileID: 11400000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
+      propertyPath: poweredUpTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 71232a4ef293148fe80c8447c87055c0, type: 3}
+    - target: {fileID: 11400000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
+      propertyPath: poweredDownTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f7a32db9e0043b42b64bba8b2109d4a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
   m_RootGameObject: {fileID: 1478234683}
