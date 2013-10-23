@@ -12,7 +12,7 @@ GameObject:
   - 199: {fileID: 19900000}
   - 108: {fileID: 10800000}
   m_Layer: 0
-  m_Name: PRTCLZ_GameOver
+  m_Name: GameOverParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
