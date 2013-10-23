@@ -10447,7 +10447,7 @@ MonoBehaviour:
   turnOff: 0
   isPowerSource: 0
   childNodes:
-  - {fileID: 1677423700}
+  - {fileID: 334080109}
   connectedMachine: {fileID: 1647745395}
   sparkEffect: {fileID: 0}
 --- !u!1 &243230025
@@ -14085,7 +14085,7 @@ Prefab:
     - target: {fileID: 11400000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
       propertyPath: childNodes.Array.data[0]
       value: 
-      objectReference: {fileID: 1478234684}
+      objectReference: {fileID: 334080109}
     - target: {fileID: 11400000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
       propertyPath: connectedMachine
       value: 
@@ -31151,7 +31151,7 @@ Prefab:
     - target: {fileID: 11400000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
       propertyPath: childNodes.Array.data[0]
       value: 
-      objectReference: {fileID: 1677423700}
+      objectReference: {fileID: 334080109}
     - target: {fileID: 11400000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
       propertyPath: connectedMachine
       value: 
@@ -66339,7 +66339,7 @@ MonoBehaviour:
   turnOff: 0
   isPowerSource: 0
   childNodes:
-  - {fileID: 1478234684}
+  - {fileID: 334080109}
   connectedMachine: {fileID: 76012933}
   sparkEffect: {fileID: 0}
 --- !u!1 &1678566282
@@ -80204,7 +80204,7 @@ Prefab:
     - target: {fileID: 11400000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
       propertyPath: childNodes.Array.data[0]
       value: 
-      objectReference: {fileID: 1478234684}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: c7afa0bc5790d4ccead7a335d74498d5, type: 2}
       propertyPath: connectedMachine
       value: 
