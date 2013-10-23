@@ -17,9 +17,9 @@ public class CoreContainmentSystem : ShipSystem {
 	}
 	
 	public IEnumerator handleEndOfGame() {
-		
+		yield return new WaitForSeconds(10);
 		explosionEffect.Play ();
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(5);
 		playerHUD.gameStatus = "The whole ship blew up underneath you";
 		playerHUD.endGame();
 
