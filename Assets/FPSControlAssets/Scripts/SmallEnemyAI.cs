@@ -46,12 +46,7 @@ public class SmallEnemyAI : EnemyAI {
 	
 	protected override void OnAIUpdate() {
 
-	}
-	
-	protected override void OnTakeDamage(float currentHealth, float damageAmount) {
-		
-	}
-	
+	}	
 	
 	
 	
