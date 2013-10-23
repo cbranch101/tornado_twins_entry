@@ -2759,15 +2759,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 672bc6c2ae0d43e4d8457746e0fe3a3e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.45286322e-06
+      value: -1.11758709e-07
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 672bc6c2ae0d43e4d8457746e0fe3a3e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.35830402
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 672bc6c2ae0d43e4d8457746e0fe3a3e, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 10.8758125
+      value: 6.37243938
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 672bc6c2ae0d43e4d8457746e0fe3a3e, type: 2}
       propertyPath: m_LocalRotation.x
@@ -16552,7 +16552,7 @@ GameObject:
   - 4: {fileID: 418739855}
   - 108: {fileID: 418739856}
   m_Layer: 0
-  m_Name: IO Ambient Spot 01
+  m_Name: IO Ambient Spot Cargo Doord
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40648,7 +40648,7 @@ GameObject:
   - 4: {fileID: 1035202092}
   - 108: {fileID: 1035202093}
   m_Layer: 0
-  m_Name: IO Ambient Spot 01
+  m_Name: IO Ambient Spot Skylight Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70718,7 +70718,7 @@ Transform:
   m_PrefabInternal: {fileID: 76027661}
   m_GameObject: {fileID: 1700102114}
   m_LocalRotation: {x: 1, y: 4.37113883e-08, z: 4.37113883e-08, w: 1.91068547e-15}
-  m_LocalPosition: {x: -1.45286322e-06, y: 0, z: 10.8758125}
+  m_LocalPosition: {x: -1.11758709e-07, y: 1.35830402, z: 6.37243938}
   m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1995709552}
@@ -73374,7 +73374,7 @@ GameObject:
   - 4: {fileID: 1750389228}
   - 108: {fileID: 1750389229}
   m_Layer: 0
-  m_Name: IO Ambient Spot 01
+  m_Name: IO Ambient Spot Skylight Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75117,6 +75117,7 @@ Transform:
   - {fileID: 418739855}
   - {fileID: 1035202092}
   - {fileID: 1750389228}
+  - {fileID: 2063595396}
   m_Father: {fileID: 0}
 --- !u!1 &1766619553
 GameObject:
@@ -87391,6 +87392,69 @@ Transform:
   m_Children:
   - {fileID: 1428825952}
   m_Father: {fileID: 959671377}
+--- !u!1 &2063595395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: befc9b47f44e41e4fb2675cd667e3317, type: 2}
+  m_PrefabInternal: {fileID: 1471168602}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2063595396}
+  - 108: {fileID: 2063595397}
+  m_Layer: 0
+  m_Name: Ambient Lighting Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2063595396
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: befc9b47f44e41e4fb2675cd667e3317, type: 2}
+  m_PrefabInternal: {fileID: 1471168602}
+  m_GameObject: {fileID: 2063595395}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 10.158535, y: 4.15255022, z: -3.79723811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1766067915}
+--- !u!108 &2063595397
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 10800006, guid: befc9b47f44e41e4fb2675cd667e3317,
+    type: 2}
+  m_PrefabInternal: {fileID: 1471168602}
+  m_GameObject: {fileID: 2063595395}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Type: 0
+  m_Color: {r: 1, g: .975607634, b: .956862748, a: 1}
+  m_Intensity: .25
+  m_Range: 14
+  m_SpotAngle: 179
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_Softness: 4
+    m_SoftnessFade: 1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_ActuallyLightmapped: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_ShadowSamples: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_IndirectIntensity: 1
+  m_AreaSize: {x: 1, y: 1}
 --- !u!1 &2064712408
 GameObject:
   m_ObjectHideFlags: 0
