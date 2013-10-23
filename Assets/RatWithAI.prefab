@@ -1044,7 +1044,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: 0, y: -.730558217, z: 0, w: -.68285048}
-  m_LocalPosition: {x: 11.2070017, y: 4.49922752, z: 5.7679925}
+  m_LocalPosition: {x: 10.2863178, y: 4.49922752, z: 3.10458708}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400012}
@@ -1181,7 +1181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingEmotionalState: calm
-  powerNodeDamage: 5
+  powerNodeDamage: 3
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

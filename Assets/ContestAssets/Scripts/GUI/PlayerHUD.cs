@@ -87,14 +87,10 @@ public class PlayerHUD : MonoBehaviour {
 		string text = String.Format("{0:00}:{1:00}", displayMinutes, displaySeconds);
 		
 		GUI.Label (new Rect(0, 0, 300, 25), "Survive for : " + text);
-		GUI.Label (new Rect(0, 30, 300, 25), currentMessage);
 		float currentShipIntegrity = getShipIntegrity();
 		float currentHealth = getHealth();
 		GUI.Label (new Rect(10, barXPosition - 15, 200, 25), "Health");
 		GUI.DrawTexture(new Rect(10, barXPosition, currentHealth, barHeight), barTexture);
-		
-		GUI.Label (new Rect(10 + barWidth + 30, barXPosition - 15, 200, 25), "Ship Integrity");
-		GUI.DrawTexture(new Rect(10 + barWidth + 30, barXPosition, currentShipIntegrity, barHeight), barTexture);
 		
 	}
 	
