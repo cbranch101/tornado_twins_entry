@@ -3592,12 +3592,12 @@ CharacterController:
   m_GameObject: {fileID: 100981495}
   serializedVersion: 2
   m_Height: 0
-  m_Radius: .109999999
+  m_Radius: .170000002
   m_SlopeLimit: 45
   m_StepOffset: .300000012
   m_SkinWidth: .0799999982
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: .0799999982, z: .0199999996}
+  m_Center: {x: 0, y: .109999999, z: -.0399999991}
 --- !u!111 &100981502
 Animation:
   m_ObjectHideFlags: 0
@@ -4513,12 +4513,12 @@ CharacterController:
   m_GameObject: {fileID: 129627091}
   serializedVersion: 2
   m_Height: 0
-  m_Radius: .109999999
+  m_Radius: .170000002
   m_SlopeLimit: 45
   m_StepOffset: .300000012
   m_SkinWidth: .0799999982
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: .0799999982, z: .0199999996}
+  m_Center: {x: 0, y: .109999999, z: -.0399999991}
 --- !u!111 &129627098
 Animation:
   m_ObjectHideFlags: 0
@@ -36801,12 +36801,12 @@ CharacterController:
   m_GameObject: {fileID: 973836654}
   serializedVersion: 2
   m_Height: 0
-  m_Radius: .109999999
+  m_Radius: .170000002
   m_SlopeLimit: 45
   m_StepOffset: .300000012
   m_SkinWidth: .0799999982
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: .0799999982, z: .0199999996}
+  m_Center: {x: 0, y: .109999999, z: -.0399999991}
 --- !u!111 &973836661
 Animation:
   m_ObjectHideFlags: 0
@@ -41567,12 +41567,12 @@ CharacterController:
   m_GameObject: {fileID: 1095252115}
   serializedVersion: 2
   m_Height: 0
-  m_Radius: .109999999
+  m_Radius: .170000002
   m_SlopeLimit: 45
   m_StepOffset: .300000012
   m_SkinWidth: .0799999982
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: .0799999982, z: .0199999996}
+  m_Center: {x: 0, y: .109999999, z: -.0399999991}
 --- !u!111 &1095252122
 Animation:
   m_ObjectHideFlags: 0
@@ -81967,12 +81967,12 @@ CharacterController:
   m_GameObject: {fileID: 2043553087}
   serializedVersion: 2
   m_Height: 0
-  m_Radius: .109999999
+  m_Radius: .170000002
   m_SlopeLimit: 45
   m_StepOffset: .300000012
   m_SkinWidth: .0799999982
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: .0799999982, z: .0199999996}
+  m_Center: {x: 0, y: .109999999, z: -.0399999991}
 --- !u!111 &2043553094
 Animation:
   m_ObjectHideFlags: 0
